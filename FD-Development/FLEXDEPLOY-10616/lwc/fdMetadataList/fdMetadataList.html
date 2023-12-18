@@ -1,0 +1,36 @@
+<!-- FlexDeploy MetadataList LWC - HTML -->
+<template>
+    <lightning-card title="Metadata Filter" icon-name="standard:filter_criteria_rule">
+        <div class="slds-m-around_medium">
+            <lightning-combobox
+                label="Select Last Modified"
+                value={selectedTimeRange}
+                options={timeRangeOptions}
+                onchange={handleTimeRangeChange}
+            ></lightning-combobox>
+            <lightning-combobox
+                label="Modified By User"
+                value={selectedUser}
+                options={userOptions}
+                onchange={handleUserChange}
+            ></lightning-combobox>
+            <br>
+            <lightning-button label="Get Metadata List" variant="brand" onclick={fetchData}></lightning-button>
+        </div>
+    </lightning-card>
+    <br>
+    <lightning-card title="Metadata Result" icon-name="standard:picklist_choice">
+        <div class="slds-m-around_medium">
+            <template if:true={data}>
+                <lightning-datatable
+                    key-field="id"
+                    data={data}
+                    columns={columns}
+                ></lightning-datatable>
+            </template>
+            <template if:true={error}>
+                <p>Opps, No Metadata Found.</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>
