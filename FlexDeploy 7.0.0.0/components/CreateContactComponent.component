@@ -1,0 +1,17 @@
+<apex:component controller="CreateContactController">
+    <apex:attribute name="accountId" type="Id" description="The Account Id to associate the Contact with." />
+    <apex:form >
+        <apex:pageBlock title="Create New Contact">
+            <apex:pageBlockSection >
+                <apex:inputField value="{!newContact.FirstName}" required="true" label="First Name"/>
+                <apex:inputField value="{!newContact.LastName}" required="true" label="Last Name"/>
+                <apex:inputField value="{!newContact.Email}" required="true" label="Email"/>
+                <apex:inputField value="{!newContact.Phone}" required="true" label="Phone"/>
+                <!-- Add more fields here as needed -->
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons >
+                <apex:commandButton action="{!saveContact}" value="Save"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:component>

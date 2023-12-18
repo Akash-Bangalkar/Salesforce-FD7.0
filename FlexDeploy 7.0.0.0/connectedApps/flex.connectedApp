@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>satya.ellendula@gmail.com</contactEmail>
+    <label>flex</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIDpTCCAo0CFAOVhMf/qcvfV22MUZKvHApQBBZiMA0GCSqGSIb3DQEBCwUAMIGOMQswCQYDVQQGEwJVUzESMBAGA1UECAwJV0lTQ09OU0lOMQ8wDQYDVQQHDAZkZXBlcmUxDTALBgNVBAoMBEZMRVgxETAPBgNVBAsMCHNvZnR3YXJlMQ4wDAYDVQQDDAVzYXR5YTEoMCYGCSqGSIb3DQEJARYZc2F0eWEuZWxsZW5kdWxhQGdtYWlsLmNvbTAeFw0yMzA2MjgxNjIyMTBaFw0yNDA2MjcxNjIyMTBaMIGOMQswCQYDVQQGEwJVUzESMBAGA1UECAwJV0lTQ09OU0lOMQ8wDQYDVQQHDAZkZXBlcmUxDTALBgNVBAoMBEZMRVgxETAPBgNVBAsMCHNvZnR3YXJlMQ4wDAYDVQQDDAVzYXR5YTEoMCYGCSqGSIb3DQEJARYZc2F0eWEuZWxsZW5kdWxhQGdtYWlsLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKgcFQ4Jo0XC0Ln1LDz6SQZXCbGM3POZKRNM0OVg7XJ0RRhgPV5C8CzcP0PZnwrypMmljHy5T2eoT3ehl/ujfdpgH5leBifYNy3xV0olocK2rAIYyrEbXgPxh/ISc5JgEAfMXtTnbHrU/xeYC+Hgo8SHIF1CW93haHz9Qdv4dwy7KPs805nUKsAJE34aElxs/qZNpp5HVOCV6gqtTqUq+0ubup25PVyQPrQcJB/lyqLi2DGHiAQnux1Zj+MOG5uy9ofpUpSjtfl87IrmgBkEJMEayswXK//wdkU/6GMESf2mUND2wcWNfVs0TXBw7G26OpNqkiuiKZLn1UMYsF1v0wECAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAZKPNaUjLaf9CwfVMkWvJhI7i3h9EbsY3vZg855OD6ShGWEA7tHRgNSs0ap97e22SEsj5Cu1w0paXRg01GWp0IuwWtgLoLW307Mf/lfWwxyUrFbxEAqMPk3wFKU3Ivyx4Qk0XV4dpV1mQeE1xaFEQCtjRZ1iPGE43XiEK4ZHVPdWVSdAv/rv3xHJv52eZYXTerwn/xAu2Omixt628m8wv17lvyp1cydtYPWLtdpgO46thccmQwJmQKthFPoCwv1me9LN+bCCn4m6MOXs56s40SG6OC8a+XdbI1XKzJaDyxNIzyIN55jXCb/NkQgux1XTIoyIxEn1yX8DtLYHB9LUqDg==</certificate>
+        <consumerKey>3MVG95nWQGdmAiEq.Ayycs.nbcAbZhv6cJon1W17V5HXdPlO4w2Wrgms3rCsOv2j7l04roEJGtexkNCLej9wM</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>true</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <oauthClientCredentialUser>satya@dev.source</oauthClientCredentialUser>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>Wave</scopes>
+        <scopes>Eclair</scopes>
+        <scopes>CDPProfile</scopes>
+        <scopes>CDPIdentityResolution</scopes>
+        <scopes>CDPCalculatedInsight</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>specific_lifetime:90:DAYS</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>SCRT2 Integration User</permissionSetName>
+    <profileName>System Administrator</profileName>
+    <sessionPolicy>
+        <sessionTimeout>15</sessionTimeout>
+    </sessionPolicy>
+</ConnectedApp>
