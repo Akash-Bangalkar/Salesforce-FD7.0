@@ -11460,30 +11460,12 @@
       <layout>fd_Project__c-Project Layout</layout>
    </layoutAssignments>
    <objectPermissions>
-      <allowCreate>false</allowCreate>
-      <allowDelete>false</allowDelete>
-      <allowEdit>false</allowEdit>
-      <allowRead>false</allowRead>
-      <modifyAllRecords>false</modifyAllRecords>
-      <object>FlexDeploy__c</object>
-      <viewAllRecords>false</viewAllRecords>
-   </objectPermissions>
-   <objectPermissions>
       <allowCreate>true</allowCreate>
       <allowDelete>true</allowDelete>
       <allowEdit>true</allowEdit>
       <allowRead>true</allowRead>
       <modifyAllRecords>false</modifyAllRecords>
       <object>ActiveScratchOrg</object>
-      <viewAllRecords>false</viewAllRecords>
-   </objectPermissions>
-   <objectPermissions>
-      <allowCreate>false</allowCreate>
-      <allowDelete>false</allowDelete>
-      <allowEdit>false</allowEdit>
-      <allowRead>true</allowRead>
-      <modifyAllRecords>false</modifyAllRecords>
-      <object>Asset</object>
       <viewAllRecords>false</viewAllRecords>
    </objectPermissions>
    <objectPermissions>
@@ -11636,15 +11618,6 @@
       <allowEdit>false</allowEdit>
       <allowRead>true</allowRead>
       <modifyAllRecords>false</modifyAllRecords>
-      <object>Contract</object>
-      <viewAllRecords>false</viewAllRecords>
-   </objectPermissions>
-   <objectPermissions>
-      <allowCreate>false</allowCreate>
-      <allowDelete>false</allowDelete>
-      <allowEdit>false</allowEdit>
-      <allowRead>true</allowRead>
-      <modifyAllRecords>false</modifyAllRecords>
       <object>ContractLineItem</object>
       <viewAllRecords>false</viewAllRecords>
    </objectPermissions>
@@ -11682,24 +11655,6 @@
       <allowRead>true</allowRead>
       <modifyAllRecords>false</modifyAllRecords>
       <object>EngagementChannelType</object>
-      <viewAllRecords>false</viewAllRecords>
-   </objectPermissions>
-   <objectPermissions>
-      <allowCreate>false</allowCreate>
-      <allowDelete>false</allowDelete>
-      <allowEdit>false</allowEdit>
-      <allowRead>true</allowRead>
-      <modifyAllRecords>false</modifyAllRecords>
-      <object>Entitlement</object>
-      <viewAllRecords>false</viewAllRecords>
-   </objectPermissions>
-   <objectPermissions>
-      <allowCreate>false</allowCreate>
-      <allowDelete>false</allowDelete>
-      <allowEdit>false</allowEdit>
-      <allowRead>true</allowRead>
-      <modifyAllRecords>false</modifyAllRecords>
-      <object>EntitlementContact</object>
       <viewAllRecords>false</viewAllRecords>
    </objectPermissions>
    <objectPermissions>
@@ -12222,6 +12177,7 @@
    </recordTypeVisibilities>
    <recordTypeVisibilities>
       <default>true</default>
+      <personAccountDefault>true</personAccountDefault>
       <recordType>FlexDeploy__c.Test_RT</recordType>
       <visible>true</visible>
    </recordTypeVisibilities>
@@ -12498,6 +12454,10 @@
    <tabVisibilities>
       <tab>standard-WorkStepTemplate</tab>
       <visibility>Hidden</visibility>
+   </tabVisibilities>
+   <tabVisibilities>
+      <tab>standard-WorkTypeGroup</tab>
+      <visibility>DefaultOn</visibility>
    </tabVisibilities>
    <userLicense>Salesforce</userLicense>
    <userPermissions>
