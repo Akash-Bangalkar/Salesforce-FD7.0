@@ -11463,7 +11463,7 @@
       <allowCreate>false</allowCreate>
       <allowDelete>false</allowDelete>
       <allowEdit>false</allowEdit>
-      <allowRead>true</allowRead>
+      <allowRead>false</allowRead>
       <modifyAllRecords>false</modifyAllRecords>
       <object>FlexDeploy__c</object>
       <viewAllRecords>false</viewAllRecords>
