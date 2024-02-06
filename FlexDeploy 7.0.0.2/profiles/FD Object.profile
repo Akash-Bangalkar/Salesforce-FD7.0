@@ -11465,7 +11465,7 @@
         <allowEdit>false</allowEdit>
         <allowRead>false</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
-        <object>Account</object>
+        <object>FlexDeploy__c</object>
         <viewAllRecords>false</viewAllRecords>
 </objectPermissions>
    <objectPermissions>
