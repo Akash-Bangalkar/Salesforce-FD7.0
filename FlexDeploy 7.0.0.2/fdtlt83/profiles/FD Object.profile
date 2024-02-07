@@ -11460,10 +11460,6 @@
       <layout>fd_Project__c-Project Layout</layout>
    </layoutAssignments>
    <loginHours/>
-   <loginIpRanges>
-      <endAddress></endAddress>
-      <startAddress></startAddress>
-   </loginIpRanges>
    <objectPermissions>
       <allowCreate>true</allowCreate>
       <allowDelete>true</allowDelete>
