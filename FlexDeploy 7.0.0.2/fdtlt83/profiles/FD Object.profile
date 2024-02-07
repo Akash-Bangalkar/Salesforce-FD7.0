@@ -11461,6 +11461,8 @@
    </layoutAssignments>
    <loginHours/>
    <loginIpRanges>
+      <endAddress></endAddress>
+      <startAddress></startAddress>
    </loginIpRanges>
    <objectPermissions>
       <allowCreate>true</allowCreate>
