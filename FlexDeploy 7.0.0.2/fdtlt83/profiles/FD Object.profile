@@ -11459,16 +11459,7 @@
    <layoutAssignments>
       <layout>fd_Project__c-Project Layout</layout>
    </layoutAssignments>
-   <loginHours>
-      <mondayEnd>1080</mondayEnd>
-      <mondayStart>540</mondayStart>
-      <sundayEnd>1140</sundayEnd>
-      <sundayStart>600</sundayStart>
-      <tuesdayEnd>1020</tuesdayEnd>
-      <tuesdayStart>480</tuesdayStart>
-      <wednesdayEnd>960</wednesdayEnd>
-      <wednesdayStart>420</wednesdayStart>
-   </loginHours>
+   <loginHours/>
    <objectPermissions>
       <allowCreate>true</allowCreate>
       <allowDelete>true</allowDelete>
