@@ -11460,11 +11460,6 @@
       <layout>fd_Project__c-Project Layout</layout>
    </layoutAssignments>
    <loginHours/>
-   <loginIpRanges>
-      <description>Test FD</description>
-      <endAddress>120.5.0.0</endAddress>
-      <startAddress>0.0.0.0</startAddress>
-   </loginIpRanges>
    <objectPermissions>
       <allowCreate>true</allowCreate>
       <allowDelete>true</allowDelete>
