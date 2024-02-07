@@ -12166,13 +12166,7 @@
       <viewAllRecords>false</viewAllRecords>
    </objectPermissions>
    <objectPermissions>
-      <allowCreate>true</allowCreate>
-      <allowDelete>false</allowDelete>
-      <allowEdit>true</allowEdit>
-      <allowRead>true</allowRead>
-      <modifyAllRecords>false</modifyAllRecords>
-      <object>Account</object>
-      <viewAllRecords>false</viewAllRecords>
+      <object>Asset__c</object>
    </objectPermissions>
    <pageAccesses>
       <apexPage>sf_devops__SessionIdSource</apexPage>
