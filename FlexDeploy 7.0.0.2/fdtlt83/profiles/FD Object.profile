@@ -11460,7 +11460,8 @@
       <layout>fd_Project__c-Project Layout</layout>
    </layoutAssignments>
    <loginHours/>
-   <loginIpRanges/>
+   <loginIpRanges>
+   </loginIpRanges>
    <objectPermissions>
       <allowCreate>true</allowCreate>
       <allowDelete>true</allowDelete>
