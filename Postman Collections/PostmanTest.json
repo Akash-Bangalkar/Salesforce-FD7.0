@@ -1,8 +1,22 @@
 {
 	"info": {
 		"_postman_id": "8defdb53-b0b4-48f6-bc6f-c44d6119000e",
-		"name": "New Collection",
+		"name": "GitHubApiTest",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
-	"item": []
+	"item": [
+		{
+			"name": "Get Repo",
+			"id": "71022a47-4156-4bc9-9921-4770040f2f76",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": ""
+			},
+			"response": []
+		}
+	]
 }
