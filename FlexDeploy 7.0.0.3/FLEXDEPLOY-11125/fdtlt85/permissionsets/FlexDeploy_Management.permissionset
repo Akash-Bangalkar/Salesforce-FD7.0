@@ -190,6 +190,21 @@
       <field>Asset__c.Asset_ID__c</field>
       <readable>true</readable>
    </fieldPermissions>
+   <fieldPermissions>
+      <editable>true</editable>
+      <field>FlexDeploy__c.Active__c</field>
+      <readable>true</readable>
+   </fieldPermissions>
+   <fieldPermissions>
+      <editable>true</editable>
+      <field>FlexDeploy__c.User_Type__c</field>
+      <readable>true</readable>
+   </fieldPermissions>
+   <fieldPermissions>
+      <editable>false</editable>
+      <field>FlexDeploy__c.Version__c</field>
+      <readable>true</readable>
+   </fieldPermissions>
    <hasActivationRequired>false</hasActivationRequired>
    <label>FlexDeploy Management</label>
    <objectPermissions>
