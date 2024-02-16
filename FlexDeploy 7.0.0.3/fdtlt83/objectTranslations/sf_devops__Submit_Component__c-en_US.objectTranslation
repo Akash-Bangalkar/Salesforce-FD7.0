@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Change Submission --></label>
+        <name>sf_devops__Change_Submission__c</name>
+        <relationshipLabel><!-- Submit Components --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Empty --></label>
+        <name>sf_devops__Empty__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Path --></label>
+        <name>sf_devops__File_Path__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operation --></label>
+        <name>sf_devops__Operation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Component --></label>
+        <name>sf_devops__Source_Component__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Remote Change --></label>
+        <name>sf_devops__Source_Remote_Change__c</name>
+        <relationshipLabel><!-- Submit Components --></relationshipLabel>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- A Submit Component cannot have its File_Path__c field changed once set. --></errorMessage>
+        <name>sf_devops__File_Path</name>
+    </validationRules>
+</CustomObjectTranslation>

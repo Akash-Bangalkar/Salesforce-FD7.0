@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Change Submission --></label>
+        <name>sf_devops__Change_Submission__c</name>
+        <relationshipLabel><!-- Remote Changes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Environment --></label>
+        <name>sf_devops__Environment__c</name>
+        <relationshipLabel><!-- Remote Changes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Member Name --></label>
+        <name>sf_devops__Member_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Member Type --></label>
+        <name>sf_devops__Member_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remote Change By --></label>
+        <name>sf_devops__Remote_Change_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remote Change On --></label>
+        <name>sf_devops__Remote_Change_On__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remote Change Type --></label>
+        <name>sf_devops__Remote_Change_Type__c</name>
+        <picklistValues>
+            <masterLabel>ADD</masterLabel>
+            <translation><!-- ADD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHANGE</masterLabel>
+            <translation><!-- CHANGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MANUAL</masterLabel>
+            <translation><!-- MANUAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REMOVE</masterLabel>
+            <translation><!-- REMOVE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RENAME</masterLabel>
+            <translation><!-- RENAME --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source Component --></label>
+        <name>sf_devops__Source_Component__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Cannot have a Change_Submission from a different environment. --></errorMessage>
+        <name>sf_devops__Project_Reference</name>
+    </validationRules>
+</CustomObjectTranslation>

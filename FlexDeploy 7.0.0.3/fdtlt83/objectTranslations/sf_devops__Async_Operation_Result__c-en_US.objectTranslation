@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Dependent Records --></label>
+        <name>sf_devops__Dependent_Records__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Details --></label>
+        <name>sf_devops__Error_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- In Terminal State --></label>
+        <name>sf_devops__In_Terminal_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Log Id --></label>
+        <name>sf_devops__Log_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>sf_devops__Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operation --></label>
+        <name>sf_devops__Operation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remote Commands --></label>
+        <name>sf_devops__Remote_Commands__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>sf_devops__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ignored</masterLabel>
+            <translation><!-- Ignored --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- The Operation of an Async_Operation_Result cannot be changed. --></errorMessage>
+        <name>sf_devops__Operation_No_Change</name>
+    </validationRules>
+</CustomObjectTranslation>
