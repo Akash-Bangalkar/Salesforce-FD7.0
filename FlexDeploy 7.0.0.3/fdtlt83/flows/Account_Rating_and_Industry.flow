@@ -4,7 +4,7 @@
     <decisions>
         <name>Check_Account_Rating</name>
         <label>Check Account Rating</label>
-        <locationX>380</locationX>
+        <locationX>182</locationX>
         <locationY>323</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -25,38 +25,9 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Check_Industry</targetReference>
+                <targetReference>CustomError</targetReference>
             </connector>
             <label>Is Hot</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>Check_Industry</name>
-        <label>Check Industry</label>
-        <locationX>182</locationX>
-        <locationY>431</locationY>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>Is_Banking</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Industry</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Biotechnology</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Industry</leftValueReference>
-                <operator>IsChanged</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Update_Field</targetReference>
-            </connector>
-            <label>Is Banking</label>
         </rules>
     </decisions>
     <environments>Default</environments>
@@ -81,21 +52,8 @@
         </value>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
-    <recordUpdates>
-        <name>Update_Field</name>
-        <label>Update Field</label>
-        <locationX>50</locationX>
-        <locationY>539</locationY>
-        <inputAssignments>
-            <field>Sic</field>
-            <value>
-                <stringValue>HOT</stringValue>
-            </value>
-        </inputAssignments>
-        <inputReference>$Record</inputReference>
-    </recordUpdates>
     <start>
-        <locationX>254</locationX>
+        <locationX>56</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Check_Account_Rating</targetReference>
