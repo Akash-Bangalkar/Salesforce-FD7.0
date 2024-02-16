@@ -43,7 +43,7 @@
                 <leftValueReference>$Record.Industry</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>Banking</stringValue>
+                    <stringValue>Biotechnology</stringValue>
                 </rightValue>
             </conditions>
             <conditions>
