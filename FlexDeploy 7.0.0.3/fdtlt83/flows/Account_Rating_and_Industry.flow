@@ -21,7 +21,7 @@
                 <leftValueReference>$Record.Rating</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>Hot</stringValue>
+                    <stringValue>Warm</stringValue>
                 </rightValue>
             </conditions>
             <connector>
