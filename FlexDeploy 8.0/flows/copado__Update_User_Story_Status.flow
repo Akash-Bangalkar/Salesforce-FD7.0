@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <description>Launches when an automation rule callback is called. Use flow API name in the Automated Action Callback field of the Automation Rule record. Includes input variables with the Job Execution for the automated action and the status.</description>
+    <environments>Default</environments>
+    <label>Update User Story Status</label>
+    <processMetadataValues>
+        <name>AssociatedRecord</name>
+        <value/>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <runInMode>DefaultMode</runInMode>
+</Flow>

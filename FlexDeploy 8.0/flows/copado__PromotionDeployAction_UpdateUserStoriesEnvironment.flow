@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <description>This flow is injected in the PromotionDeployAction when there are &apos;After&apos; Quality Gates. In that case, this flow is added as Job Step before continuing with the Quality Gates, so that the User Stories are updated before the Quality Gates are finished.</description>
+    <environments>Default</environments>
+    <label>Update User Stories Environment</label>
+    <processMetadataValues>
+        <name>AssociatedRecord</name>
+        <value/>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <runInMode>DefaultMode</runInMode>
+</Flow>
