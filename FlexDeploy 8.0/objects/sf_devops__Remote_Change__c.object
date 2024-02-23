@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>This is the local representation of a SourceMember from a remote development environment.  This will be used to store local state about the SourceMember (like which work item it is associated with).</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>sf_devops__Change_Submission__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>A reference to the Change Submission that this change was submitted with.</description>
+        <externalId>false</externalId>
+        <label>Change Submission</label>
+        <referenceTo>sf_devops__Change_Submission__c</referenceTo>
+        <relationshipName>Changes</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Environment__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Environment that this remote change was loaded from.</description>
+        <externalId>false</externalId>
+        <label>Environment</label>
+        <referenceTo>sf_devops__Environment__c</referenceTo>
+        <relationshipName>Remote_Changes</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Member_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The MemberName from our referenced SourceMembers</description>
+        <externalId>false</externalId>
+        <label>Member Name</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Member_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Member Type of our referenced SourceMembers</description>
+        <externalId>false</externalId>
+        <label>Member Type</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Remote_Change_By__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the user on the remote system that this change was made by.</description>
+        <externalId>false</externalId>
+        <label>Remote Change By</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Remote_Change_On__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date and time this change was made on the remote server.</description>
+        <externalId>false</externalId>
+        <label>Remote Change On</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Remote_Change_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>What type of change is this?</description>
+        <externalId>false</externalId>
+        <label>Remote Change Type</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ADD</fullName>
+                    <default>true</default>
+                    <label>ADD</label>
+                </value>
+                <value>
+                    <fullName>REMOVE</fullName>
+                    <default>false</default>
+                    <label>REMOVE</label>
+                </value>
+                <value>
+                    <fullName>CHANGE</fullName>
+                    <default>false</default>
+                    <label>CHANGE</label>
+                </value>
+                <value>
+                    <fullName>RENAME</fullName>
+                    <default>false</default>
+                    <label>RENAME</label>
+                </value>
+                <value>
+                    <fullName>MANUAL</fullName>
+                    <default>false</default>
+                    <label>MANUAL</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Source_Component__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Computed field to simplify SOQL queries.</description>
+        <externalId>false</externalId>
+        <formula>sf_devops__Member_Type__c  &amp; &quot;:&quot; &amp;  sf_devops__Member_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Source Component</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Remote Change</label>
+    <nameField>
+        <displayFormat>C-{000000}</displayFormat>
+        <label>Remote Change Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Remote Changes</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>sf_devops__Project_Reference</fullName>
+        <active>true</active>
+        <description>Enforce Our Change Submission&apos;s Environment and our Environment are the same.</description>
+        <errorConditionFormula>AND(
+OR(
+  ISNEW(),
+  ISCHANGED(sf_devops__Change_Submission__c)
+),
+NOT(ISBLANK(sf_devops__Change_Submission__c)),
+sf_devops__Change_Submission__r.sf_devops__Work_Item__r.sf_devops__Environment__c &lt;&gt; sf_devops__Environment__c
+
+)</errorConditionFormula>
+        <errorMessage>Cannot have a Change_Submission from a different environment.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

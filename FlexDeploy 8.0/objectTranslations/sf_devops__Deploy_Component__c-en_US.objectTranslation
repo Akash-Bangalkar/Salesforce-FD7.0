@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Deployment Result --></label>
+        <name>sf_devops__Deployment_Result__c</name>
+        <relationshipLabel><!-- Deploy Components --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- File Path --></label>
+        <name>sf_devops__File_Path__c</name>
+    </fields>
+    <fields>
+        <label><!-- Force Ignored --></label>
+        <name>sf_devops__Force_Ignored__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operation --></label>
+        <name>sf_devops__Operation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Component --></label>
+        <name>sf_devops__Source_Component__c</name>
+    </fields>
+</CustomObjectTranslation>
