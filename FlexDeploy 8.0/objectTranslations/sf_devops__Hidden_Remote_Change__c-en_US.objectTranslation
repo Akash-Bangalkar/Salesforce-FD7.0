@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Hidden by Force Ignore --></label>
+        <name>sf_devops__Hidden_by_Force_Ignore__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remote Change --></label>
+        <name>sf_devops__Remote_Change__c</name>
+        <relationshipLabel><!-- Hidden Remote Changes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Work Item --></label>
+        <name>sf_devops__Work_Item__c</name>
+        <relationshipLabel><!-- Hidden Remote Changes --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

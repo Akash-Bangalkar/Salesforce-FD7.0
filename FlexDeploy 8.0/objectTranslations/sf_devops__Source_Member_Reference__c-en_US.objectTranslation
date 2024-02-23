@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Is Delete --></label>
+        <name>sf_devops__Is_Delete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is New --></label>
+        <name>sf_devops__Is_New__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remote Change --></label>
+        <name>sf_devops__Remote_Change__c</name>
+        <relationshipLabel><!-- Source Member References --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Revision Counter --></label>
+        <name>sf_devops__Revision_Counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Member Id --></label>
+        <name>sf_devops__Source_Member_Id__c</name>
+    </fields>
+</CustomObjectTranslation>

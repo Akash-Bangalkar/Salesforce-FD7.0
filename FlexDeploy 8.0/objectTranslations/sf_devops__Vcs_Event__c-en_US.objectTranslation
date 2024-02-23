@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Event Date --></label>
+        <name>sf_devops__Event_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Id --></label>
+        <name>sf_devops__Event_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Managed by the DevOps Center, when this VCS Event has been handled/resolved, this value will be updated to true automatically. --></help>
+        <label><!-- Handled --></label>
+        <name>sf_devops__Handled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operation Status --></label>
+        <name>sf_devops__Operation_Status__c</name>
+        <relationshipLabel><!-- VCS Events --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Payload --></label>
+        <name>sf_devops__Payload__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repository --></label>
+        <name>sf_devops__Repository__c</name>
+        <relationshipLabel><!-- Vcs Events --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source Branch --></label>
+        <name>sf_devops__Source_Branch__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Branch --></label>
+        <name>sf_devops__Target_Branch__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Pipeline Stage --></label>
+        <name>sf_devops__Target_Pipeline_Stage__c</name>
+        <relationshipLabel><!-- VCS Events --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Target Work Item --></label>
+        <name>sf_devops__Target_Work_Item__c</name>
+        <relationshipLabel><!-- Vcs Events --></relationshipLabel>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- A VCS Event cannot have its Handled__c field disabled once set. --></errorMessage>
+        <name>sf_devops__Disable_Handled</name>
+    </validationRules>
+</CustomObjectTranslation>

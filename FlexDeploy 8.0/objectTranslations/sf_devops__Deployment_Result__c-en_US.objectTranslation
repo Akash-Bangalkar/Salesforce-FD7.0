@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Check Deploy Date --></label>
+        <name>sf_devops__Check_Deploy_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Check Deploy Status --></label>
+        <name>sf_devops__Check_Deploy_Status__c</name>
+        <relationshipLabel><!-- Check Deploy Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Check Deploy --></label>
+        <name>sf_devops__Check_Deploy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completion Date --></label>
+        <name>sf_devops__Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deployment Id --></label>
+        <name>sf_devops__Deployment_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Full Deploy --></label>
+        <name>sf_devops__Full_Deploy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Tests Completed --></label>
+        <name>sf_devops__Number_Tests_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Run Tests --></label>
+        <name>sf_devops__Run_Tests__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>sf_devops__Status__c</name>
+        <relationshipLabel><!-- Deployment Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Test Level --></label>
+        <name>sf_devops__Test_Level__c</name>
+    </fields>
+</CustomObjectTranslation>
