@@ -637,7 +637,7 @@
     <listViews>
         <fullName>NY_Branch_Case</fullName>
         <filterScope>Queue</filterScope>
-        <label>NJ Branch</label>
+        <label>NZ Branch</label>
         <queue>NJ_Branch</queue>
         <sharedTo>
             <allInternalUsers></allInternalUsers>
