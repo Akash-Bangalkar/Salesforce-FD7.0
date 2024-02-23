@@ -109,41 +109,6 @@
         <description>Integrates geocodes with the Address field on Service Territory Member</description>
         <developerName>ServiceTerritoryMember_Geo_Clean_Rule_for_Address</developerName>
         <fieldMappings>
-            <SObjectType>ServiceTerritoryMember</SObjectType>
-            <developerName>ServiceTerritoryMember_Geo_Clean_Rule_for_AddressOutputMapping</developerName>
-            <fieldMappingRows>
-                <SObjectType>ServiceTerritoryMember</SObjectType>
-                <fieldMappingFields>
-                    <dataServiceField>GeoAccuracyNum</dataServiceField>
-                    <dataServiceObjectName>DatacloudAddress</dataServiceObjectName>
-                    <priority>1</priority>
-                </fieldMappingFields>
-                <fieldName>GeocodeAccuracy</fieldName>
-                <mappingOperation>Autofill</mappingOperation>
-            </fieldMappingRows>
-            <fieldMappingRows>
-                <SObjectType>ServiceTerritoryMember</SObjectType>
-                <fieldMappingFields>
-                    <dataServiceField>Latitude</dataServiceField>
-                    <dataServiceObjectName>DatacloudAddress</dataServiceObjectName>
-                    <priority>1</priority>
-                </fieldMappingFields>
-                <fieldName>Latitude</fieldName>
-                <mappingOperation>Autofill</mappingOperation>
-            </fieldMappingRows>
-            <fieldMappingRows>
-                <SObjectType>ServiceTerritoryMember</SObjectType>
-                <fieldMappingFields>
-                    <dataServiceField>Longitude</dataServiceField>
-                    <dataServiceObjectName>DatacloudAddress</dataServiceObjectName>
-                    <priority>1</priority>
-                </fieldMappingFields>
-                <fieldName>Longitude</fieldName>
-                <mappingOperation>Autofill</mappingOperation>
-            </fieldMappingRows>
-            <masterLabel>ServiceTerritoryMemberGeoOutputMapping</masterLabel>
-        </fieldMappings>
-        <fieldMappings>
             <SObjectType>DatacloudAddress</SObjectType>
             <developerName>Geocodes for Service Territory Member AddressInputMapping</developerName>
             <fieldMappingRows>
@@ -197,6 +162,41 @@
                 <mappingOperation>Autofill</mappingOperation>
             </fieldMappingRows>
             <masterLabel>ServiceTerritoryMemberGeoInputMapping</masterLabel>
+        </fieldMappings>
+        <fieldMappings>
+            <SObjectType>ServiceTerritoryMember</SObjectType>
+            <developerName>ServiceTerritoryMember_Geo_Clean_Rule_for_AddressOutputMapping</developerName>
+            <fieldMappingRows>
+                <SObjectType>ServiceTerritoryMember</SObjectType>
+                <fieldMappingFields>
+                    <dataServiceField>GeoAccuracyNum</dataServiceField>
+                    <dataServiceObjectName>DatacloudAddress</dataServiceObjectName>
+                    <priority>1</priority>
+                </fieldMappingFields>
+                <fieldName>GeocodeAccuracy</fieldName>
+                <mappingOperation>Autofill</mappingOperation>
+            </fieldMappingRows>
+            <fieldMappingRows>
+                <SObjectType>ServiceTerritoryMember</SObjectType>
+                <fieldMappingFields>
+                    <dataServiceField>Latitude</dataServiceField>
+                    <dataServiceObjectName>DatacloudAddress</dataServiceObjectName>
+                    <priority>1</priority>
+                </fieldMappingFields>
+                <fieldName>Latitude</fieldName>
+                <mappingOperation>Autofill</mappingOperation>
+            </fieldMappingRows>
+            <fieldMappingRows>
+                <SObjectType>ServiceTerritoryMember</SObjectType>
+                <fieldMappingFields>
+                    <dataServiceField>Longitude</dataServiceField>
+                    <dataServiceObjectName>DatacloudAddress</dataServiceObjectName>
+                    <priority>1</priority>
+                </fieldMappingFields>
+                <fieldName>Longitude</fieldName>
+                <mappingOperation>Autofill</mappingOperation>
+            </fieldMappingRows>
+            <masterLabel>ServiceTerritoryMemberGeoOutputMapping</masterLabel>
         </fieldMappings>
         <masterLabel>Geocodes for Service Territory Member Address</masterLabel>
         <matchRule>DatacloudAddressMatchRule</matchRule>
@@ -721,6 +721,41 @@
         <description>Integrates geocodes with the Address field on Resource Absence</description>
         <developerName>ResourceAbsence_Geo_Clean_Rule_for_Address</developerName>
         <fieldMappings>
+            <SObjectType>ResourceAbsence</SObjectType>
+            <developerName>ResourceAbsence_Geo_Clean_Rule_for_AddressOutputMapping</developerName>
+            <fieldMappingRows>
+                <SObjectType>ResourceAbsence</SObjectType>
+                <fieldMappingFields>
+                    <dataServiceField>GeoAccuracyNum</dataServiceField>
+                    <dataServiceObjectName>DatacloudAddress</dataServiceObjectName>
+                    <priority>1</priority>
+                </fieldMappingFields>
+                <fieldName>GeocodeAccuracy</fieldName>
+                <mappingOperation>Autofill</mappingOperation>
+            </fieldMappingRows>
+            <fieldMappingRows>
+                <SObjectType>ResourceAbsence</SObjectType>
+                <fieldMappingFields>
+                    <dataServiceField>Latitude</dataServiceField>
+                    <dataServiceObjectName>DatacloudAddress</dataServiceObjectName>
+                    <priority>1</priority>
+                </fieldMappingFields>
+                <fieldName>Latitude</fieldName>
+                <mappingOperation>Autofill</mappingOperation>
+            </fieldMappingRows>
+            <fieldMappingRows>
+                <SObjectType>ResourceAbsence</SObjectType>
+                <fieldMappingFields>
+                    <dataServiceField>Longitude</dataServiceField>
+                    <dataServiceObjectName>DatacloudAddress</dataServiceObjectName>
+                    <priority>1</priority>
+                </fieldMappingFields>
+                <fieldName>Longitude</fieldName>
+                <mappingOperation>Autofill</mappingOperation>
+            </fieldMappingRows>
+            <masterLabel>ResourceAbsenceGeoOutputMapping</masterLabel>
+        </fieldMappings>
+        <fieldMappings>
             <SObjectType>DatacloudAddress</SObjectType>
             <developerName>Geocodes for Resource Absence AddressInputMapping</developerName>
             <fieldMappingRows>
@@ -774,41 +809,6 @@
                 <mappingOperation>Autofill</mappingOperation>
             </fieldMappingRows>
             <masterLabel>ResourceAbsenceGeoInputMapping</masterLabel>
-        </fieldMappings>
-        <fieldMappings>
-            <SObjectType>ResourceAbsence</SObjectType>
-            <developerName>ResourceAbsence_Geo_Clean_Rule_for_AddressOutputMapping</developerName>
-            <fieldMappingRows>
-                <SObjectType>ResourceAbsence</SObjectType>
-                <fieldMappingFields>
-                    <dataServiceField>GeoAccuracyNum</dataServiceField>
-                    <dataServiceObjectName>DatacloudAddress</dataServiceObjectName>
-                    <priority>1</priority>
-                </fieldMappingFields>
-                <fieldName>GeocodeAccuracy</fieldName>
-                <mappingOperation>Autofill</mappingOperation>
-            </fieldMappingRows>
-            <fieldMappingRows>
-                <SObjectType>ResourceAbsence</SObjectType>
-                <fieldMappingFields>
-                    <dataServiceField>Latitude</dataServiceField>
-                    <dataServiceObjectName>DatacloudAddress</dataServiceObjectName>
-                    <priority>1</priority>
-                </fieldMappingFields>
-                <fieldName>Latitude</fieldName>
-                <mappingOperation>Autofill</mappingOperation>
-            </fieldMappingRows>
-            <fieldMappingRows>
-                <SObjectType>ResourceAbsence</SObjectType>
-                <fieldMappingFields>
-                    <dataServiceField>Longitude</dataServiceField>
-                    <dataServiceObjectName>DatacloudAddress</dataServiceObjectName>
-                    <priority>1</priority>
-                </fieldMappingFields>
-                <fieldName>Longitude</fieldName>
-                <mappingOperation>Autofill</mappingOperation>
-            </fieldMappingRows>
-            <masterLabel>ResourceAbsenceGeoOutputMapping</masterLabel>
         </fieldMappings>
         <masterLabel>Geocodes for Resource Absence Address</masterLabel>
         <matchRule>DatacloudAddressMatchRule</matchRule>
