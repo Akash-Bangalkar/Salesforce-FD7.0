@@ -102,6 +102,11 @@
         <label>Insurance</label>
     </standardValue>
     <standardValue>
+        <fullName>Machinery</fullName>
+        <default>false</default>
+        <label>Machinery</label>
+    </standardValue>
+    <standardValue>
         <fullName>Manufacturing</fullName>
         <default>false</default>
         <label>Manufacturing</label>

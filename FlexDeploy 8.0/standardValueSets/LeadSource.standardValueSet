@@ -26,9 +26,4 @@
         <default>false</default>
         <label>Other</label>
     </standardValue>
-    <standardValue>
-        <fullName>Partner</fullName>
-        <default>false</default>
-        <label>Partner</label>
-    </standardValue>
 </StandardValueSet>

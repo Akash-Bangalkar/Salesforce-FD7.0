@@ -66,10 +66,8 @@ public with sharing class FDMetadataXml {
             }
 
             if (selectedUser != null) {
-                soqlQuery += ' AND CreatedBy.Name = \'' + selectedUser + '\'';
+                soqlQuery += ' AND CreatedBy.Name = \'' + selectedUser + '\'' + 'ORDER BY CreatedDate DESC';
             }
-            
-            soqlQuery += ' ORDER BY CreatedDate DESC';
         }
 
         try {

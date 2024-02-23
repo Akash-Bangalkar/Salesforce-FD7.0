@@ -196,34 +196,6 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
-    <businessProcesses>
-        <fullName>Test</fullName>
-        <isActive>true</isActive>
-        <values>
-            <fullName>Closed</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Commit</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Escalated</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>New</fullName>
-            <default>true</default>
-        </values>
-        <values>
-            <fullName>Ready to Move</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Working</fullName>
-            <default>false</default>
-        </values>
-    </businessProcesses>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
@@ -247,52 +219,6 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Case_Region__c</fullName>
-        <externalId>false</externalId>
-        <label>Case Region</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Asia</fullName>
-                    <default>false</default>
-                    <label>Asia</label>
-                </value>
-                <value>
-                    <fullName>Africa</fullName>
-                    <default>false</default>
-                    <label>Africa</label>
-                </value>
-                <value>
-                    <fullName>Europe</fullName>
-                    <default>false</default>
-                    <label>Europe</label>
-                </value>
-                <value>
-                    <fullName>Australia</fullName>
-                    <default>false</default>
-                    <label>Australia</label>
-                </value>
-                <value>
-                    <fullName>North America</fullName>
-                    <default>false</default>
-                    <label>North America</label>
-                </value>
-                <value>
-                    <fullName>South America</fullName>
-                    <default>false</default>
-                    <label>South America</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>ClosedDate</fullName>

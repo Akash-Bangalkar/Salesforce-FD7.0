@@ -9,5 +9,4 @@
     <tabs>standard-Contact</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>Asset__c</tabs>
 </CustomApplication>

@@ -204,17 +204,6 @@
         <trackFeedHistory>true</trackFeedHistory>
         <type>Hierarchy</type>
     </fields>
-    <fields>
-        <fullName>sf_devops__GitHub_Primary_Email_Address__c</fullName>
-        <deprecated>false</deprecated>
-        <description>The primary email address used to configure git when we are connecting to a GitHub Repository</description>
-        <externalId>false</externalId>
-        <label>GitHub Primary Email Address</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Email</type>
-        <unique>false</unique>
-    </fields>
     <listViews>
         <fullName>ActiveUsers</fullName>
         <filterScope>Everything</filterScope>

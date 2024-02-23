@@ -153,29 +153,11 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>Asset_ID__c</fullName>
-        <displayFormat>ID-{0}</displayFormat>
-        <externalId>false</externalId>
-        <label>Asset ID</label>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>AutoNumber</type>
-    </fields>
     <label>Asset</label>
     <listViews>
         <fullName>All</fullName>
         <filterScope>Everything</filterScope>
         <label>All</label>
-    </listViews>
-    <listViews>
-        <fullName>Test_11124_Asset</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Test-11124</label>
-        <queue>Test_11124</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
     </listViews>
     <nameField>
         <label>Asset Name</label>

@@ -13,6 +13,5 @@
     <tabs>standard-WorkType</tabs>
     <tabs>standard-OperatingHours</tabs>
     <tabs>standard-ServiceAppointment</tabs>
-    <tabs>Asset__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

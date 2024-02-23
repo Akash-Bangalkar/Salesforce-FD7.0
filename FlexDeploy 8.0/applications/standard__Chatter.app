@@ -10,5 +10,4 @@
     <tabs>standard-OtherUserProfile</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
-    <tabs>Asset__c</tabs>
 </CustomApplication>

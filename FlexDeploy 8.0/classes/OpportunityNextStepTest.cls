@@ -1,7 +1,7 @@
 @isTest
 private class OpportunityNextStepTest {
-/*   
-@testSetup static void testData()
+    @testSetup
+    private static void testData()
     {
         Opportunity opp = New Opportunity();
         opp.Name = 'Test Opp';
@@ -9,12 +9,11 @@ private class OpportunityNextStepTest {
         opp.StageName = 'Prospecting';
         INSERT opp;
     }
-*/  
-    @isTest static void firstMethod()
+    
+    @isTest
+    private static void firstMethod()
     {
-        ID oppId = TestDataAD.getOppId('Express Logistics SLA');
-        
-        Opportunity opp = TestDataAD.generateOpp('Express Logistics SLA');
+        Opportunity opp = [SELECT ID, StageName, NextStep FROM Opportunity];
         
         opp.StageName = 'Closed Won';
         

@@ -12,5 +12,4 @@
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>Asset__c</tabs>
 </CustomApplication>

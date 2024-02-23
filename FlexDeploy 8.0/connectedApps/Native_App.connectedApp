@@ -4,7 +4,7 @@
     <label>c</label>
     <oauthConfig>
         <callbackUrl>https://www.google.com/</callbackUrl>
-        <consumerKey>3MVG9pRzvMkjMb6kIn5kIZdU6oe_Fow3WXlYkAOiCUAMM43Hgd.0J26h6BO6XbTgwgGe_lYLyBlyJxetY3J8N</consumerKey>
+        <consumerKey>3MVG9pRzvMkjMb6kIn5kIZdU6oe_Fow3WXlYkAOiCUAMM43Hgd.0O26h6BO6XbTgwgGe_lYLyBlyJxetY3J8P</consumerKey>
         <isAdminApproved>true</isAdminApproved>
         <isClientCredentialEnabled>false</isClientCredentialEnabled>
         <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
@@ -12,7 +12,7 @@
         <isConsumerSecretOptional>false</isConsumerSecretOptional>
         <isIntrospectAllTokens>false</isIntrospectAllTokens>
         <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
-        <isPkceRequired>true</isPkceRequired>
+        <isPkceRequired>false</isPkceRequired>
         <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
         <scopes>Full</scopes>
     </oauthConfig>

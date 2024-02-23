@@ -25,16 +25,4 @@
         <label>Closed</label>
         <closed>true</closed>
     </standardValue>
-    <standardValue>
-        <fullName>Ready to Move</fullName>
-        <default>false</default>
-        <label>Ready to Move</label>
-        <closed>false</closed>
-    </standardValue>
-    <standardValue>
-        <fullName>Commit</fullName>
-        <default>false</default>
-        <label>Commit</label>
-        <closed>false</closed>
-    </standardValue>
 </StandardValueSet>

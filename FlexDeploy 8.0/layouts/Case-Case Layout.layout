@@ -79,10 +79,6 @@
                 <behavior>Edit</behavior>
                 <field>Reason</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Case_Region__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

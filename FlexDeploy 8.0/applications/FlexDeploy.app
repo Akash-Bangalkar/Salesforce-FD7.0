@@ -14,7 +14,6 @@
     <label>FlexDeploy</label>
     <navType>Standard</navType>
     <tabs>Find_Metadata</tabs>
-    <tabs>Test_Find_Metadata</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>FlexDeploy_UtilityBar</utilityBar>
 </CustomApplication>
