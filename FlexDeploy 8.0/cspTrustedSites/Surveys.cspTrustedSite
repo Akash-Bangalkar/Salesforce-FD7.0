@@ -3,7 +3,7 @@
     <canAccessCamera>false</canAccessCamera>
     <canAccessMicrophone>false</canAccessMicrophone>
     <context>All</context>
-    <endpointUrl>example1.com</endpointUrl>
+    <endpointUrl>example1.in</endpointUrl>
     <isActive>true</isActive>
     <isApplicableToConnectSrc>false</isApplicableToConnectSrc>
     <isApplicableToFontSrc>false</isApplicableToFontSrc>
