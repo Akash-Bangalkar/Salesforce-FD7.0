@@ -4,7 +4,7 @@
     <name>Test 10693</name>
     <queueMembers>
         <users>
-            <user>flexdeploy7@sfdc.target</user>
+            <user>flexdeploy7@sfdc.source</user>
         </users>
     </queueMembers>
     <queueSobject>
