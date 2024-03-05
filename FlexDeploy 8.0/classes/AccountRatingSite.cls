@@ -1,3 +1,4 @@
+// Account Rating
 public class AccountRatingSite {
 	public static void setTickerSymbol(List<Account> accList)
     {
