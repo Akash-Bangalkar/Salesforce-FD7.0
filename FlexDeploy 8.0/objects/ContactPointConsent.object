@@ -128,7 +128,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>BusinessBrandId</fullName>
         <trackHistory>false</trackHistory>
@@ -191,6 +190,11 @@
         <fullName>PrivacyConsentStatus</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <listViews>
+        <fullName>All_ContactPointConsents</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Contact Point Consents</label>
+    </listViews>
     <listViews>
         <fullName>All_ContactPointConsents</fullName>
         <filterScope>Everything</filterScope>

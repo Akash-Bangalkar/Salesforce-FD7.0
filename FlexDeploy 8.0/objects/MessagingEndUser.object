@@ -100,7 +100,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <trackHistory>false</trackHistory>
@@ -157,28 +156,6 @@
         <fullName>ProfilePictureUrl</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <listViews>
-        <fullName>BulkMessageMessagingEndUsers</fullName>
-        <columns>Name</columns>
-        <columns>Account</columns>
-        <columns>MessagingPlatformKey</columns>
-        <columns>CONTACT.LAST_ACTIVITY</columns>
-        <columns>MessagingChannel</columns>
-        <columns>MessageType</columns>
-        <columns>IsFullyOptedIn</columns>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>MessageType</field>
-            <operation>equals</operation>
-            <value>0</value>
-        </filters>
-        <filters>
-            <field>IsFullyOptedIn</field>
-            <operation>equals</operation>
-            <value>1</value>
-        </filters>
-        <label>Bulk_SMS_Messaging_End_Users</label>
-    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>MessagingPlatformKey</customTabListAdditionalFields>
         <customTabListAdditionalFields>MessagingChannel</customTabListAdditionalFields>

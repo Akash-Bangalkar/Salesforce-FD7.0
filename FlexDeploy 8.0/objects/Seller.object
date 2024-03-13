@@ -128,7 +128,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>ActiveFromDate</fullName>
         <trackHistory>false</trackHistory>
@@ -163,6 +162,11 @@
         <fullName>SellerType</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <listViews>
+        <fullName>All_Sellers</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Sellers</label>
+    </listViews>
     <listViews>
         <fullName>All_Sellers</fullName>
         <filterScope>Everything</filterScope>

@@ -196,37 +196,8 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
-    <businessProcesses>
-        <fullName>Test</fullName>
-        <isActive>true</isActive>
-        <values>
-            <fullName>Closed</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Commit</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Escalated</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>New</fullName>
-            <default>true</default>
-        </values>
-        <values>
-            <fullName>Ready to Move</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Working</fullName>
-            <default>false</default>
-        </values>
-    </businessProcesses>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
-    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
@@ -249,9 +220,9 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Case_Region__c</fullName>
+        <fullName>Category__c</fullName>
         <externalId>false</externalId>
-        <label>Case Region</label>
+        <label>Category</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -262,34 +233,19 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Asia</fullName>
+                    <fullName>Country</fullName>
                     <default>false</default>
-                    <label>Asia</label>
+                    <label>Country</label>
                 </value>
                 <value>
-                    <fullName>Africa</fullName>
+                    <fullName>State</fullName>
                     <default>false</default>
-                    <label>Africa</label>
+                    <label>State</label>
                 </value>
                 <value>
-                    <fullName>Europe</fullName>
+                    <fullName>City</fullName>
                     <default>false</default>
-                    <label>Europe</label>
-                </value>
-                <value>
-                    <fullName>Australia</fullName>
-                    <default>false</default>
-                    <label>Australia</label>
-                </value>
-                <value>
-                    <fullName>North America</fullName>
-                    <default>false</default>
-                    <label>North America</label>
-                </value>
-                <value>
-                    <fullName>South America</fullName>
-                    <default>false</default>
-                    <label>South America</label>
+                    <label>City</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -344,13 +300,6 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>EntitlementId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>IsClosedOnCreate</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -360,20 +309,6 @@
         <fullName>IsEscalated</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>IsStopped</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>MilestoneStatus</fullName>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>MilestoneStatusIcon</fullName>
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
@@ -428,13 +363,6 @@
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>ProductId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Product__c</fullName>
@@ -497,6 +425,20 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Property__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Property</label>
+        <referenceTo>Property__c</referenceTo>
+        <relationshipLabel>Cases</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Reason</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -529,30 +471,6 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>ServiceContractId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>SlaExitDate</fullName>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>SlaStartDate</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>SourceId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>Status</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -560,8 +478,98 @@
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>StopStartDate</fullName>
+        <fullName>Sub_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub-Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Category__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>India</fullName>
+                    <default>false</default>
+                    <label>India</label>
+                </value>
+                <value>
+                    <fullName>Srilanka</fullName>
+                    <default>false</default>
+                    <label>Srilanka</label>
+                </value>
+                <value>
+                    <fullName>Odisha</fullName>
+                    <default>false</default>
+                    <label>Odisha</label>
+                </value>
+                <value>
+                    <fullName>Karnataka</fullName>
+                    <default>false</default>
+                    <label>Karnataka</label>
+                </value>
+                <value>
+                    <fullName>Bhubaneswar</fullName>
+                    <default>false</default>
+                    <label>Bhubaneswar</label>
+                </value>
+                <value>
+                    <fullName>Bangalore</fullName>
+                    <default>false</default>
+                    <label>Bangalore</label>
+                </value>
+                <value>
+                    <fullName>US</fullName>
+                    <default>false</default>
+                    <label>US</label>
+                </value>
+                <value>
+                    <fullName>Maharastra</fullName>
+                    <default>false</default>
+                    <label>Maharastra</label>
+                </value>
+                <value>
+                    <fullName>Mumbai</fullName>
+                    <default>false</default>
+                    <label>Mumbai</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Country</controllingFieldValue>
+                <valueName>India</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Country</controllingFieldValue>
+                <valueName>Srilanka</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Country</controllingFieldValue>
+                <valueName>US</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>State</controllingFieldValue>
+                <valueName>Odisha</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>State</controllingFieldValue>
+                <valueName>Karnataka</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>State</controllingFieldValue>
+                <valueName>Maharastra</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>City</controllingFieldValue>
+                <valueName>Bhubaneswar</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>City</controllingFieldValue>
+                <valueName>Mumbai</valueName>
+            </valueSettings>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Subject</fullName>
@@ -586,11 +594,40 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Test_sample_custom_field__c</fullName>
+        <externalId>false</externalId>
+        <label>Test sample custom field</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Type</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>agf__ADM_Work__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>A connection to the Agile Accelerator Work object used to track Bugs, Investigations and User Stories</description>
+        <externalId>false</externalId>
+        <label>Work</label>
+        <referenceTo>agf__ADM_Work__c</referenceTo>
+        <relationshipLabel>Cases</relationshipLabel>
+        <relationshipName>AgileAcceleratorCases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
     </fields>
     <listViews>
         <fullName>AllClosedCases</fullName>
@@ -634,24 +671,6 @@
         </filters>
         <label>My Open Cases</label>
     </listViews>
-    <listViews>
-        <fullName>NY_Branch_Case</fullName>
-        <filterScope>Queue</filterScope>
-        <label>NZ Branch</label>
-        <queue>NJ_Branch</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
-    <listViews>
-        <fullName>Test_10693_Case</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Test 10693</label>
-        <queue>Test_10693</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
@@ -672,6 +691,8 @@
         <searchResultsAdditionalFields>CASES.STATUS</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CASES.CREATED_DATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.TYPE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.ORIGIN</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWriteTransfer</sharingModel>
     <webLinks>
