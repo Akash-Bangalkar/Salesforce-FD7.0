@@ -1,4 +1,3 @@
-// 2-16-23 Demo
 /**
  * An apex page controller that exposes the change password functionality.
  */
@@ -8,7 +7,7 @@ public with sharing class ChangePasswordController {
     public String verifyNewPassword {get; set;}        
     
     public PageReference changePassword() {
-        //simple verification. Added by Rama. Demo 6 23
+        //simple verification.
         return Site.changePassword(newPassword, verifyNewPassword, oldpassword);    
     }     
     
