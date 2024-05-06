@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SFDX Meta</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SFDX Meta</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- SFDX FS --></label>
+        <name>SFDX_FS</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Client --></label>
+        <name>Client__c</name>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Components --></label>
+        <name>Components__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>meta.mdapi</masterLabel>
+            <translation><!-- meta.mdapi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>meta.xml</masterLabel>
+            <translation><!-- meta.xml --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>object.mdapi</masterLabel>
+            <translation><!-- object.mdapi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>object.xml</masterLabel>
+            <translation><!-- object.xml --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source Format --></label>
+        <name>Source_Format__c</name>
+        <picklistValues>
+            <masterLabel>SFDC</masterLabel>
+            <translation><!-- SFDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDX</masterLabel>
+            <translation><!-- SFDX --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>SFDX PL</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Section --></label>
+            <section>Custom Section</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Section --></label>
+            <section>Owner Section</section>
+        </sections>
+        <sections>
+            <label><!-- System Info --></label>
+            <section>System Info</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Metadata API --></label>
+        <name>Metadata_API</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Salesforce DX --></label>
+        <name>Salesforce_DX</name>
+    </recordTypes>
+    <sharingReasons>
+        <label><!-- SFDX ASR --></label>
+        <name>SFDX_ASR</name>
+    </sharingReasons>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Created Date Validation Rule --></errorMessage>
+        <name>VL_Test</name>
+    </validationRules>
+</CustomObjectTranslation>

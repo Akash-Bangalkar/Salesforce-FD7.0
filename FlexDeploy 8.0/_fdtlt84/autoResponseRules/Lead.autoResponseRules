@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Auto Response L-FD</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.DoNotCall</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <senderEmail>akash.bangalkar@flexagon.com</senderEmail>
+            <senderName>AkashBangalkar</senderName>
+            <template>unfiled$public/SupportCaseAssignmentNotification</template>
+        </ruleEntry>
+    </autoResponseRule>
+    <autoResponseRule>
+        <fullName>SFDX - LARR</fullName>
+        <active>false</active>
+    </autoResponseRule>
+</AutoResponseRules>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>replacement.testing@sfdc.com.sandbox</email>
+    <name>RPCMT - 2</name>
+    <queueMembers>
+        <users>
+            <user>flexdeploy8@sfdc.com.sandbox</user>
+            <user>s.oliveira@sfdc.com.sandbox</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>FlexDeploy_8__c</sobjectType>
+    </queueSobject>
+</Queue>

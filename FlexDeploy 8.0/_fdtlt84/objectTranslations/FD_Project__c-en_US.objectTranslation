@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Project</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Projects</value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Code --></label>
+        <name>Project_Code__c</name>
+        <picklistValues>
+            <masterLabel>.Net</masterLabel>
+            <translation><!-- .Net --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Angular</masterLabel>
+            <translation><!-- Angular --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apex</masterLabel>
+            <translation><!-- Apex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C#</masterLabel>
+            <translation><!-- C# --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C++</masterLabel>
+            <translation><!-- C++ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSS</masterLabel>
+            <translation><!-- CSS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HTML5</masterLabel>
+            <translation><!-- HTML5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JS</masterLabel>
+            <translation><!-- JS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Java</masterLabel>
+            <translation><!-- Java --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Python</masterLabel>
+            <translation><!-- Python --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Project Type --></label>
+        <name>Project_Type__c</name>
+        <picklistValues>
+            <masterLabel>Agile</masterLabel>
+            <translation><!-- Agile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waterfall</masterLabel>
+            <translation><!-- Waterfall --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- Project Tier --></label>
+        <name>Project_Tier</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please Enter Valid Project Name --></errorMessage>
+        <name>ProjectNameLength</name>
+    </validationRules>
+</CustomObjectTranslation>

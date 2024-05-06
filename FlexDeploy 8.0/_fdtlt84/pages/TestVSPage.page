@@ -1,0 +1,23 @@
+<apex:page >
+
+    <h1>Hello, Visualforce!</h1>
+    
+    <p>This is a sample Visualforce page.</p>
+    
+    <form>
+        <label for="name">Enter your name: </label>
+        <input type="text" id="name"/>
+        <button type="button" onclick="sayHello()">Greet</button>
+    </form>
+    
+    <p id="greetingMessage"></p>
+    
+    <script>
+        function sayHello() {
+            var userName = document.getElementById("name").value;
+            var greetingMessage = "Hello, " + userName + "!";
+            document.getElementById("greetingMessage").innerText = greetingMessage;
+        }
+    </script>
+
+</apex:page>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AUS</fullName>
+        <default>true</default>
+        <label>AUS</label>
+    </customValue>
+    <customValue>
+        <fullName>IND</fullName>
+        <default>false</default>
+        <label>IND</label>
+    </customValue>
+    <customValue>
+        <fullName>NZ</fullName>
+        <default>false</default>
+        <label>NZ</label>
+    </customValue>
+    <customValue>
+        <fullName>UK</fullName>
+        <default>false</default>
+        <label>UK</label>
+    </customValue>
+    <customValue>
+        <fullName>USA</fullName>
+        <default>false</default>
+        <label>USA</label>
+    </customValue>
+    <masterLabel>Country</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

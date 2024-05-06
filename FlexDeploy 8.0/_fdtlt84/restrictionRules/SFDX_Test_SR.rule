@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RestrictionRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <enforcementType>Scoping</enforcementType>
+    <masterLabel>SFDX Test SR</masterLabel>
+    <recordFilter>ISPICKVAL(Source_Format__c, &apos;SFDX&apos;)=true</recordFilter>
+    <targetEntity>SFDX_Meta__c</targetEntity>
+    <userCriteria>$User.Username=&apos;Akash&apos;</userCriteria>
+    <version>1</version>
+</RestrictionRule>
