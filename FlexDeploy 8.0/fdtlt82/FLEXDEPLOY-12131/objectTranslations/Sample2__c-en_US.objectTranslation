@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sample2</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sample2s</value>
+    </caseValues>
+    <fields>
+        <label><!-- Sample ExternalId2 --></label>
+        <name>Sample_ExternalId2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sample Text2 --></label>
+        <name>Sample_Text2__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Deployment Result --></label>
+        <name>sf_devops__Deployment_Result__c</name>
+        <relationshipLabel><!-- Back Syncs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Destination Environment --></label>
+        <name>sf_devops__Destination_Environment__c</name>
+        <relationshipLabel><!-- Destination Back Syncs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- End Revision Counter --></label>
+        <name>sf_devops__End_Revision_Counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operation Result --></label>
+        <name>sf_devops__Operation_Result__c</name>
+        <relationshipLabel><!-- Back Sync --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source Pipeline Stage --></label>
+        <name>sf_devops__Source_Pipeline_Stage__c</name>
+        <relationshipLabel><!-- Source Back Syncs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Start Revision Counter --></label>
+        <name>sf_devops__Start_Revision_Counter__c</name>
+    </fields>
+</CustomObjectTranslation>

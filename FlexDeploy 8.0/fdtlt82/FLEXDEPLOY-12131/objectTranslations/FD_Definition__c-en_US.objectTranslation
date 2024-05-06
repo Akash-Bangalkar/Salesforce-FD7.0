@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Definition</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Definitions</value>
+    </caseValues>
+    <fields>
+        <label><!-- Activate --></label>
+        <name>FD_Activate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saved --></label>
+        <name>FD_Saved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Updated By --></label>
+        <name>FD_Updated_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Updated On --></label>
+        <name>FD_Updated_On__c</name>
+    </fields>
+    <fields>
+        <label><!-- Version --></label>
+        <name>FD_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- WF Name --></label>
+        <name>FD_WF_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Workflow --></label>
+        <name>FD_Workflow__c</name>
+        <relationshipLabel><!-- Definitions --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

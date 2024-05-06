@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents one stage in the overall pipeline.  This will join an Environment with a branch in the VCS.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>sf_devops__Branch_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is deprecated and should not be referenced</description>
+        <externalId>false</externalId>
+        <label>Branch Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Branch_Remote_Reference__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is deprecated and should not be referenced</description>
+        <externalId>false</externalId>
+        <label>Branch Remote Reference</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Branch__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The branch in the VCS that this stage is associated with.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The branch in the VCS that this stage is associated with.</inlineHelpText>
+        <label>Branch</label>
+        <referenceTo>sf_devops__Branch__c</referenceTo>
+        <relationshipLabel>Pipeline Stages</relationshipLabel>
+        <relationshipName>Pipeline_Stages</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Environment__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The environment this stage is associated with.</description>
+        <externalId>false</externalId>
+        <label>Environment</label>
+        <referenceTo>sf_devops__Environment__c</referenceTo>
+        <relationshipLabel>Pipeline Stages</relationshipLabel>
+        <relationshipName>Pipeline_Stages</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Next_Stage__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The next stage in the pipeline.</description>
+        <externalId>false</externalId>
+        <label>Next Stage</label>
+        <referenceTo>sf_devops__Pipeline_Stage__c</referenceTo>
+        <relationshipLabel>Pipeline Stages</relationshipLabel>
+        <relationshipName>Pipeline_Stages</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Operation_Status__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Feedback for the asynchronous operation that is happening on this stage.</description>
+        <externalId>false</externalId>
+        <label>Operation Status</label>
+        <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
+        <relationshipLabel>Pipeline Stages</relationshipLabel>
+        <relationshipName>Pipeline_Stages</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Pipeline__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The pipeline this stage belongs to</description>
+        <externalId>false</externalId>
+        <label>Pipeline</label>
+        <referenceTo>sf_devops__Pipeline__c</referenceTo>
+        <relationshipLabel>Pipeline Stages</relationshipLabel>
+        <relationshipName>Pipeline_Stages</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Prerelease__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The last non-versioned stage in the pipeline that is used to create a version.</description>
+        <externalId>false</externalId>
+        <formula>AND( NOT( sf_devops__Versioned__c ) ,  sf_devops__Next_Stage__r.sf_devops__Versioned__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Prerelease</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Promote_Review_Remote_Reference__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Promote Review Remote Reference</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Swap_Status__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Feedback for the asynchronous swap operation that is happening on this stage.</description>
+        <externalId>false</externalId>
+        <label>Swap Status</label>
+        <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
+        <relationshipLabel>Pipeline Stage Swaps</relationshipLabel>
+        <relationshipName>Pipeline_Stage_Swaps</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Versioned__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Declares that this pipeline stage requires metadata to be installed via a change bundle.</description>
+        <externalId>false</externalId>
+        <label>Versioned</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Pipeline Stage</label>
+    <nameField>
+        <label>Pipeline Stage Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Pipeline Stages</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>sf_devops__Branch_Without_Remote_Reference</fullName>
+        <active>false</active>
+        <description>This rule is no longer enforced</description>
+        <errorConditionFormula>FALSE</errorConditionFormula>
+        <errorMessage>Deprecated</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__No_Changes_For_Active_Pipelines</fullName>
+        <active>true</active>
+        <description>Do not allow changes to a stage on an active pipeline</description>
+        <errorConditionFormula>AND(
+ OR (
+    AND(
+      ISCHANGED( sf_devops__Branch__c  ), 
+      NOT(ISBLANK(PRIORVALUE(sf_devops__Branch__c)))
+    ) ,
+    ISCHANGED(  sf_devops__Next_Stage__c  ) ,
+    ISCHANGED(   sf_devops__Versioned__c   )
+  ),
+ sf_devops__Pipeline__r.sf_devops__Activated__c )</errorConditionFormula>
+        <errorMessage>You cannot modify a Pipeline_Stage on an activated Pipeline.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__No_New_Stages_For_Active_Pipelines</fullName>
+        <active>true</active>
+        <description>Do not allow new stages to be added to activated pipelines</description>
+        <errorConditionFormula>AND( ISNEW(),
+ sf_devops__Pipeline__r.sf_devops__Activated__c )</errorConditionFormula>
+        <errorDisplayField>sf_devops__Pipeline__c</errorDisplayField>
+        <errorMessage>You cannot add a Pipeline_Stage to an activated Pipeline.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Promote_Review_Remote_Ref_Required</fullName>
+        <active>false</active>
+        <description>This rule is no longer enforced</description>
+        <errorConditionFormula>FALSE</errorConditionFormula>
+        <errorMessage>Deprecated</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Promote_Review_Url_Required</fullName>
+        <active>false</active>
+        <description>This rule is no longer enforced</description>
+        <errorConditionFormula>FALSE</errorConditionFormula>
+        <errorMessage>Deprecated</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Promote_Review_Versioned</fullName>
+        <active>false</active>
+        <description>This rule is no longer enforced</description>
+        <errorConditionFormula>FALSE</errorConditionFormula>
+        <errorMessage>Deprecated</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Promote_Url_Validation</fullName>
+        <active>false</active>
+        <description>This rule is no longer enforced</description>
+        <errorConditionFormula>FALSE</errorConditionFormula>
+        <errorMessage>Deprecated</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

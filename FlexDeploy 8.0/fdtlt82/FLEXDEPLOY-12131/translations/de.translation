@@ -1,0 +1,4444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <customApplications>
+        <description xsi:nil="true"/>
+        <label><!-- Agile Accelerator --></label>
+        <name>Agile_Accelerator</name>
+    </customApplications>
+    <customApplications>
+        <description xsi:nil="true"/>
+        <label><!-- Agile Accelerator --></label>
+        <name>Agile_Accelerator_LEX</name>
+    </customApplications>
+    <customApplications>
+        <description xsi:nil="true"/>
+        <label><!-- DreamHouse --></label>
+        <name>DreamHouse</name>
+    </customApplications>
+    <customApplications>
+        <description xsi:nil="true"/>
+        <label><!-- FlexDeploy (SFDC) --></label>
+        <name>FlexDeploy_SFDC</name>
+    </customApplications>
+    <customApplications>
+        <description xsi:nil="true"/>
+        <label><!-- Trailblazer --></label>
+        <name>Trailblazer</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- FD_About_Label --></label>
+        <name>FD_About_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FD ID --></label>
+        <name>FD_ID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FD_Version_Label --></label>
+        <name>FD_Version_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Test_Custom_Label --></label>
+        <name>Test_Custom_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Acceptance Criteria --></label>
+        <name>agf__ADM_AcceptanceCriteria</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description --></label>
+        <name>agf__ADM_AcceptanceCriteria_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Name --></label>
+        <name>agf__ADM_AcceptanceCriteria_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Status --></label>
+        <name>agf__ADM_AcceptanceCriteria_Status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Assignee --></label>
+        <name>agf__ADM_Add_Assignee</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Bugs --></label>
+        <name>agf__ADM_Bugs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel --></label>
+        <name>agf__ADM_Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Chatter tab --></label>
+        <name>agf__ADM_Chatter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Color Selector --></label>
+        <name>agf__ADM_Color_Selector</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Color --></label>
+        <name>agf__ADM_Color_Selector_No_Color</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Work has already been committed to this sprint --></label>
+        <name>agf__ADM_Commitment_Exists_On_Sprint</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Let user know what happens when they delete the column. --></label>
+        <name>agf__ADM_Confirm_Delete_Column_Footer_Body</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default --></label>
+        <name>agf__ADM_Default</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default Priority --></label>
+        <name>agf__ADM_Default_Priority</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Definition of Ready Met --></label>
+        <name>agf__ADM_Definition_of_Ready_Met</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Details tab --></label>
+        <name>agf__ADM_Details</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Color --></label>
+        <name>agf__ADM_Edit_Color</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error --></label>
+        <name>agf__ADM_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- This validation error message is visible in the UI --></label>
+        <name>agf__ADM_Error_Msg_Closing_Non_Deterministic_Test</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- This validation error message is visible in the UI --></label>
+        <name>agf__ADM_Error_Msg_Closing_Test_Failure</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- This validation error message is visible in the UI --></label>
+        <name>agf__ADM_Error_Msg_Required_Field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- This validation error message is visible in the UI --></label>
+        <name>agf__ADM_File_Upload_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- This message is visible in the UI --></label>
+        <name>agf__ADM_File_Uploaded_Success</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- This message is visible in the UI --></label>
+        <name>agf__ADM_Files_Uploaded_Success</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help me decide --></label>
+        <name>agf__ADM_Help_Me_Decide</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Investigations --></label>
+        <name>agf__ADM_Investigations</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New --></label>
+        <name>agf__ADM_New</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OK --></label>
+        <name>agf__ADM_OK</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Overridden --></label>
+        <name>agf__ADM_Overridden</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Override --></label>
+        <name>agf__ADM_Override</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Override Priority --></label>
+        <name>agf__ADM_Override_Priority</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Priority --></label>
+        <name>agf__ADM_Priority</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Priority is a required field --></label>
+        <name>agf__ADM_Priority_Field_Required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Favorite Product Tags --></label>
+        <name>agf__ADM_Product_Tag_Favorites</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text displayed in the header of the favorite product tags config component --></label>
+        <name>agf__ADM_Product_Tag_Favorites_Header_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Tag Name --></label>
+        <name>agf__ADM_Product_Tag_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You have not set any favorite product tags. --></label>
+        <name>agf__ADM_Product_Tag_No_Favorites</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save --></label>
+        <name>agf__ADM_Save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Confirm --></label>
+        <name>agf__ADM_Sprint_Commitment_Confirm</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Forecast Confirmation --></label>
+        <name>agf__ADM_Sprint_Commitment_Confirmation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Forecast --></label>
+        <name>agf__ADM_Sprint_Commitment_Forecast</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Would you like to proceed message on Sprint Forecast modal --></label>
+        <name>agf__ADM_Sprint_Commitment_Proceed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Your sprint contains work items with the following statuses: --></label>
+        <name>agf__ADM_Sprint_Commitment_Sprint_Contains_NonVelocity_Items_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message shown on forecast modal if sprint contains non-velocity statuses --></label>
+        <name>agf__ADM_Sprint_Commitment_Sprint_Contains_NonVelocity_Items_2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Total Work Count --></label>
+        <name>agf__ADM_Sprint_Commitment_Total_Work_Count</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Successfully enabled status mapping updates for the sprint board. --></label>
+        <name>agf__ADM_Sprint_VirtualWall_Board_Auto_Update_Success_Body</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Success --></label>
+        <name>agf__ADM_Sprint_VirtualWall_Board_Auto_Update_Success_Heading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Warning shown when Prefer_Board_Column_Auto_Update__c is set to false --></label>
+        <name>agf__ADM_Sprint_VirtualWall_Board_Auto_Update_Warning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- click here --></label>
+        <name>agf__ADM_Sprint_VirtualWall_Board_Auto_Update_Warning_Button_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Close --></label>
+        <name>agf__ADM_Sprint_VirtualWall_Board_Auto_Update_Warning_Close</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Close --></label>
+        <name>agf__ADM_Sprint_VirtualWall_Board_Auto_Update_Warning_Warning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Close Sprint --></label>
+        <name>agf__ADM_Sprint_VirtualWall_Header_Close_Sprint</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Days Left --></label>
+        <name>agf__ADM_Sprint_VirtualWall_Header_Days_Left</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Story Points --></label>
+        <name>agf__ADM_Story_Points</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Success toast title --></label>
+        <name>agf__ADM_Success</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tasks --></label>
+        <name>agf__ADM_Tasks</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Team Name --></label>
+        <name>agf__ADM_Team_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- To Do --></label>
+        <name>agf__ADM_To_Do</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- User Stories --></label>
+        <name>agf__ADM_User_Stories</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- View All --></label>
+        <name>agf__ADM_View_All</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Create Work --></label>
+        <name>agf__ADM_Work_Create</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Work --></label>
+        <name>agf__ADM_Work_Edit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No custom fields have been defined for this Product Tag. --></label>
+        <name>agf__ADM_Work_Page_No_Custom_Product_Tag_Fields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Tag Fields --></label>
+        <name>agf__ADM_Work_Page_Product_Tag_Fields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Informational text for work priority override modal --></label>
+        <name>agf__ADM_Work_Priority_Override</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Themes --></label>
+        <name>agf__ADM_Work_Theme_Modal_Basic_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search available Themes --></label>
+        <name>agf__ADM_Work_Theme_Modal_Input_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Message Start --></label>
+        <name>agf__Acceptance_Criteria_ErrorMessage_Start</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Internal error messaging for OAuth connection exceptions. --></label>
+        <name>sf_devops__OAuthConnectionExceptionBody</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button to abort a failed stage swap --></label>
+        <name>sf_devops__abortStageSwap</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Toast after a stage swap is abortted --></label>
+        <name>sf_devops__abortStageSwapToast</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel Button for the abort failed sync confirmation --></label>
+        <name>sf_devops__abortSwapDialogCancelButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Content for the abort failed sync confirmation --></label>
+        <name>sf_devops__abortSwapDialogContent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-description text for the Abort Failed Sync confirmation Dialog. --></label>
+        <name>sf_devops__abortSwapDialogModalDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OK Button for the abort failed sync confirmation --></label>
+        <name>sf_devops__abortSwapDialogOkButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for the abort failed sync confirmation --></label>
+        <name>sf_devops__abortSwapDialogTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Activate&quot;. --></label>
+        <name>sf_devops__activate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Status when the pipeline is activated. --></label>
+        <name>sf_devops__active</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Activity&quot;. --></label>
+        <name>sf_devops__activity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for the pipeline activation event. --></label>
+        <name>sf_devops__activityActivation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting an ad hoc promote. --></label>
+        <name>sf_devops__activityAdHocPromoteStageComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting an ad hoc promote (plural). --></label>
+        <name>sf_devops__activityAdHocPromoteStageCompletePlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting an ad hoc promote. --></label>
+        <name>sf_devops__activityAdHocPromoteStageFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting an ad hoc promote (plural). --></label>
+        <name>sf_devops__activityAdHocPromoteStageFailedPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting an ad hoc promote. --></label>
+        <name>sf_devops__activityAdHocPromoteStageInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting an ad hoc promote (plural). --></label>
+        <name>sf_devops__activityAdHocPromoteStageInitPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a work item ad hoc promote complete event. --></label>
+        <name>sf_devops__activityAdHocPromoteWorkItemComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a work item ad hoc promote complete event. --></label>
+        <name>sf_devops__activityAdHocPromoteWorkItemFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a work item ad hoc promote init event. --></label>
+        <name>sf_devops__activityAdHocPromoteWorkItemInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for the back sync complete event. --></label>
+        <name>sf_devops__activityBackSyncComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for the back sync complete event. --></label>
+        <name>sf_devops__activityBackSyncFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for the back sync init event. --></label>
+        <name>sf_devops__activityBackSyncInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for the back sync complete event. --></label>
+        <name>sf_devops__activityBackSyncWorkItemComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for the back sync complete event. --></label>
+        <name>sf_devops__activityBackSyncWorkItemFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for the back sync complete event. --></label>
+        <name>sf_devops__activityBackSyncWorkItemInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a check deploy. --></label>
+        <name>sf_devops__activityCheckDeployComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a check deploy (plural). --></label>
+        <name>sf_devops__activityCheckDeployCompletePlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a check deploy. --></label>
+        <name>sf_devops__activityCheckDeployFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a check deploy (plural). --></label>
+        <name>sf_devops__activityCheckDeployFailedPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a check deploy. --></label>
+        <name>sf_devops__activityCheckDeployInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a check deploy (plural). --></label>
+        <name>sf_devops__activityCheckDeployInitPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a work item getting a check deploy complete event. --></label>
+        <name>sf_devops__activityCheckDeployWorkItemComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a work item getting versioned promoted complete event. --></label>
+        <name>sf_devops__activityCheckDeployWorkItemFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a work item getting a check deploy init event. --></label>
+        <name>sf_devops__activityCheckDeployWorkItemInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity complete source. --></label>
+        <name>sf_devops__activityCombineSourceComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity failed source. --></label>
+        <name>sf_devops__activityCombineSourceFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity init source. --></label>
+        <name>sf_devops__activityCombineSourceInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity complete stage. --></label>
+        <name>sf_devops__activityCombineStageCompletePlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity complete stage. --></label>
+        <name>sf_devops__activityCombineStageCompleteSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity failed stage. --></label>
+        <name>sf_devops__activityCombineStageFailedPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity failed stage. --></label>
+        <name>sf_devops__activityCombineStageFailedSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity init stage. --></label>
+        <name>sf_devops__activityCombineStageInitPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity init stage. --></label>
+        <name>sf_devops__activityCombineStageInitSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity complete survivor. --></label>
+        <name>sf_devops__activityCombineSurvivorCompletePlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity complete survivor. --></label>
+        <name>sf_devops__activityCombineSurvivorCompleteSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity failed survivor. --></label>
+        <name>sf_devops__activityCombineSurvivorFailedPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity failed survivor. --></label>
+        <name>sf_devops__activityCombineSurvivorFailedSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity init survivor. --></label>
+        <name>sf_devops__activityCombineSurvivorInitPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity init survivor. --></label>
+        <name>sf_devops__activityCombineSurvivorInitSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for the commit event. --></label>
+        <name>sf_devops__activityCommit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for the commit failed event. --></label>
+        <name>sf_devops__activityCommitFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for the commit event (plural). --></label>
+        <name>sf_devops__activityCommitPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for the pipeline activation event. --></label>
+        <name>sf_devops__activityDeactivation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for the commit event. --></label>
+        <name>sf_devops__activityExternalCommit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for the commit event. --></label>
+        <name>sf_devops__activityExternalCommitGeneric</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for the commit event (plural). --></label>
+        <name>sf_devops__activityExternalCommitPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Activity History&quot;. --></label>
+        <name>sf_devops__activityHistory</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for the migration of a rebase branch event. --></label>
+        <name>sf_devops__activityMigrateRebaseBranchComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a quick deploy. --></label>
+        <name>sf_devops__activityQuickDeployComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a quick deploy (plural). --></label>
+        <name>sf_devops__activityQuickDeployCompletePlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a quick deploy. --></label>
+        <name>sf_devops__activityQuickDeployFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a quick deploy (plural). --></label>
+        <name>sf_devops__activityQuickDeployFailedPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a quick deploy. --></label>
+        <name>sf_devops__activityQuickDeployInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a quick deploy (plural). --></label>
+        <name>sf_devops__activityQuickDeployInitPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a work item getting quick deploy complete event. --></label>
+        <name>sf_devops__activityQuickDeployWorkItemComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a work item getting quick deploy complete event. --></label>
+        <name>sf_devops__activityQuickDeployWorkItemFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a work item getting quick deploy init event. --></label>
+        <name>sf_devops__activityQuickDeployWorkItemInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for the branch recreate events. --></label>
+        <name>sf_devops__activityRecreateBranch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for the change request recreate events. --></label>
+        <name>sf_devops__activityRecreateChangeRequest</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validate only deploy for 1 work item completed from the bundling stage. --></label>
+        <name>sf_devops__activitySoupCheckDeployComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validate only deploy for multiple work items completed from the bundling stage. --></label>
+        <name>sf_devops__activitySoupCheckDeployCompletePlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validate only deploy for 1 work item failed from the bundling stage. --></label>
+        <name>sf_devops__activitySoupCheckDeployFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validate only deploy for multiple work items failed from the bundling stage. --></label>
+        <name>sf_devops__activitySoupCheckDeployFailedPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validate only deploy for 1 work item initiated from the bundling stage. --></label>
+        <name>sf_devops__activitySoupCheckDeployInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validate only deploy for multiple work items initiated from the bundling stage. --></label>
+        <name>sf_devops__activitySoupCheckDeployInitPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validate only deploy completed for a work item from the bundling stage. --></label>
+        <name>sf_devops__activitySoupCheckDeployWorkItemComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validate only deploy failed for a work item from the bundling stage. --></label>
+        <name>sf_devops__activitySoupCheckDeployWorkItemFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validate only deploy started for a work item from the bundling stage. --></label>
+        <name>sf_devops__activitySoupCheckDeployWorkItemInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a soup promote. --></label>
+        <name>sf_devops__activitySoupPromoteStageComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a soup promote (plural). --></label>
+        <name>sf_devops__activitySoupPromoteStageCompletePlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a soup promote. --></label>
+        <name>sf_devops__activitySoupPromoteStageFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a soup promote (plural). --></label>
+        <name>sf_devops__activitySoupPromoteStageFailedPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a soup promote. --></label>
+        <name>sf_devops__activitySoupPromoteStageInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a soup promote (plural). --></label>
+        <name>sf_devops__activitySoupPromoteStageInitPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick deploy for 1 work item completed from the bundling stage. --></label>
+        <name>sf_devops__activitySoupQuickDeployComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick deploy for multiple work items completed from the bundling stage. --></label>
+        <name>sf_devops__activitySoupQuickDeployCompletePlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick deploy for 1 work item failed from the bundling stage. --></label>
+        <name>sf_devops__activitySoupQuickDeployFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick deploy for multiple work items failed from the bundling stage. --></label>
+        <name>sf_devops__activitySoupQuickDeployFailedPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick deploy for 1 work item initiated from the bundling stage. --></label>
+        <name>sf_devops__activitySoupQuickDeployInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick deploy for multiple work items initiated from the bundling stage. --></label>
+        <name>sf_devops__activitySoupQuickDeployInitPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick deploy completed for a work item from the bundling stage. --></label>
+        <name>sf_devops__activitySoupQuickDeployWorkItemComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick deploy failed for a work item from the bundling stage. --></label>
+        <name>sf_devops__activitySoupQuickDeployWorkItemFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick deploy started for a work item from the bundling stage. --></label>
+        <name>sf_devops__activitySoupQuickDeployWorkItemInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for stage environment getting swapped activity type. --></label>
+        <name>sf_devops__activitySwapStageEnvironmentCompleted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Activity message when a stage swap is ignored. --></label>
+        <name>sf_devops__activitySwapStageEnvironmentIgnored</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for stage environment getting swapped init activity type. --></label>
+        <name>sf_devops__activitySwapStageEnvironmentInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Activity Type&quot;. --></label>
+        <name>sf_devops__activityType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for pipeline activation activity type. --></label>
+        <name>sf_devops__activityTypeActivation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for a stage getting an ad hoc promote complete. --></label>
+        <name>sf_devops__activityTypeAdHocPromoteStageComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for a stage getting an ad hoc promote init. --></label>
+        <name>sf_devops__activityTypeAdHocPromoteStageInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item ad hoc promote complete activity type. --></label>
+        <name>sf_devops__activityTypeAdHocPromoteWorkItemComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item ad hoc promote init activity type. --></label>
+        <name>sf_devops__activityTypeAdHocPromoteWorkItemInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for the back sync complete event. --></label>
+        <name>sf_devops__activityTypeBackSyncComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for the back sync init event. --></label>
+        <name>sf_devops__activityTypeBackSyncInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for the back sync complete event. --></label>
+        <name>sf_devops__activityTypeBackSyncWorkItemComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for the back sync complete event. --></label>
+        <name>sf_devops__activityTypeBackSyncWorkItemInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for a stage getting a check deploy. --></label>
+        <name>sf_devops__activityTypeCheckDeployComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for a stage getting a check deploy. --></label>
+        <name>sf_devops__activityTypeCheckDeployInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item getting a check deploy complete activity type. --></label>
+        <name>sf_devops__activityTypeCheckDeployWorkItemComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item getting a check deploy init activity type. --></label>
+        <name>sf_devops__activityTypeCheckDeployWorkItemInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity complete type source. --></label>
+        <name>sf_devops__activityTypeCombineSourceComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity init type source. --></label>
+        <name>sf_devops__activityTypeCombineSourceInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity complete type stage. --></label>
+        <name>sf_devops__activityTypeCombineStageComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity failed type stage. --></label>
+        <name>sf_devops__activityTypeCombineStageFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity init type stage. --></label>
+        <name>sf_devops__activityTypeCombineStageInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity complete type survivor. --></label>
+        <name>sf_devops__activityTypeCombineSurvivorComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity failed type survivor. --></label>
+        <name>sf_devops__activityTypeCombineSurvivorFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity init type survivor. --></label>
+        <name>sf_devops__activityTypeCombineSurvivorInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item commit activity type. --></label>
+        <name>sf_devops__activityTypeCommit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item commit failed activity type. --></label>
+        <name>sf_devops__activityTypeCommitFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for the pipeline deactivation event. --></label>
+        <name>sf_devops__activityTypeDeactivation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item commit activity type. --></label>
+        <name>sf_devops__activityTypeExternalCommit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for a migration event. --></label>
+        <name>sf_devops__activityTypeMigration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for a stage getting a quick deploy. --></label>
+        <name>sf_devops__activityTypeQuickDeployComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for a stage getting a quick deploy. --></label>
+        <name>sf_devops__activityTypeQuickDeployInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item getting a quick deploy complete activity type. --></label>
+        <name>sf_devops__activityTypeQuickDeployWorkItemComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item getting a check quick init activity type. --></label>
+        <name>sf_devops__activityTypeQuickDeployWorkItemInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for branch recreate activity type. --></label>
+        <name>sf_devops__activityTypeRecreateBranch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for the change request recreate events. --></label>
+        <name>sf_devops__activityTypeRecreateChangeRequest</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for the work item change request recreate events. --></label>
+        <name>sf_devops__activityTypeRecreateWorkItemChangeRequest</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for development environment getting swapped activity type. --></label>
+        <name>sf_devops__activityTypeSwapDevelopmentEnvironment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for stage environment getting swapped activity type. --></label>
+        <name>sf_devops__activityTypeSwapStageEnvironmentCompleted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Activity Label when a stage swap is ignored. --></label>
+        <name>sf_devops__activityTypeSwapStageEnvironmentIgnored</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for stage environment getting swapped init activity type. --></label>
+        <name>sf_devops__activityTypeSwapStageEnvironmentInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item dev env swap activity. --></label>
+        <name>sf_devops__activityTypeSwappedWorkItem</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for a stage getting a versioned promote. --></label>
+        <name>sf_devops__activityTypeVersionedPromoteComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for a stage getting a versioned promote. --></label>
+        <name>sf_devops__activityTypeVersionedPromoteInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item getting versioned promoted complete activity type. --></label>
+        <name>sf_devops__activityTypeVersionedPromoteWorkItemComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item getting versioned promoted init activity type. --></label>
+        <name>sf_devops__activityTypeVersionedPromoteWorkItemInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item assigned activity type. --></label>
+        <name>sf_devops__activityTypeWorkItemAssignedToChanged</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item creation activity type. --></label>
+        <name>sf_devops__activityTypeWorkItemCreated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item environment changed activity type. --></label>
+        <name>sf_devops__activityTypeWorkItemEnvironmentChanged</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Activity label for rebase events. --></label>
+        <name>sf_devops__activityTypeWorkItemRebase</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item status changed activity type. --></label>
+        <name>sf_devops__activityTypeWorkItemStateChanged</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item unmergeable activity type. --></label>
+        <name>sf_devops__activityTypeWorkItemUnmergeable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a versioned promote. --></label>
+        <name>sf_devops__activityVersionedPromoteComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a versioned promote (plural). --></label>
+        <name>sf_devops__activityVersionedPromoteCompletePlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a versioned promote. --></label>
+        <name>sf_devops__activityVersionedPromoteFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a versioned promote (plural). --></label>
+        <name>sf_devops__activityVersionedPromoteFailedPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a versioned promote. --></label>
+        <name>sf_devops__activityVersionedPromoteInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a stage getting a versioned promote (plural). --></label>
+        <name>sf_devops__activityVersionedPromoteInitPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a work item getting versioned promoted complete event. --></label>
+        <name>sf_devops__activityVersionedPromoteWorkItemComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a work item getting versioned promoted complete event. --></label>
+        <name>sf_devops__activityVersionedPromoteWorkItemFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for a work item getting versioned promoted init event. --></label>
+        <name>sf_devops__activityVersionedPromoteWorkItemInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for the work item assignment events. --></label>
+        <name>sf_devops__activityWorkItemAssignedToChanged</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for the work item creation events. --></label>
+        <name>sf_devops__activityWorkItemCreated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for the work item disconnectd events. --></label>
+        <name>sf_devops__activityWorkItemDisconnected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for the work item connected events. --></label>
+        <name>sf_devops__activityWorkItemEnvironmentChanged</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for successful rebase events. --></label>
+        <name>sf_devops__activityWorkItemRebaseCompleted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for failed rebase events. --></label>
+        <name>sf_devops__activityWorkItemRebaseErrored</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for the work item transitioned events. --></label>
+        <name>sf_devops__activityWorkItemStateChanged</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for the work item assignment events. --></label>
+        <name>sf_devops__activityWorkItemUnassigned</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary for when the change request of a work item is unmergeable. --></label>
+        <name>sf_devops__activityWorkItemUnmergeable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- 1st sentence of help text during a promotion failure for an ad hoc promote. --></label>
+        <name>sf_devops__adHocMergeHelpText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AdHoc to AdHoc Stage Promotion Description --></label>
+        <name>sf_devops__adHocToAdHocCrDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AdHoc to AdHoc Stage Promotion Title --></label>
+        <name>sf_devops__adHocToAdHocCrTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Add&quot;. --></label>
+        <name>sf_devops__add</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add development environment button label --></label>
+        <name>sf_devops__addDevEnvironment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Add Development Environment&quot;. --></label>
+        <name>sf_devops__addDevEnvironmentHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Dialog title for a failed env add --></label>
+        <name>sf_devops__addDialogErrorTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Add Environment&quot;. --></label>
+        <name>sf_devops__addEnvironmentHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Add Components&quot;. --></label>
+        <name>sf_devops__addFiles</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Add Components&quot; --></label>
+        <name>sf_devops__addFilesManually</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label used for CustomObject on Add Components Manually dialog --></label>
+        <name>sf_devops__addMetadataCustomObjectLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Menu Item to add a stage to the left --></label>
+        <name>sf_devops__addStageLeft</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Menu Item to add a stage to the right --></label>
+        <name>sf_devops__addStageRight</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if an adhoc promotion is attempted on a released work item --></label>
+        <name>sf_devops__adhocPromotionNotAllowedError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- affected version on update environment --></label>
+        <name>sf_devops__affectedVersion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- affected versions on update environment --></label>
+        <name>sf_devops__affectedVersions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- affected work item on update environment --></label>
+        <name>sf_devops__affectedWorkItem</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- affected work items on update environment --></label>
+        <name>sf_devops__affectedWorkItems</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;All&quot;. --></label>
+        <name>sf_devops__all</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- &quot;All Environments column header in the project list view. --></label>
+        <name>sf_devops__allEnvironments</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Run all tests during promotion. --></label>
+        <name>sf_devops__allOption</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;All Projects&quot;. --></label>
+        <name>sf_devops__allProjects</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;All Work Items&quot;. --></label>
+        <name>sf_devops__allWorkItems</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When an operation is requested, but one is already in progress --></label>
+        <name>sf_devops__anotherOperationInProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Any&quot;. --></label>
+        <name>sf_devops__any</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Any Metadata no results message when a component is selected --></label>
+        <name>sf_devops__anyMetadataNoMatch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Any Metadata no results message when a component is not selected --></label>
+        <name>sf_devops__anyMetadataSelectComponent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if we cannot get an API enabled session --></label>
+        <name>sf_devops__apiSessionError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for when the user cannot change an approved WI. --></label>
+        <name>sf_devops__approvedItemChanges</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default label for the approved state. --></label>
+        <name>sf_devops__approvedStateLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Approved Work Items&quot;. --></label>
+        <name>sf_devops__approvedWorkItems</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Assigned To&quot;. --></label>
+        <name>sf_devops__assignedTo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Authorizations&quot;. --></label>
+        <name>sf_devops__authorizations</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Toast when a back sync fails. --></label>
+        <name>sf_devops__backSyncFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggestion message on a failed back sync --></label>
+        <name>sf_devops__backSyncFailedSuggestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- What happened message on a failed back sync --></label>
+        <name>sf_devops__backSyncFailedWhatHappened</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Intro for the syncrhonization dialog for a dev env --></label>
+        <name>sf_devops__backSyncIntro</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AOR message when we enqueue a back sync --></label>
+        <name>sf_devops__backSyncQueued</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Sync from next stage...&quot;. --></label>
+        <name>sf_devops__backSyncTooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for begin work button --></label>
+        <name>sf_devops__beginWork</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Branch&quot;. --></label>
+        <name>sf_devops__branch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Branch Name --></label>
+        <name>sf_devops__branchName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Branch not set&quot;. --></label>
+        <name>sf_devops__branchNotSet</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Displayed when 2 stages have the same branch --></label>
+        <name>sf_devops__branchNotUnique</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Branch settings modal title. --></label>
+        <name>sf_devops__branchSettingsTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help text for the bundling radio --></label>
+        <name>sf_devops__bundlingHelp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text that indicates that the stage is the bundling one. --></label>
+        <name>sf_devops__bundlingStage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;button.&quot;. --></label>
+        <name>sf_devops__button</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Cancel&quot;. --></label>
+        <name>sf_devops__cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Cancel Promotion&quot;. --></label>
+        <name>sf_devops__cancelPromotion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we try and abort a non-failed swap --></label>
+        <name>sf_devops__cannotAbortPostSwapSync</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we could not find any change bundles nor work items to full deploy --></label>
+        <name>sf_devops__cannotFullDeploy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message for the Create Review disabled popover. --></label>
+        <name>sf_devops__cantCreateReviewMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for the Create Review disabled popover. --></label>
+        <name>sf_devops__cantCreateReviewTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When a CBI references an Environment and CB from different projects. --></label>
+        <name>sf_devops__changeBundleInstallProjectError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Action for an environment change --></label>
+        <name>sf_devops__changeEnvironment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Change Request Created&quot;. --></label>
+        <name>sf_devops__changeRequestCreated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default description for all change requests. --></label>
+        <name>sf_devops__changeRequestDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Extra description for versioned change requests. --></label>
+        <name>sf_devops__changeRequestExtraDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label used for the change source link. --></label>
+        <name>sf_devops__changeSource</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header for CWS dialog. --></label>
+        <name>sf_devops__changeWorkItemSourceDialogTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Changes&quot;. --></label>
+        <name>sf_devops__changes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;check deploy operations&quot;. --></label>
+        <name>sf_devops__checkDeployFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;check deploy operations&quot;. --></label>
+        <name>sf_devops__checkDeployInProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if attempted a check deploy on non versioned stages --></label>
+        <name>sf_devops__checkDeployNotAllowedError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AOR message when a check deploy is enqueued --></label>
+        <name>sf_devops__checkDeployQueued</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;check deploy operations&quot;. --></label>
+        <name>sf_devops__checkDeployStalled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;check deploy operations&quot;. --></label>
+        <name>sf_devops__checkDeploySuccessful</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;check deploy operations&quot;. --></label>
+        <name>sf_devops__checkDeployTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Check Deploy warning information bubble text --></label>
+        <name>sf_devops__checkDeployWarningText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;chaking the URL&quot;. --></label>
+        <name>sf_devops__checkUrl</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Link text to clear filters --></label>
+        <name>sf_devops__clearFilters</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Click to Connect&quot;. --></label>
+        <name>sf_devops__clickToConnect</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Click to Create Pipeline&quot;. --></label>
+        <name>sf_devops__clickToCreatePipeline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Close&quot;. --></label>
+        <name>sf_devops__close</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for when the user cannot change a closed WI. --></label>
+        <name>sf_devops__closedItemChanges</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default label for the closed state. --></label>
+        <name>sf_devops__closedStateLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Connector to use in work items list --></label>
+        <name>sf_devops__combineBadgeEndConnector</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text for link to Combine Work Item documentation --></label>
+        <name>sf_devops__combineBadgePopoverLink</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text for the popover content in Combine Badge in plural --></label>
+        <name>sf_devops__combineBadgePopoverTextPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text for the popover content in Combine Badge in singular --></label>
+        <name>sf_devops__combineBadgePopoverTextSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when combine operation fails due to a work item being externally merged. --></label>
+        <name>sf_devops__combineExExternallyMerged</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when combine operation fails due to an invalid rebase. --></label>
+        <name>sf_devops__combineExInvalidRebase</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when combine operation fails due to a work item missing a rebase branch. --></label>
+        <name>sf_devops__combineExMissingRbBranch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when combine operation fails due to invalid user permissions. --></label>
+        <name>sf_devops__combineExUserPermPromo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when combine operation fails due to work items already being concluded. --></label>
+        <name>sf_devops__combineExWIConcluded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when combine operation fails due to a work item from the wrong stage. --></label>
+        <name>sf_devops__combineExWisDiffStage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for Combination Validation exceptions --></label>
+        <name>sf_devops__combineExceptionTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for failed combine pipeline activity --></label>
+        <name>sf_devops__combinePipelineFailedHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for success combine pipeline activity --></label>
+        <name>sf_devops__combinePipelineSuccessHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when combine operation is going on. --></label>
+        <name>sf_devops__combineSourceInProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for failed combine survivor --></label>
+        <name>sf_devops__combineSurvivorFailedHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for success combine survivor with multiple sources --></label>
+        <name>sf_devops__combineSurvivorSuccessHeaderPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for success combine survivor with one source --></label>
+        <name>sf_devops__combineSurvivorSuccessHeaderSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for cancel button in combine work items dialog --></label>
+        <name>sf_devops__combineWorkItemsCancelButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description for combine into survivor option. --></label>
+        <name>sf_devops__combineWorkItemsCombineOptionDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description for combine into survivor option. --></label>
+        <name>sf_devops__combineWorkItemsCombineOptionDescriptionForConflicts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for combine into survivor option. --></label>
+        <name>sf_devops__combineWorkItemsCombineOptionTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for continue button in combine work items dialog. --></label>
+        <name>sf_devops__combineWorkItemsContinueButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Link to redirect to combine work items documentation. --></label>
+        <name>sf_devops__combineWorkItemsLearnMoreLink</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for options section. --></label>
+        <name>sf_devops__combineWorkItemsOptionsTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description for promote dependent option. --></label>
+        <name>sf_devops__combineWorkItemsPromoteDependentOptionDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for promote dependent option. --></label>
+        <name>sf_devops__combineWorkItemsPromoteDependentOptionTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description for promote selected option in plural. --></label>
+        <name>sf_devops__combineWorkItemsPromoteSelectedOptionDescriptionPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description for promote selected option in singular. --></label>
+        <name>sf_devops__combineWorkItemsPromoteSelectedOptionDescriptionSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for promote selected option in plural. --></label>
+        <name>sf_devops__combineWorkItemsPromoteSelectedOptionTitlePlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for promote selected option in singular. --></label>
+        <name>sf_devops__combineWorkItemsPromoteSelectedOptionTitleSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default label for the combined state. --></label>
+        <name>sf_devops__combinedStateLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Comment&quot;. --></label>
+        <name>sf_devops__comment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;commented&quot;. --></label>
+        <name>sf_devops__commented</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Commit&quot;. --></label>
+        <name>sf_devops__commit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Commit Changes&quot;. --></label>
+        <name>sf_devops__commitChanges</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Commit Failed&quot; --></label>
+        <name>sf_devops__commitComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Commit Created&quot;. --></label>
+        <name>sf_devops__commitCreated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Commit Failed&quot; --></label>
+        <name>sf_devops__commitFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Commit Failed. Attempted by USER on TIMESTAMP.&quot; --></label>
+        <name>sf_devops__commitFailedByUser</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Commit Initiated&quot;. --></label>
+        <name>sf_devops__commitInitiated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Commited TIMESTAMP by USER&quot; --></label>
+        <name>sf_devops__committedByUser</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Committing&quot; --></label>
+        <name>sf_devops__committing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if a concluded work item is promoted --></label>
+        <name>sf_devops__concludedPromotionNotAllowedError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Confirm quick deploy dialog accept button label --></label>
+        <name>sf_devops__confirmQuickDeployDialogAcceptButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Confirm quick deploy dialog content --></label>
+        <name>sf_devops__confirmQuickDeployDialogContent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-description text for the Quick Deploy confirmation Dialog. --></label>
+        <name>sf_devops__confirmQuickDeployDialogDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Confirm quick deploy dialog title --></label>
+        <name>sf_devops__confirmQuickDeployDialogHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description for the conflicts table section when there are rebase errors. --></label>
+        <name>sf_devops__conflictsTableDescriptionForPromotionBlocked</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description for the conflicts table section when there are overlap components. --></label>
+        <name>sf_devops__conflictsTableDescriptionForSharedComponents</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Name of the first column of the conflicts table. --></label>
+        <name>sf_devops__conflictsTableFirstColumn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Name of the second column of the conflicts table. --></label>
+        <name>sf_devops__conflictsTableSecondColumn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The title for the conflicts table section when there are rebase errors. --></label>
+        <name>sf_devops__conflictsTableTitleForPromotionBlocked</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The title for the conflicts table section when there are overlap components. --></label>
+        <name>sf_devops__conflictsTableTitleForSharedComponents</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for Connect button click details. --></label>
+        <name>sf_devops__connectDetail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button label to connect an environment --></label>
+        <name>sf_devops__connectEnvironmentButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- First option to connect a dev environment to a work item. --></label>
+        <name>sf_devops__connectEnvironmentOption</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The title for the options --></label>
+        <name>sf_devops__connectEnvironmentTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Add Release Environment&quot;. --></label>
+        <name>sf_devops__connectReleaseTarget</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remedy to conact support --></label>
+        <name>sf_devops__contactSupportRemedy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if an environment contains in progress work items --></label>
+        <name>sf_devops__containsInProgressWorkItems</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Continue with Promotion&quot;. --></label>
+        <name>sf_devops__continuePromotion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Environment label when we are creating a branch --></label>
+        <name>sf_devops__createBranchLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Create Change Request button label --></label>
+        <name>sf_devops__createChangeRequest</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When we get a request to create a dev env in production. --></label>
+        <name>sf_devops__createProdDevEnvError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for the Create Review Blocked tooltip --></label>
+        <name>sf_devops__createReviewDisabled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message after a branch has been created --></label>
+        <name>sf_devops__createdBranch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Custom&quot;. --></label>
+        <name>sf_devops__custom</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Date&quot;. --></label>
+        <name>sf_devops__date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Date Created&quot;. --></label>
+        <name>sf_devops__dateCreated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Date Range&quot;. --></label>
+        <name>sf_devops__dateRange</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Deactivate&quot;. --></label>
+        <name>sf_devops__deactivate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default behaviour for test execution. --></label>
+        <name>sf_devops__defaultOption</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;The promotion failed&quot;. --></label>
+        <name>sf_devops__defaultPromoteFailedText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Define all environments first.&quot;. --></label>
+        <name>sf_devops__defineEnvironments</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- &quot;Environments needs setup column value in the project list view. --></label>
+        <name>sf_devops__defineRelease</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button to deploy all on failed stage swap --></label>
+        <name>sf_devops__deployAllMetadata</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we try to set completed date without Deployment Id. --></label>
+        <name>sf_devops__deploymentResultCompletedError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Source Control Branch&quot;. --></label>
+        <name>sf_devops__destination</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Details&quot;. --></label>
+        <name>sf_devops__details</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel button for the Dev Env out of sync connection --></label>
+        <name>sf_devops__devEnvOutOfSyncDialogCancelButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Content for the Dev Env out of sync connection --></label>
+        <name>sf_devops__devEnvOutOfSyncDialogContent1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Content for the Dev Env out of sync connection --></label>
+        <name>sf_devops__devEnvOutOfSyncDialogContent2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-description text for &quot;Has operation in progress Dialog&quot;. --></label>
+        <name>sf_devops__devEnvOutOfSyncDialogDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Confirmation button for the Dev Env out of sync connection --></label>
+        <name>sf_devops__devEnvOutOfSyncDialogOkButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for the Dev Env out of sync connection --></label>
+        <name>sf_devops__devEnvOutOfSyncDialogTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI page header text for &quot;DevOps Center&quot;. --></label>
+        <name>sf_devops__devOpsCenter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Global header text for &quot;DevOps Center&quot;. --></label>
+        <name>sf_devops__devOpsCenterGlobalHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Development Environments&quot;. --></label>
+        <name>sf_devops__developmentEnvironments</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for Development Role label. --></label>
+        <name>sf_devops__developmentRole</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for Development Role details. --></label>
+        <name>sf_devops__developmentRoleDetail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when a stage wants to create a branch with a name that is not allowed. --></label>
+        <name>sf_devops__disallowedBranchName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;disconnect button&quot;. --></label>
+        <name>sf_devops__disconnect</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Component Type&quot;. --></label>
+        <name>sf_devops__displayComponentOfType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Displaying&quot;. --></label>
+        <name>sf_devops__displaying</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header for list views --></label>
+        <name>sf_devops__displayingCount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for prompt disabling option --></label>
+        <name>sf_devops__doNotShow</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if attempted to create a change bundle with a version that already exists --></label>
+        <name>sf_devops__duplicateChangeBundleVersion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for duplicate stage name error --></label>
+        <name>sf_devops__duplicateStageName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When a project name is already in use --></label>
+        <name>sf_devops__duplicatedProjectName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Edit&quot;. --></label>
+        <name>sf_devops__edit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline button label to edit branch options --></label>
+        <name>sf_devops__editBranch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Displayed below empty image on a stage with bundles --></label>
+        <name>sf_devops__emptyBundleStage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Displayed below empty image on a stage with changes --></label>
+        <name>sf_devops__emptyChangeStage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;No Environment ID available&quot;. --></label>
+        <name>sf_devops__emptyEnvironmentId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- null label for a filter. --></label>
+        <name>sf_devops__emptyFilterLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Metadata object list is empty&quot;. --></label>
+        <name>sf_devops__emptyMetadata</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When a project name is empty --></label>
+        <name>sf_devops__emptyProjectName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for an empty stage name error. --></label>
+        <name>sf_devops__emptyStageName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;End Date&quot;. --></label>
+        <name>sf_devops__endDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Enter a comment&quot; placeholder. --></label>
+        <name>sf_devops__enterAComment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Enter File Name&quot; --></label>
+        <name>sf_devops__enterFileName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Environment&quot;. --></label>
+        <name>sf_devops__environment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when an environment already exists within the DevOps Center. --></label>
+        <name>sf_devops__environmentAlreadyExists</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When we try to change an Environment__c and the Work Item has committed changes. --></label>
+        <name>sf_devops__environmentChangeNotAllowed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Created new Environment&quot;. --></label>
+        <name>sf_devops__environmentCreated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Environment Name&quot;. --></label>
+        <name>sf_devops__environmentName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for the environment name input placeholder. --></label>
+        <name>sf_devops__environmentNamePlaceholder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when an environment Name already exists within the DevOps Center. --></label>
+        <name>sf_devops__environmentNameUnique</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Displayed when 2 stages reference the same environment --></label>
+        <name>sf_devops__environmentNotUnique</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When we try to remove an Environment__c from a promoted Work Item. --></label>
+        <name>sf_devops__environmentRemoveNotAllowed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Removed Environment&quot;. --></label>
+        <name>sf_devops__environmentRemoved</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when we try and create an Environment__c without a name --></label>
+        <name>sf_devops__environmentRequiresNameError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for asking what is the role of an environment. --></label>
+        <name>sf_devops__environmentRole</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when we flag an prod env as having source tracking --></label>
+        <name>sf_devops__environmentSourceTestOnlyError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Environments&quot;. --></label>
+        <name>sf_devops__environments</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message when we have a duplicate environment name in another project --></label>
+        <name>sf_devops__environmentsDuplicateGlobalNameError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message when we have a duplicate environment name in this project --></label>
+        <name>sf_devops__environmentsDuplicateLocalNameError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Common remedy before initalizeCreateEnvironment --></label>
+        <name>sf_devops__environmentsReloadPageRemedy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Error Details&quot; --></label>
+        <name>sf_devops__errorDetails</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Exclude&quot;. --></label>
+        <name>sf_devops__exclude</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Exclude Files&quot;. --></label>
+        <name>sf_devops__excludeFiles</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Exclude Files Details&quot;. --></label>
+        <name>sf_devops__excludeFilesDetails</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Exclude each selected file&quot;. --></label>
+        <name>sf_devops__excludeTooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Environment label when we are using an existing branch --></label>
+        <name>sf_devops__existingBranchLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when a stage wants to create a branch that already exists. --></label>
+        <name>sf_devops__existingBranchName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description for the existing branch radio option. --></label>
+        <name>sf_devops__existingBranchRadioDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Expire environment&quot;. --></label>
+        <name>sf_devops__expireEnvironment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Expire Environment Dialog content --></label>
+        <name>sf_devops__expireEnvironmentContent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Expire environment header&quot;. --></label>
+        <name>sf_devops__expireEnvironmentHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-description text for &quot;Expire environment Dialog&quot;. --></label>
+        <name>sf_devops__expireEnvironmentModalDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Explanatory text for promotions dialog adhoc case&quot;. --></label>
+        <name>sf_devops__explanatoryTextAdhoc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Explanatory text for promotions dialog soup case&quot;. --></label>
+        <name>sf_devops__explanatoryTextSoup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Explanatory text for promotions dialog versioned case&quot;. --></label>
+        <name>sf_devops__explanatoryTextVersioned</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message for success toast in external commit --></label>
+        <name>sf_devops__externalCommitFailureToastMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Operation for external commit --></label>
+        <name>sf_devops__externalCommitOperationMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message for success toast in external commit --></label>
+        <name>sf_devops__externalCommitSuccessToastMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The first suggestion when a external commit fails. --></label>
+        <name>sf_devops__externalCommitSuggestion1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The second suggestion when a external commit fails. --></label>
+        <name>sf_devops__externalCommitSuggestion2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The what happened when a external commit fails. --></label>
+        <name>sf_devops__externalCommitWhatHappened</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;External commits with no env connected&quot;. --></label>
+        <name>sf_devops__externalCommitsMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when an ObjectActivity has an extra field --></label>
+        <name>sf_devops__extraActivityTypeField</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when we have a failed stage swap --></label>
+        <name>sf_devops__failedStageSwapMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when selecting a cross-object fieldsset is not allowed and attempted. --></label>
+        <name>sf_devops__fflib_QueryFactory_crossobject_fieldsets_not_allowed_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when selecting a field set for a different sobject type. --></label>
+        <name>sf_devops__fflib_QueryFactory_fieldset_wrong_sobject_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Presented when attempting to nest subqueries. --></label>
+        <name>sf_devops__fflib_QueryFactory_recursive_subquery_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Presented when attempting to create a subquery from an invalid relationship. --></label>
+        <name>sf_devops__fflib_QueryFactory_subquery_invalid_relationship</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_insertable --></label>
+        <name>sf_devops__fflib_security_error_field_not_insertable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_readable --></label>
+        <name>sf_devops__fflib_security_error_field_not_readable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_updateable --></label>
+        <name>sf_devops__fflib_security_error_field_not_updateable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_deletable --></label>
+        <name>sf_devops__fflib_security_error_object_not_deletable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_insertable --></label>
+        <name>sf_devops__fflib_security_error_object_not_insertable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_readable --></label>
+        <name>sf_devops__fflib_security_error_object_not_readable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_updateable --></label>
+        <name>sf_devops__fflib_security_error_object_not_updateable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;File&quot;. --></label>
+        <name>sf_devops__file</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header for 1 file available to pull. --></label>
+        <name>sf_devops__fileAvailable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;file pulled&quot;. --></label>
+        <name>sf_devops__fileFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;File Name&quot;. --></label>
+        <name>sf_devops__fileName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- App UI text for Ignored Files Dialog when more than 1 file are concerned. --></label>
+        <name>sf_devops__filePlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- App UI text for Ignored Files Dialog when only 1 file is concerned. --></label>
+        <name>sf_devops__fileSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Files&quot;. --></label>
+        <name>sf_devops__files</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header for number of files available to pull. --></label>
+        <name>sf_devops__filesAvailable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;files pulled&quot;. --></label>
+        <name>sf_devops__filesFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Displayed in a failed commit object activity --></label>
+        <name>sf_devops__filesNotCommitted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Displayed in a promotion object activity --></label>
+        <name>sf_devops__filesNotPromotedLinkPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Displayed in a promotion object activity --></label>
+        <name>sf_devops__filesNotPromotedLinkSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Displayed in a promotion object activity --></label>
+        <name>sf_devops__filesNotPromotedTextPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Displayed in a promotion object activity --></label>
+        <name>sf_devops__filesNotPromotedTextSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Filters&quot;. --></label>
+        <name>sf_devops__filters</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when the first stage of a pipeline is versioned --></label>
+        <name>sf_devops__firstStageVersionedError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title of the no pipeline dialog. --></label>
+        <name>sf_devops__firstThingsFirst</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when we cannot determine if a full deploy is allowed. --></label>
+        <name>sf_devops__fullDeployNoSession</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when an environment has unpulled changes and a full deploy is requested. --></label>
+        <name>sf_devops__fullDeployUnpulled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Full synchronization --></label>
+        <name>sf_devops__fullOption</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;General&quot;. --></label>
+        <name>sf_devops__general</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-description text for the &quot;Generic Error Dialog&quot;. --></label>
+        <name>sf_devops__genericErrorDialogDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Common sentence of help text during a promotion failure. --></label>
+        <name>sf_devops__genericMergeHelpText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if an environment has active work items when trying to expire --></label>
+        <name>sf_devops__hasActiveWorkItems</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if an environment has an operation in progress --></label>
+        <name>sf_devops__hasOperationInProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Help&quot;. --></label>
+        <name>sf_devops__help</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Home&quot;. --></label>
+        <name>sf_devops__home</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Capitalized &quot;ID&quot;, for general UI usage. --></label>
+        <name>sf_devops__id</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- App UI text for Not a Collaborator Dialog first line of Content. --></label>
+        <name>sf_devops__ignoredFilesContent1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- App UI text for the first line of Content (forceignore link). --></label>
+        <name>sf_devops__ignoredFilesContent2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- App UI text for link to Ignored Files Dialog plural --></label>
+        <name>sf_devops__ignoredFilesLinkPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- App UI text for link to Ignored Files Dialog singular --></label>
+        <name>sf_devops__ignoredFilesLinkSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for Ignored Files Dialog. --></label>
+        <name>sf_devops__ignoredFilesTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Check Deploy warning when trying normal promotion. --></label>
+        <name>sf_devops__ignoringCheckDeployWarning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header in a environment while is in progress. --></label>
+        <name>sf_devops__inProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default label for the in progress state. --></label>
+        <name>sf_devops__inProgressStateLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default label for the in review state. --></label>
+        <name>sf_devops__inReviewStateLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if a promotion is attempted on an inactive pipeline --></label>
+        <name>sf_devops__inactivePipelinePromoteError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When an inactive pipeline has work items promoted to it. --></label>
+        <name>sf_devops__inactivePipelineWithWorkItems</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Include&quot;. --></label>
+        <name>sf_devops__include</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Include Files&quot;. --></label>
+        <name>sf_devops__includeFiles</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Include this file...&quot;. --></label>
+        <name>sf_devops__includeTooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Work item status for more than 2 work items getting incorporated. --></label>
+        <name>sf_devops__incorporatingMultiInProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Work item status for 1 work item getting incorporated. --></label>
+        <name>sf_devops__incorporatingOneInProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Work item status for 2 work items getting incorporated. --></label>
+        <name>sf_devops__incorporatingTwoInProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if an initial versioned promotion is attempted on a released work item --></label>
+        <name>sf_devops__initialVersionedPromotionNotAllowedError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UI text for the details of the &quot;insufficient permissions&quot; error. --></label>
+        <name>sf_devops__insufficientPermissionsErrorDetail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UI text for the suggestion of the &quot;insufficient permissions&quot; error. --></label>
+        <name>sf_devops__insufficientPermissionsErrorSuggestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UI text for the title of the &quot;insufficient permissions&quot; error. --></label>
+        <name>sf_devops__insufficientPermissionsErrorTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default name used when we create the integration stage. --></label>
+        <name>sf_devops__integrationStageName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for an internal error --></label>
+        <name>sf_devops__internalError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for an invalid activity type. --></label>
+        <name>sf_devops__invalidActivityType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when a Rest request has an invalid API version --></label>
+        <name>sf_devops__invalidApiVersion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when a Rest request body has invalid data type --></label>
+        <name>sf_devops__invalidDataType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if a quick deploy is attempted with an invalid deployment id --></label>
+        <name>sf_devops__invalidDeploymentId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for an invalid environment id. --></label>
+        <name>sf_devops__invalidEnvironmentId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for an invalid pipeline id. --></label>
+        <name>sf_devops__invalidPipelineId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for an invalid pipeline stage id. --></label>
+        <name>sf_devops__invalidPipelineStageId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for an invalid project id. --></label>
+        <name>sf_devops__invalidProjectId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for an invalid remote response. --></label>
+        <name>sf_devops__invalidRemoteResponse</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for an invalid work item id. --></label>
+        <name>sf_devops__invalidWorkItemId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for an invalid work item id for a project. --></label>
+        <name>sf_devops__invalidWorkItemIdForProject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when a Rest promotion request indicates unapproved work items --></label>
+        <name>sf_devops__invalidWorkItemSelected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if an environment has an operation in progress --></label>
+        <name>sf_devops__isOperationInProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for asking what is the kind of an environment. --></label>
+        <name>sf_devops__kindOfEnvironment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Last Modified By&quot;. --></label>
+        <name>sf_devops__lastModifiedBy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Last Modified Date&quot;. --></label>
+        <name>sf_devops__lastModifiedDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Last Month&quot;. --></label>
+        <name>sf_devops__lastMonth</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Stage header in an Ad Hoc only pipeline --></label>
+        <name>sf_devops__lastPromoted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Last Week&quot;. --></label>
+        <name>sf_devops__lastWeek</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Last Year&quot;. --></label>
+        <name>sf_devops__lastYear</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Launch Dev Environment&quot;. --></label>
+        <name>sf_devops__launchDevEnvironment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Status when the pipeline is loading. --></label>
+        <name>sf_devops__loading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Run local tests during promotion. --></label>
+        <name>sf_devops__localOption</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Log Out&quot; --></label>
+        <name>sf_devops__logout</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Mark as Current Stage&quot;. --></label>
+        <name>sf_devops__markCurrentStage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Mark Status as Complete&quot;. --></label>
+        <name>sf_devops__markStatusComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Details for a potential merge conflict when there are 2 work items. --></label>
+        <name>sf_devops__mergeConflictDoubleDetail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Details for a potential merge conflict when there are more than 2 work items. --></label>
+        <name>sf_devops__mergeConflictMultiDetail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Introduction in the merge conflict details dialog. --></label>
+        <name>sf_devops__mergeConflictPreamble</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggestion for a potential merge conflict. --></label>
+        <name>sf_devops__mergeConflictSuggestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggestion for a potential merge conflict. --></label>
+        <name>sf_devops__mergeConflictSuggestion1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggestion for a potential merge conflict. --></label>
+        <name>sf_devops__mergeConflictSuggestion2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggestion for a potential merge conflict. --></label>
+        <name>sf_devops__mergeConflictSuggestion3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggestion for a potential merge conflict. --></label>
+        <name>sf_devops__mergeConflictSuggestion4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title of the merged externally popover --></label>
+        <name>sf_devops__mergedExternally</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Metadata Type&quot;. --></label>
+        <name>sf_devops__metadataType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Splash screen sub title when we are migrating --></label>
+        <name>sf_devops__migrationInProgressSubTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Splash screen title when we are migrating --></label>
+        <name>sf_devops__migrationInProgressTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when an ObjectActivity is missing a field --></label>
+        <name>sf_devops__missingActivityTypeField</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we could not find any change bundles to deploy --></label>
+        <name>sf_devops__missingBundlesToDeploy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we could not find any change bundles to promote --></label>
+        <name>sf_devops__missingBundlesToPromote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when a Rest soup promotion request is missing the change bundle name --></label>
+        <name>sf_devops__missingChangeBundleName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we could not find the CR associated with a work item --></label>
+        <name>sf_devops__missingChangeRequestForWorkItem</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we could not find any change submission to reinspect --></label>
+        <name>sf_devops__missingCommitsToInspect</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we could not find the env associated with a work item --></label>
+        <name>sf_devops__missingEnvironmentForWorkItem</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when the user doesn&apos;t have a session in an environment --></label>
+        <name>sf_devops__missingEnvironmentSession</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we could not find the pipeline --></label>
+        <name>sf_devops__missingPipeline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we could not find the pipeline associated with a project --></label>
+        <name>sf_devops__missingPipelineForProject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When the user doesn&apos;t have the permission to create backend promotion data --></label>
+        <name>sf_devops__missingReleaseManagerPermset</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we could not find the repository associated with a change request --></label>
+        <name>sf_devops__missingRepositoryForChangeRequest</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when a Rest request is missing a required value --></label>
+        <name>sf_devops__missingRequiredValue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when a URL endpoint is missing required values --></label>
+        <name>sf_devops__missingRequiredValuesOnURL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when a stage does not have a branch name --></label>
+        <name>sf_devops__missingStageBranchName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when a stage does not have an environment --></label>
+        <name>sf_devops__missingStageEnvironment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we could not find the stage associated with a pipeline --></label>
+        <name>sf_devops__missingStageForPipeline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when the user doesn&apos;t have a session in the VCS --></label>
+        <name>sf_devops__missingVcsSession</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we could not find any work item to deploy --></label>
+        <name>sf_devops__missingWorkItemsToDeploy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we could not find any work item to promote --></label>
+        <name>sf_devops__missingWorkItemsToPromote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The modal description. --></label>
+        <name>sf_devops__modalDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Modified On&quot;. --></label>
+        <name>sf_devops__modifiedOn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we try to update name of a branch that is on an activated Pipeline --></label>
+        <name>sf_devops__modifyBranchNameNotAllowed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Promote Conflict button label to move to review --></label>
+        <name>sf_devops__moveToInReview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if an adhoc promotion is attempted on work items from different projects --></label>
+        <name>sf_devops__multiProjectPromotionNotAllowedError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if a promotion is attempted on work items from different stages --></label>
+        <name>sf_devops__multiStagePromotionNotAllowedError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Name&quot;. --></label>
+        <name>sf_devops__name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if an enviroment references an unknown Named Credential --></label>
+        <name>sf_devops__namedCredentialMissingError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if an enviroment requires a Named Credential --></label>
+        <name>sf_devops__namedCredentialRequiredError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Content of the no pipeline dialog. --></label>
+        <name>sf_devops__needPipelineDialogContent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Menu label for nevering a work item --></label>
+        <name>sf_devops__neverWorkItemMenuLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default label for the nevered state. --></label>
+        <name>sf_devops__neveredStateLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Branch placeholder text. --></label>
+        <name>sf_devops__newBranchPlaceHolder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description for the new branch radio option. --></label>
+        <name>sf_devops__newBranchRadioDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;New changes&quot;. --></label>
+        <name>sf_devops__newChanges</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for adding new environment. --></label>
+        <name>sf_devops__newEnvironmentDialogOkButtonTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;New Project&quot;. --></label>
+        <name>sf_devops__newProject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Radio button label to create a new repo when we create the project. --></label>
+        <name>sf_devops__newProjectCreateRepo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field Label for the description on the new project dialog. --></label>
+        <name>sf_devops__newProjectDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-Description text for &quot;New Project&quot; dialog. --></label>
+        <name>sf_devops__newProjectDialogDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message when we have a duplicate project name --></label>
+        <name>sf_devops__newProjectDuplicateProjectNameError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Radio button label to use an existing repository when we create a new project. --></label>
+        <name>sf_devops__newProjectExistingRepo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field label for name in the new project dialog. --></label>
+        <name>sf_devops__newProjectName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field label for the help text in the new project dialog. --></label>
+        <name>sf_devops__newProjectNameHelp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- First part of the description for the repository inputs. --></label>
+        <name>sf_devops__newProjectRepoDetails1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Second part of the description for the repository inputs. --></label>
+        <name>sf_devops__newProjectRepoDetails2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Link text in the repository input details. --></label>
+        <name>sf_devops__newProjectRepoDetailsLinkTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help about the new repo URL. --></label>
+        <name>sf_devops__newProjectRepoHelp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field label for repository name. --></label>
+        <name>sf_devops__newProjectRepoName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- placeholder text for repository name. --></label>
+        <name>sf_devops__newProjectRepoNameHelp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field label for repository name. --></label>
+        <name>sf_devops__newProjectRepoNameInvalid</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- placeholder text for repository name. --></label>
+        <name>sf_devops__newProjectRepoNamePlaceholder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field error when the repository name is missing. --></label>
+        <name>sf_devops__newProjectRepoNameRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field label for repository owner. --></label>
+        <name>sf_devops__newProjectRepoOwner</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Bubble help for repository owner. --></label>
+        <name>sf_devops__newProjectRepoOwnerHelp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field error when the repository owner is missing. --></label>
+        <name>sf_devops__newProjectRepoOwnerRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field error when the repository owner is missing. --></label>
+        <name>sf_devops__newProjectRepoUrlRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for the new project dialog --></label>
+        <name>sf_devops__newProjectTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Name when a stage is added to the pipeline. --></label>
+        <name>sf_devops__newStageName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default label for the new state. --></label>
+        <name>sf_devops__newStateLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;New Work Item&quot;. --></label>
+        <name>sf_devops__newWorkItem</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-Description text for &quot;New Work Item&quot; dialog. --></label>
+        <name>sf_devops__newWorkItemDialogDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- default next button in the wizard --></label>
+        <name>sf_devops__nextButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pipeline Environment label when the next stage does not have a branch --></label>
+        <name>sf_devops__nextStageNeedsBranchLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if a promotion is attempted and there are no further stages --></label>
+        <name>sf_devops__nextStageNotFoundError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Test when there are no activities to display --></label>
+        <name>sf_devops__noActivities</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text that indicates that the does not have bundling stage. --></label>
+        <name>sf_devops__noBundlingStage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message for back sync completed activity --></label>
+        <name>sf_devops__noDataToDisplayBackSyncComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message for back sync started activity --></label>
+        <name>sf_devops__noDataToDisplayBackSyncInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message for nevered work item activity --></label>
+        <name>sf_devops__noDataToDisplayNeveredWorkItem</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message for swap completed activity --></label>
+        <name>sf_devops__noDataToDisplaySwapComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;No description provided&quot;. --></label>
+        <name>sf_devops__noDescriptionProvided</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;No environment connected&quot;. --></label>
+        <name>sf_devops__noEnvConnected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Second option to work with an unconnected work item. --></label>
+        <name>sf_devops__noEnvironmentOption</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cell content when there is no environments --></label>
+        <name>sf_devops__noEnvironmentsDefined</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;No Pulled Changes&quot;. --></label>
+        <name>sf_devops__noNewChanges</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cell content when there is no pipeline --></label>
+        <name>sf_devops__noPipelineDefined</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-description text for the No Pipeline Dialog. --></label>
+        <name>sf_devops__noPipelineModalDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DevOps Center preference not enabled body --></label>
+        <name>sf_devops__noPreferenceBody</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DevOps Center preference not enabled title --></label>
+        <name>sf_devops__noPreferenceTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Content for the no projects graphic --></label>
+        <name>sf_devops__noProjectsContent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for the no projects graphic --></label>
+        <name>sf_devops__noProjectsTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text when we cannot determine unpulled changes. --></label>
+        <name>sf_devops__noPullSession</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Link text when we cannot determine unpulled changes. --></label>
+        <name>sf_devops__noPullSessionLink</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cell content when there is no target --></label>
+        <name>sf_devops__noReleaseDefined</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error header when you try and add a dev w/o source tracking --></label>
+        <name>sf_devops__noSourceTrackingErrorHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message when you try and add a dev w/o source tracking --></label>
+        <name>sf_devops__noSourceTrackingErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text when there are no work items to display --></label>
+        <name>sf_devops__noWorkItems</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when a stage wants to use a branch that does not exists. --></label>
+        <name>sf_devops__nonExistingBranchName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for Not a Collaborator Dialog action button. --></label>
+        <name>sf_devops__notACollaboratorActionButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for Not a Collaborator Dialog first line of Content. --></label>
+        <name>sf_devops__notACollaboratorContent1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for Not a Collaborator Dialog second line of Content. --></label>
+        <name>sf_devops__notACollaboratorContent2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-description text for Not a Collaborator Dialog. --></label>
+        <name>sf_devops__notACollaboratorModalDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header for not a collaborator dialog. --></label>
+        <name>sf_devops__notACollaboratorTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Not being authenticated&quot;. --></label>
+        <name>sf_devops__notAuthenticated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we tried to use a named credential that was not authenticated --></label>
+        <name>sf_devops__notAuthenticatedError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Line 2 when the user is logged into the wrong host. --></label>
+        <name>sf_devops__notAuthenticatedSessionExpectedError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Added to notAuthenticated errors when org Ids differ --></label>
+        <name>sf_devops__notAuthenticatedSessionOrgDiffAddOn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Line 1 when the user is logged into the wrong host. --></label>
+        <name>sf_devops__notAuthenticatedSessionSessionError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Not Available&quot;. --></label>
+        <name>sf_devops__notAvailable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Not connected&quot;. --></label>
+        <name>sf_devops__notConnected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Not defined&quot;. --></label>
+        <name>sf_devops__notDefined</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Not in sync Development Environments&quot;. --></label>
+        <name>sf_devops__notInSync</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Status when the pipeline is not ready to be activated. --></label>
+        <name>sf_devops__notReady</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when a Rest request body is null or empty --></label>
+        <name>sf_devops__nullOrEmptyRequestBody</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;of&quot;. --></label>
+        <name>sf_devops__of</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;ok&quot;. --></label>
+        <name>sf_devops__ok</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When more then one pipeline is associated with a project. --></label>
+        <name>sf_devops__onePipelinePerProject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When there is more then one start stage per pipeline. --></label>
+        <name>sf_devops__oneStartPerPipeline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Open&quot;. --></label>
+        <name>sf_devops__open</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Stage menu item to open an environment --></label>
+        <name>sf_devops__openEnvironment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tooltip on review buttons. --></label>
+        <name>sf_devops__openOrg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Operation&quot;. --></label>
+        <name>sf_devops__operation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header for blocking operation dialog --></label>
+        <name>sf_devops__operationInProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-description text for &quot;Has Operation In Progress Dialog&quot;. --></label>
+        <name>sf_devops__operationInProgressModalDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if an operation is performed on an environment and its not allowed --></label>
+        <name>sf_devops__operationOnEnvironmentNotAllowedError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if an operation is performed on a stage and its not allowed --></label>
+        <name>sf_devops__operationOnStageNotAllowedError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Test when a rebase is initially queued. --></label>
+        <name>sf_devops__operationQueued</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description of the Out of Sync reason for adhoc case --></label>
+        <name>sf_devops__outOfSyncAdhoc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button name to trigger update environment. --></label>
+        <name>sf_devops__outOfSyncButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description of the Out of Sync reason for soup case --></label>
+        <name>sf_devops__outOfSyncSoup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for the out of sync box. --></label>
+        <name>sf_devops__outOfSyncTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description of the Out of Sync reason for versioned case --></label>
+        <name>sf_devops__outOfSyncVersioned</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Owner&quot;. --></label>
+        <name>sf_devops__owner</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Details for a potential partial deploy conflict. --></label>
+        <name>sf_devops__partialDeployConflictDetail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Introduction on the partial deploy dialog. --></label>
+        <name>sf_devops__partialDeployConflictPreamble</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggestion for a potential partial deploy conflict. --></label>
+        <name>sf_devops__partialDeployConflictSuggestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partial synchronization for dev envs --></label>
+        <name>sf_devops__partialOptionBackSync</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partial synchronization --></label>
+        <name>sf_devops__partialOptionPromotion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partial synchronization for stage envs --></label>
+        <name>sf_devops__partialOptionStageSync</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Partial promote&quot;. --></label>
+        <name>sf_devops__partialPromote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Past Commits&quot;. --></label>
+        <name>sf_devops__pastCommits</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The word Pipeline. --></label>
+        <name>sf_devops__pipeline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error text for pipeline activation fails bc missing SFDX pkgdirs --></label>
+        <name>sf_devops__pipelineActReqSfdxPkgDir</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- App UI text when the dialog is opened from the Pipeline. --></label>
+        <name>sf_devops__pipelineContent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When there is more then one stage but no start. --></label>
+        <name>sf_devops__pipelineCycleNotAllowed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When there are no stages on an active pipeline. --></label>
+        <name>sf_devops__pipelineRequiresOneStage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for Pipeline Role label. --></label>
+        <name>sf_devops__pipelineRole</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The pipeline status column header. --></label>
+        <name>sf_devops__pipelineStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The details of the pipeline status. --></label>
+        <name>sf_devops__pipelineStatusDetail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when synching a pipeline stage&quot;. --></label>
+        <name>sf_devops__pipelineSynchronizingInProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header telling that there is a potential conflict detected. --></label>
+        <name>sf_devops__potentialConflict</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description telling that there is a potential conflict detected. --></label>
+        <name>sf_devops__potentialConflictDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Close button dialog text --></label>
+        <name>sf_devops__prePromotionSynchClose</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title when we have pre promotion synch. --></label>
+        <name>sf_devops__prePromotionSynchTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- text explaining we have pre promotion synch. --></label>
+        <name>sf_devops__prePromotionSynchWhatHappened</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- pre promotion synch what happened header --></label>
+        <name>sf_devops__prePromotionSynchWhatHappenedHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Options when we have pre promotion synch. --></label>
+        <name>sf_devops__prePromotionSynchWhatToDo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- default previous button in the wizard --></label>
+        <name>sf_devops__previousButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Proceed&quot;. --></label>
+        <name>sf_devops__proceed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Production Org&quot;. --></label>
+        <name>sf_devops__productionOrg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default name used when we create the production stage. --></label>
+        <name>sf_devops__productionStageName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Project&quot;. --></label>
+        <name>sf_devops__project</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field Label for the description input. --></label>
+        <name>sf_devops__projectDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Project environments count for Dev and Pipeline --></label>
+        <name>sf_devops__projectEnvironments</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Project PROJECT_NAME has been created&quot;. --></label>
+        <name>sf_devops__projectHasBeenCreated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field Label for the name input. --></label>
+        <name>sf_devops__projectName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field Label for the Update button. --></label>
+        <name>sf_devops__projectUpdate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Projects&quot;. --></label>
+        <name>sf_devops__projects</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Promote label, for general use. --></label>
+        <name>sf_devops__promote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Promote button for a bundling stage --></label>
+        <name>sf_devops__promoteAsBundle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Promote button for a versioned stage --></label>
+        <name>sf_devops__promoteBundle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Promote button for versioned stages when promoting several bundles --></label>
+        <name>sf_devops__promoteBundles</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-description text for the Promote Conflicts Dialog. --></label>
+        <name>sf_devops__promoteConflictsModalDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header for the Promotion Options dialog. --></label>
+        <name>sf_devops__promoteOptionsTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AOR essage when a promote is enqueued --></label>
+        <name>sf_devops__promoteQueued</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Promote button for an adhoc stage --></label>
+        <name>sf_devops__promoteSelected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Promote Type title for deploy options. --></label>
+        <name>sf_devops__promoteTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Option to do a validation deploy --></label>
+        <name>sf_devops__promoteTypeCheckDeployOption</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Promotion Type information bubble text --></label>
+        <name>sf_devops__promoteTypeInfoBubbleText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Option to promote now --></label>
+        <name>sf_devops__promoteTypePromoteOption</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for when the user cannot change a promoted WI. --></label>
+        <name>sf_devops__promotedItemChanges</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default label for the promoted state. --></label>
+        <name>sf_devops__promotedStateLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header in a versioned pipeline stage while promoting. --></label>
+        <name>sf_devops__promoting</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header in a adhoc pipeline stage while promoting. --></label>
+        <name>sf_devops__promotingInto</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title of the promotion blocked popover. --></label>
+        <name>sf_devops__promotionBlocked</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The title for the combine WIs dialog when there are rebase errors. --></label>
+        <name>sf_devops__promotionBlockedTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- View change request text for a blocked CR. --></label>
+        <name>sf_devops__promotionBlockedViewChangeRequest</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- View change request text for a blocked CR (draft). --></label>
+        <name>sf_devops__promotionBlockedViewChangeRequestDraft</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- View change request text for a blocked CR (unknown). --></label>
+        <name>sf_devops__promotionBlockedViewChangeRequestUnknown</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Toast when a promotion fails. --></label>
+        <name>sf_devops__promotionFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When a work item cannot be marked ready to promote. --></label>
+        <name>sf_devops__promotionIsBlocked</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Toast when a promotion completes. --></label>
+        <name>sf_devops__promotionSuccessful</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Promotion Type options label --></label>
+        <name>sf_devops__promotionType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for the change request comment placeholder. --></label>
+        <name>sf_devops__provideComment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- &quot;Pull Changes&quot;, for general UI usage. --></label>
+        <name>sf_devops__pullChanges</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;quick deploy operations&quot;. --></label>
+        <name>sf_devops__quickDeployFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;quick deploy operations&quot;. --></label>
+        <name>sf_devops__quickDeployInProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if attempted a quick deploy on non versioned stages --></label>
+        <name>sf_devops__quickDeployNotAllowedError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;quick deploy operations&quot;. --></label>
+        <name>sf_devops__quickDeployStalled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;quick deploy operations&quot;. --></label>
+        <name>sf_devops__quickDeploySuccessful</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;quick deploy operations&quot;. --></label>
+        <name>sf_devops__quickDeployTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- &quot;Quick Find&quot;, for general UI usage. --></label>
+        <name>sf_devops__quickFind</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Status when the pipeline is ready to be activated. --></label>
+        <name>sf_devops__ready</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for the Ready to Promote button. --></label>
+        <name>sf_devops__readyToPromote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Banner when we have a rebase error. --></label>
+        <name>sf_devops__rebaseErrorBanner</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Banner when we have a rebase error and external merge. --></label>
+        <name>sf_devops__rebaseErrorBannerExternal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Banner when we have a rebase error and cant offer combine. --></label>
+        <name>sf_devops__rebaseErrorBannerNoExternalMerge</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Issue when there is a rebase error and external merge --></label>
+        <name>sf_devops__rebaseErrorIssueExternal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Issue when there is a rebase error and no external merge --></label>
+        <name>sf_devops__rebaseErrorIssueNoExternalMerge</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Issues when there are many rebase errors --></label>
+        <name>sf_devops__rebaseErrorIssuePlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Issue when there is one rebase error --></label>
+        <name>sf_devops__rebaseErrorIssueSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggestion to promote whole stage when dependency issues. --></label>
+        <name>sf_devops__rebaseErrorSuggestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggestion to complete promotion when dependency issues. --></label>
+        <name>sf_devops__rebaseErrorSuggestionExternal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggestion to promote whole stage when dependency issues. --></label>
+        <name>sf_devops__rebaseErrorSuggestionFullStage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggestion to complete promotion when dependency issues. --></label>
+        <name>sf_devops__rebaseErrorSuggestionNoExternalMerge</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggestion when there are many potentials --></label>
+        <name>sf_devops__rebaseErrorSuggestionPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggestion when there is one potential --></label>
+        <name>sf_devops__rebaseErrorSuggestionSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title when we have a rebase error. --></label>
+        <name>sf_devops__rebaseErrorTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error status message for the UI --></label>
+        <name>sf_devops__rebaseErroredStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when rebasing is going on. --></label>
+        <name>sf_devops__rebaseInProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- In progress status message for the UI --></label>
+        <name>sf_devops__rebaseInProgressStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The what happened text for a failed rebase activity. --></label>
+        <name>sf_devops__rebaseWhatHappened</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The what to do about it text for a failed rebase activity. --></label>
+        <name>sf_devops__rebaseWhatToDo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- &quot;Release target column header in the project list view. --></label>
+        <name>sf_devops__releaseTarget</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;reloading a page in error&quot;. --></label>
+        <name>sf_devops__reloadPageRemedy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remedy message to login again when environment creation fails --></label>
+        <name>sf_devops__reloginCreateEnvRemedy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Remove&quot;. --></label>
+        <name>sf_devops__remove</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when an inuse dev env is removed --></label>
+        <name>sf_devops__removeDevEnvError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Action for an environment removal --></label>
+        <name>sf_devops__removeEnvironment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Menu Item to remove a stage --></label>
+        <name>sf_devops__removeStage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Remove Work Environment?&quot;. --></label>
+        <name>sf_devops__removeWorkEnvironmentHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-description text for &quot;Remove Work Environment Dialog&quot;. --></label>
+        <name>sf_devops__removeWorkEnvironmentModalDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when a repository already exists on the VCS. --></label>
+        <name>sf_devops__repositoryAlreadyExists</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when a repository owner cannot be found in the VCS. --></label>
+        <name>sf_devops__repositoryOwnerDoesNotExists</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- &quot;Repository URL&quot;, for general UI usage. --></label>
+        <name>sf_devops__repositoryUrl</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we get an invalid request from LWC --></label>
+        <name>sf_devops__requestError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message for Project created with no Name --></label>
+        <name>sf_devops__requireProjName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when a stage is missing a branch name. --></label>
+        <name>sf_devops__requiresBranchName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when a stage is missing an environment. --></label>
+        <name>sf_devops__requiresEnvironment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when the preference is disabled in REST API --></label>
+        <name>sf_devops__restEndpointDisabled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when we failed to process an event --></label>
+        <name>sf_devops__restEventsError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when there are more events in REST API --></label>
+        <name>sf_devops__restEventsNotComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when the REST API gets an invalid testLevel --></label>
+        <name>sf_devops__restInvalidTestLevel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when we failed to process an event --></label>
+        <name>sf_devops__restSyncError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when there are more events in REST API --></label>
+        <name>sf_devops__restSyncNotComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Menu label for retryng commits on a work item --></label>
+        <name>sf_devops__retryCommitsMenuLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Run all Apex tests label. --></label>
+        <name>sf_devops__runAllTestsOption</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when the swapped env is the same as the source --></label>
+        <name>sf_devops__sameOrgIdError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Sandbox or Scratch Org&quot;. --></label>
+        <name>sf_devops__sandboxOrg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Save&quot;. --></label>
+        <name>sf_devops__save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Status when the pipeline is getting saved. --></label>
+        <name>sf_devops__saving</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- place holder for the activities seach box --></label>
+        <name>sf_devops__searchActivities</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- place holder for the work item seach box --></label>
+        <name>sf_devops__searchWorkItems</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Link in the pipeline warning popover --></label>
+        <name>sf_devops__seeErrors</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- First option for the existing branches dropdown. --></label>
+        <name>sf_devops__select</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Select&quot;. --></label>
+        <name>sf_devops__selectAnOption</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Select each file to return to the commit&quot;. --></label>
+        <name>sf_devops__selectFilesToReturn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Select...&quot; --></label>
+        <name>sf_devops__selectPlaceholder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-Description text for &quot;Session Error&quot; dialog. --></label>
+        <name>sf_devops__sessionErrorDialogDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Title for the Session Error Dialog --></label>
+        <name>sf_devops__sessionErrorDialogErrorTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Banner for an expired org --></label>
+        <name>sf_devops__sessionErrorDialogExpiredBanner</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error content for an expired org --></label>
+        <name>sf_devops__sessionErrorDialogExpiredContent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Log In Button Label for Session Error Dialog when there&apos;s no error --></label>
+        <name>sf_devops__sessionErrorDialogLogInAction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Log In Button Label for Session Error Dialog --></label>
+        <name>sf_devops__sessionErrorDialogLogInButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Environment Url text --></label>
+        <name>sf_devops__sessionErrorDialogNoErrorEnvUrl</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text to let user know actions to be taken --></label>
+        <name>sf_devops__sessionErrorDialogNoErrorPreamble</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title to display when the error dialog is reached without an error --></label>
+        <name>sf_devops__sessionErrorDialogNoErrorTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for the link to pipeline environments --></label>
+        <name>sf_devops__sessionErrorDialogPipelineEnvLink</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggestion question for the session error dialog --></label>
+        <name>sf_devops__sessionErrorDialogSuggestionQuestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text providing a suggestion for what to do when there is a session error --></label>
+        <name>sf_devops__sessionErrorDialogSuggestionText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Dialog Box Title For the Session Error Dialog --></label>
+        <name>sf_devops__sessionErrorDialogTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Banner for an unknown connection error --></label>
+        <name>sf_devops__sessionErrorDialogUnknownBanner</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error content for an unknown connection error --></label>
+        <name>sf_devops__sessionErrorDialogUnknownContent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Restrictive session settings that do not allow us to reach Heroku --></label>
+        <name>sf_devops__sessionSettingError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Settings&quot;. --></label>
+        <name>sf_devops__settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message for when the SFDX package directory is not found --></label>
+        <name>sf_devops__sfdxPkgDirNotFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The title for the combine WIs dialog when there are overlap components. --></label>
+        <name>sf_devops__sharedComponentsDetectedTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Menu Item to shift a stage to the left --></label>
+        <name>sf_devops__shiftStageLeft</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Menu Item to shift a stage to the right --></label>
+        <name>sf_devops__shiftStageRight</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Show all&quot;. --></label>
+        <name>sf_devops__showAll</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Banner when we have a potential slow events. --></label>
+        <name>sf_devops__slowEventsBanner</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title when we have a potential slow events. --></label>
+        <name>sf_devops__slowEventsTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- text explaining we have a potential slow events. --></label>
+        <name>sf_devops__slowEventsWhatHappened</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- slow events what happened header --></label>
+        <name>sf_devops__slowEventsWhatHappenedHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Options when we have slow events. --></label>
+        <name>sf_devops__slowEventsWhatToDo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Sorted by&quot;. --></label>
+        <name>sf_devops__sortedBy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- List View text for sorted by a field --></label>
+        <name>sf_devops__sortedByField</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Development Environment&quot;. --></label>
+        <name>sf_devops__source</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Dev Environment&quot;. --></label>
+        <name>sf_devops__sourceEnvironment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Run specific tests during promotion. --></label>
+        <name>sf_devops__specifiedOption</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Placeholder text for specified input. --></label>
+        <name>sf_devops__specifiedPlaceholder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Specify Branch...&quot;. --></label>
+        <name>sf_devops__specifyBranch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Stage&quot;. --></label>
+        <name>sf_devops__stage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when a pipeline transitions from versioned to adhoc --></label>
+        <name>sf_devops__stageAdhocTransitionError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title of a stages&apos;s CR --></label>
+        <name>sf_devops__stageCrTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title of a stages&apos;s CR --></label>
+        <name>sf_devops__stageCrTitleMultipleVersions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when a pipeline stage points to a dev environment --></label>
+        <name>sf_devops__stageDevEnvError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Stage Name&quot;. --></label>
+        <name>sf_devops__stageName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Displayed when 2 stages have the same name --></label>
+        <name>sf_devops__stageNameNotUnique</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when stage&apos;s do not have unique names in a pipeline --></label>
+        <name>sf_devops__stageNameUnique</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when we try and modify a Pipeline_Stage__c for an active pipeline --></label>
+        <name>sf_devops__stageNoModifyError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when we try and create an Pipeline_Stage__c without a name --></label>
+        <name>sf_devops__stageRequiresNameError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when a stage references a stage from a different pipeline --></label>
+        <name>sf_devops__stageSamePipeline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when a stage references an env from a different project --></label>
+        <name>sf_devops__stageSameProject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Toast when a pipeline stage sync fails. --></label>
+        <name>sf_devops__stageSyncFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Intro for the syncrhonization dialog for a pipeline env --></label>
+        <name>sf_devops__stageSyncIntro</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AOR message when we enqueue a pipeline stage sync --></label>
+        <name>sf_devops__stageSyncQueued</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Toast when a stage swap completes. --></label>
+        <name>sf_devops__stageSynchronizationSuccessful</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- &quot;Stages&quot;, for general UI usage. --></label>
+        <name>sf_devops__stages</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default name used when we create the staging stage. --></label>
+        <name>sf_devops__stagingStageName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shown when a commit times out --></label>
+        <name>sf_devops__stalledCommit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shown when a promotion times out --></label>
+        <name>sf_devops__stalledPromotion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Start Date&quot;. --></label>
+        <name>sf_devops__startDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Start sync label. --></label>
+        <name>sf_devops__startSync</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- &quot;Status&quot;, for general UI usage. --></label>
+        <name>sf_devops__status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- &quot;Subject&quot;, for general UI usage. --></label>
+        <name>sf_devops__subject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- &quot;Submit Changes&quot;, for general UI usage. --></label>
+        <name>sf_devops__submitChanges</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;submitted&quot;. --></label>
+        <name>sf_devops__submitted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Toast when a project is updated successfully. --></label>
+        <name>sf_devops__successfulUpdate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message for a dev environment swap toast --></label>
+        <name>sf_devops__swapDevEnvironmentToastMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when a dev env is swapped with a non-dev env (finalize) --></label>
+        <name>sf_devops__swapDevNoDevError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when a dev env is swapped with a non-dev env (finalize) --></label>
+        <name>sf_devops__swapDevStageError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Dialog title for a failed env swap --></label>
+        <name>sf_devops__swapDialogErrorTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Action for an environment swap --></label>
+        <name>sf_devops__swapEnvironment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text for the swap environment aggreement --></label>
+        <name>sf_devops__swapEnvironmentAgreement</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text for the first step of swap environment: aggreement --></label>
+        <name>sf_devops__swapEnvironmentAgreementStep</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Wizard next button to contine --></label>
+        <name>sf_devops__swapEnvironmentContinue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Wizard title for a dev env --></label>
+        <name>sf_devops__swapEnvironmentDevTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Wizard warning for a dev env --></label>
+        <name>sf_devops__swapEnvironmentDevWarning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Wizard bullet warning2 for dev envs --></label>
+        <name>sf_devops__swapEnvironmentDevWarning2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Wizard bullet warning3 for dev envs --></label>
+        <name>sf_devops__swapEnvironmentDevWarning3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Wizard bullet warning4 for dev envs --></label>
+        <name>sf_devops__swapEnvironmentDevWarning4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Wizard bullet warning5 for dev envs --></label>
+        <name>sf_devops__swapEnvironmentDevWarning5</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Wizard next button to login --></label>
+        <name>sf_devops__swapEnvironmentLogin</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text for the last step of swap environment: new environment --></label>
+        <name>sf_devops__swapEnvironmentNewEnvironmentStep</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Wizard warning we need source tracking --></label>
+        <name>sf_devops__swapEnvironmentRequireSourceTracking</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Wizard bullet warning1 for both cases --></label>
+        <name>sf_devops__swapEnvironmentSharedWarning1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Wizard title for a stage env --></label>
+        <name>sf_devops__swapEnvironmentStageTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Wizard title for a stage env --></label>
+        <name>sf_devops__swapEnvironmentStageWarning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Wizard bullet warning2 for stage env --></label>
+        <name>sf_devops__swapEnvironmentStageWarning2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Wizard bullet warning2 for stage env --></label>
+        <name>sf_devops__swapEnvironmentStageWarning3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header for an environment swap toast --></label>
+        <name>sf_devops__swapEnvironmentToastHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when a swap is attempted on a prod env --></label>
+        <name>sf_devops__swapProductionError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggestion message on a failed swap --></label>
+        <name>sf_devops__swapStageEnvironmentFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- What happened message on a failed swap pipeline environment. --></label>
+        <name>sf_devops__swapStageEnvironmentFailedWhatHappened</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when a swap is attempted to a prod env --></label>
+        <name>sf_devops__swapToProductionError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Sync&quot;. --></label>
+        <name>sf_devops__sync</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when the data model is out of sync with the UI --></label>
+        <name>sf_devops__syncError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header for the Promotion Options dialog. --></label>
+        <name>sf_devops__syncOptionsTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Toast when a synchronization completes. --></label>
+        <name>sf_devops__synchronizationSuccessful</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Synchronization Type title for deploy options. --></label>
+        <name>sf_devops__synchronizationTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when synching is going on&quot;. --></label>
+        <name>sf_devops__synchronizingInProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TestLevel is not needed for a quick deployments. --></label>
+        <name>sf_devops__testLevelNotNeeded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Test Options header. --></label>
+        <name>sf_devops__testOptions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Today&quot;. --></label>
+        <name>sf_devops__today</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tool tip when shown for a back sync --></label>
+        <name>sf_devops__toolTipBackSync</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tool tip when shown for a stage sync --></label>
+        <name>sf_devops__toolTipStageSync</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Type&quot;. --></label>
+        <name>sf_devops__type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Search Name...&quot; --></label>
+        <name>sf_devops__typeToFilter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default name used when we create the uat stage. --></label>
+        <name>sf_devops__uatStageName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Unable to back sync dialog content&quot;. --></label>
+        <name>sf_devops__unableToBackSyncContent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Unable to back sync dialog header&quot;. --></label>
+        <name>sf_devops__unableToBackSyncHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-description text for &quot;Unable to Back Sync Dialog&quot;. --></label>
+        <name>sf_devops__unableToBackSyncModalDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Unable to connect dialog header&quot;. --></label>
+        <name>sf_devops__unableToConnectHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when we are unable to rebasing. --></label>
+        <name>sf_devops__unableToRebase</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when a Rest promotion request indicates unapproved work items --></label>
+        <name>sf_devops__unapprovedWorkItemSelected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Warning text on an undeployed version. --></label>
+        <name>sf_devops__undeployedVersionWarning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Warning text on an undeployed work item. --></label>
+        <name>sf_devops__undeployedWorkItemWarning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Unhide Files&quot;. --></label>
+        <name>sf_devops__unhideFiles</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Unhide File description dialog&quot; --></label>
+        <name>sf_devops__unhideFilesDialogDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we get an authentication error that we don&apos;t know what to do with --></label>
+        <name>sf_devops__unknownAuthenticationError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we get an error that we don&apos;t know what to do with --></label>
+        <name>sf_devops__unknownError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we could not load a repository from the given URL --></label>
+        <name>sf_devops__unknownRepositoryError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we could not load a repository from the given URL --></label>
+        <name>sf_devops__unknownRepositoryRemedy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we get an error that could not figure out the VCS provider --></label>
+        <name>sf_devops__unknownVcsProvider</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict dialog title when changes are unmergeable. --></label>
+        <name>sf_devops__unmergeableChanges</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Banner content on unmergeable changes. --></label>
+        <name>sf_devops__unmergeableConflictDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict dialog detail for computing stage. --></label>
+        <name>sf_devops__unmergeableStageComputingDetail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict dialog detail for computing stage. --></label>
+        <name>sf_devops__unmergeableStageComputingDetail1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict dialog detail for computing stage. --></label>
+        <name>sf_devops__unmergeableStageComputingDetail2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict dialog suggestion for computing stage. --></label>
+        <name>sf_devops__unmergeableStageComputingSuggestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict dialog detail for unmergeable stage. --></label>
+        <name>sf_devops__unmergeableStageDetail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict dialog suggestion for unmergeable work items. --></label>
+        <name>sf_devops__unmergeableStageSuggestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict dialog suggestion for unmergeable work items. --></label>
+        <name>sf_devops__unmergeableStageSuggestionLink</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict dialog suggestion for unmergeable work items when there is no link. --></label>
+        <name>sf_devops__unmergeableStageSuggestionNolink</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict dialog suggestion for unmergeable work items. --></label>
+        <name>sf_devops__unmergeableStageSuggestionPost</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict dialog suggestion for unmergeable work items. --></label>
+        <name>sf_devops__unmergeableStageSuggestionPre</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict dialog detail when mergability is being computed. --></label>
+        <name>sf_devops__unmergeableWorkItemComputingDetail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict dialog detail when mergability is being computed. --></label>
+        <name>sf_devops__unmergeableWorkItemComputingDetailExtra</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict dialog suggestion when mergability is being computed. --></label>
+        <name>sf_devops__unmergeableWorkItemComputingSuggestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict dialog detail for unmergeable work items. --></label>
+        <name>sf_devops__unmergeableWorkItemDetail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict dialog suggestion for unmergeable work items. --></label>
+        <name>sf_devops__unmergeableWorkItemSuggestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict dialog suggestion for unmergeable work items. --></label>
+        <name>sf_devops__unmergeableWorkItemSuggestionExtra</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when a Rest versioned promotion request indicates the change bundle name --></label>
+        <name>sf_devops__unnecessaryChangeBundleName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when reaching Heroku, we display this message instead of the trace --></label>
+        <name>sf_devops__unreachableService</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Up to date Development Environments&quot;. --></label>
+        <name>sf_devops__upToDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we did not find an SFDX project at a URL --></label>
+        <name>sf_devops__urlNotSfdxProject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;User&quot; --></label>
+        <name>sf_devops__user</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Action button label for a successful validate-only deploy. --></label>
+        <name>sf_devops__validateOnlySuccessfulActionButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Banner text for successful validate-only deployment. --></label>
+        <name>sf_devops__validateOnlySuccessfulBanner</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Created on date and time of a successful validate-only deploy. --></label>
+        <name>sf_devops__validateOnlySuccessfulCreatedOn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message in the validation popover. --></label>
+        <name>sf_devops__validationErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title in the validation popover. --></label>
+        <name>sf_devops__validationErrorTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for the details dialog of the vcs banner. --></label>
+        <name>sf_devops__vcsBackgroundSynchDetailsTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- There is an error on vcs system. --></label>
+        <name>sf_devops__vcsBackgroundSynchError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Details on errored vcs. --></label>
+        <name>sf_devops__vcsBackgroundSynchErrorDetailsLink</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- vcs processing is in progress. --></label>
+        <name>sf_devops__vcsBackgroundSynchInProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Log in required for vcs system. --></label>
+        <name>sf_devops__vcsBackgroundSynchLogIn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Log in link. --></label>
+        <name>sf_devops__vcsBackgroundSynchLogInLink</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button to initiate the login --></label>
+        <name>sf_devops__vcsLoginButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- First paragraph of content on the VCS login dialog. --></label>
+        <name>sf_devops__vcsLoginContent1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Second paragraph of content on the VCS login dialog. --></label>
+        <name>sf_devops__vcsLoginContent2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- First part of third paragraph of content on the VCS login dialog. --></label>
+        <name>sf_devops__vcsLoginContent3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Second part of third paragraph of content on the VCS login dialog. --></label>
+        <name>sf_devops__vcsLoginContent4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title used on the VCS login dialog --></label>
+        <name>sf_devops__vcsLoginTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Toast displayed after we do the GitHub OAuth --></label>
+        <name>sf_devops__vcsLoginToast</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-description text for &quot;VCS Sync Error Dialog&quot;. --></label>
+        <name>sf_devops__vcsSyncErrorModalDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Version&quot; --></label>
+        <name>sf_devops__version</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;View all projects&quot; --></label>
+        <name>sf_devops__viewAllProjects</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Stage menu item to view Branch. --></label>
+        <name>sf_devops__viewBranch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;View Change Request&quot; --></label>
+        <name>sf_devops__viewChangeRequest</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;View Changes&quot; --></label>
+        <name>sf_devops__viewChanges</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;submitted changes tooltip view commit&quot;. --></label>
+        <name>sf_devops__viewCommit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Stage menu to see last deployment --></label>
+        <name>sf_devops__viewDeploymentStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message for directing the user to View Details during promotion failure. --></label>
+        <name>sf_devops__viewDetailsText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- view diffs between a devEnv and the stage 1 Button. --></label>
+        <name>sf_devops__viewDiffButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;view diffs between a devEnv and the stage 1 Content&quot;. --></label>
+        <name>sf_devops__viewDiffContent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- View diff content when we cannot compute the work items --></label>
+        <name>sf_devops__viewDiffContentUnknown</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-Description text for &quot;View Diff&quot; dialog. --></label>
+        <name>sf_devops__viewDiffDialogDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title of view diff dialog for many work items --></label>
+        <name>sf_devops__viewDiffTitlePlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title of view diff dialog for a single work item --></label>
+        <name>sf_devops__viewDiffTitleSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title of view diff dialog when we cannot compute the work items --></label>
+        <name>sf_devops__viewDiffTitleUnknown</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Common text for a link to see error details --></label>
+        <name>sf_devops__viewErrorDetails</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Stage menu item to view Last Commit. --></label>
+        <name>sf_devops__viewLastCommitDetails</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;View on GitHub&quot; --></label>
+        <name>sf_devops__viewOnGithub</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;What Can You Do About It?&quot;. --></label>
+        <name>sf_devops__whatCanYouDo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;What Happened&quot;. --></label>
+        <name>sf_devops__whatHappened</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;What is the conflict?&quot;. --></label>
+        <name>sf_devops__whatIsTheConflict</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;What is the potential conflict?&quot;. --></label>
+        <name>sf_devops__whatIsThePotentialConflict</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when work item combination failed --></label>
+        <name>sf_devops__wiCombinationFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message for succesful combination of work items --></label>
+        <name>sf_devops__wiCombinationSuccessful</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Each selected file is now excluded for this commit&quot;. --></label>
+        <name>sf_devops__willBeExcluded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Work Environment&quot;. --></label>
+        <name>sf_devops__workEnvironment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Work Item&quot;. --></label>
+        <name>sf_devops__workItem</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label when a work item has been bundled --></label>
+        <name>sf_devops__workItemBundledIn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;WorkItem Combined With&quot;. --></label>
+        <name>sf_devops__workItemCombinedWith</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- App UI text when the dialog is opened from a Work Item. --></label>
+        <name>sf_devops__workItemContent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title of a work item&apos;s CR --></label>
+        <name>sf_devops__workItemCrTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PR for this work item was merged externally --></label>
+        <name>sf_devops__workItemMergedExternally</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Work item Never dialog accept button label --></label>
+        <name>sf_devops__workItemNeverDialogAcceptButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Work item Never dialog content --></label>
+        <name>sf_devops__workItemNeverDialogContent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Work item Never dialog content --></label>
+        <name>sf_devops__workItemNeverDialogContent1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Work item Never dialog content --></label>
+        <name>sf_devops__workItemNeverDialogContent2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-description text for the Work Item Never Dialog. --></label>
+        <name>sf_devops__workItemNeverDialogDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Work item Never dialog title --></label>
+        <name>sf_devops__workItemNeverDialogHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Banner text for a NEVERED work item --></label>
+        <name>sf_devops__workItemNeveredBannerText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UI label used when a work item does not have an environment. --></label>
+        <name>sf_devops__workItemNotConnectError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UI title used when a work item does not have an environment. --></label>
+        <name>sf_devops__workItemNotConnectErrorTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when a work item&apos;s promote flag is set, without promotes. --></label>
+        <name>sf_devops__workItemPromotedFlagError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label when a work item has been promoted --></label>
+        <name>sf_devops__workItemPromotedTo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Toast when a work item is Ready to Promote --></label>
+        <name>sf_devops__workItemReadyToPromote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when a work item is connected to an expired environment --></label>
+        <name>sf_devops__workItemReferenceExpiredError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Toast when a work item is reverted to In Review --></label>
+        <name>sf_devops__workItemRevertedToInReview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Toast when a work item is Nevered --></label>
+        <name>sf_devops__workItemTransitionedToNever</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when a work item cannot be merged because it is blocked --></label>
+        <name>sf_devops__workItemUnmergeableBlocked</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when a wi cannot be merged because the VCS is still computing the CR --></label>
+        <name>sf_devops__workItemUnmergeableComputing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when a work item cannot be merged because of a conflict --></label>
+        <name>sf_devops__workItemUnmergeableConflict</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when a work item cannot be merged because of a draft CR --></label>
+        <name>sf_devops__workItemUnmergeableDraft</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when a work item cannot be merged because of a failed external commits --></label>
+        <name>sf_devops__workItemUnmergeableExternal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when a work item cannot be merged because of a unknown --></label>
+        <name>sf_devops__workItemUnmergeableUnknown</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Work Items&quot;. --></label>
+        <name>sf_devops__workItems</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Yesterday&quot;. --></label>
+        <name>sf_devops__yesterday</name>
+    </customLabels>
+    <customPageWebLinks>
+        <label><!-- FD --></label>
+        <name>FD</name>
+    </customPageWebLinks>
+    <customTabs>
+        <label><!-- Kanban Board --></label>
+        <name>ADM_Kanban_Board</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Backlog Manager --></label>
+        <name>ADM_Unified_Wall</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Dashboard --></label>
+        <name>Dashboard</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Configure Package XML --></label>
+        <name>FlexDeploy</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Settings --></label>
+        <name>Gus_Settings</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Heat Map --></label>
+        <name>Heat_Map</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Heat Map (Mock) --></label>
+        <name>Heat_Map_Mock</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- My Current Teams --></label>
+        <name>MyTeam</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- My Teams --></label>
+        <name>My_Teams</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Property Explorer --></label>
+        <name>Property_Explorer1</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Property Viewer --></label>
+        <name>Property_Viewer</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Data Import --></label>
+        <name>Sample_Data_Import</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Testing --></label>
+        <name>Testing</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Work Manager --></label>
+        <name>Work_Manager</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Advertise_New_Property</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Opportunity_Status_Change</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Post_Price_Changes_to_Slack</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Price_Change_Push_Notification</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Sample_PB</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Waypoint --></label>
+        <name>Waypoint</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- Bot Metrics Daily Winter &apos;23 --></description>
+        <label><!-- Bot Metrics Daily Winter &apos;23 --></label>
+        <name>Bot_Metrics_Daily_v3</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Daily Metrics --></label>
+            <name>Conversation Definition Dialog Daily Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Bot Metrics Daily Spring &apos;23 --></description>
+        <label><!-- Bot Metrics Daily Spring &apos;23 --></label>
+        <name>Bot_Metrics_Daily_v4</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Daily Metrics --></label>
+            <name>Conversation Definition Dialog Daily Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Bot Metrics Daily Summer &apos;23 --></description>
+        <label><!-- Bot Metrics Daily Summer &apos;23 --></label>
+        <name>Bot_Metrics_Daily_v5</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Daily Metrics --></label>
+            <name>Conversation Definition Dialog Daily Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Bot Metrics Hourly Winter &apos;23 --></description>
+        <label><!-- Bot Metrics Hourly Winter &apos;23 --></label>
+        <name>Bot_Metrics_Hourly_v3</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Hourly Metrics --></label>
+            <name>Conversation Definition Dialog Hourly Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Bot Metrics Hourly Spring &apos;23 --></description>
+        <label><!-- Bot Metrics Hourly Spring &apos;23 --></label>
+        <name>Bot_Metrics_Hourly_v4</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Hourly Metrics --></label>
+            <name>Conversation Definition Dialog Hourly Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Bot Metrics Hourly Summer &apos;23 --></description>
+        <label><!-- Bot Metrics Hourly Summer &apos;23 --></label>
+        <name>Bot_Metrics_Hourly_v5</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Hourly Metrics --></label>
+            <name>Conversation Definition Dialog Hourly Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Session Metrics Winter &apos;23 --></description>
+        <label><!-- Session Metrics Winter &apos;23 --></label>
+        <name>Bot_Sessions_v3</name>
+        <sections>
+            <label><!-- Conversation Definition Session Metrics --></label>
+            <name>Conversation Definition Session Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Session Metrics Spring &apos;23 --></description>
+        <label><!-- Session Metrics Spring &apos;23 --></label>
+        <name>Bot_Sessions_v4</name>
+        <sections>
+            <label><!-- Conversation Definition Session Metrics --></label>
+            <name>Conversation Definition Session Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Session Metrics Summer &apos;23 --></description>
+        <label><!-- Session Metrics Summer &apos;23 --></label>
+        <name>Bot_Sessions_v5</name>
+        <sections>
+            <label><!-- Conversation Definition Session Metrics --></label>
+            <name>Conversation Definition Session Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Projects with Packages with Package Files --></description>
+        <label><!-- Projects with Packages with Package Files --></label>
+        <name>Projects_with_Packages_with_Package_Files</name>
+        <sections>
+            <label><!-- Projects --></label>
+            <name>Projects</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Run Logs Spring &apos;24 --></description>
+        <label><!-- Orchestration Run Logs Spring &apos;24 --></label>
+        <name>flow_orchestration_log_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Run Log --></label>
+            <name>Orchestration Run Log</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Runs Spring &apos;24 --></description>
+        <label><!-- Orchestration Runs Spring &apos;24 --></label>
+        <name>flow_orchestration_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Runs --></label>
+            <name>Orchestration Runs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Stage Runs Spring &apos;24 --></description>
+        <label><!-- Orchestration Stage Runs Spring &apos;24 --></label>
+        <name>flow_orchestration_stage_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Stage Runs --></label>
+            <name>Orchestration Stage Runs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Step Runs Spring &apos;24 --></description>
+        <label><!-- Orchestration Step Runs Spring &apos;24 --></label>
+        <name>flow_orchestration_step_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Step Runs --></label>
+            <name>Orchestration Step Runs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Work Items Spring &apos;24 --></description>
+        <label><!-- Orchestration Work Items Spring &apos;24 --></label>
+        <name>flow_orchestration_work_item_ootb_crt_two_four_eight</name>
+        <sections>
+            <columns>
+                <label><!-- Orchestration Step Run: Label --></label>
+                <name>Orchestration Step Run: Label</name>
+            </columns>
+            <columns>
+                <label><!-- Orchestration Step Run: Name --></label>
+                <name>Orchestration Step Run: Name</name>
+            </columns>
+            <columns>
+                <label><!-- Orchestration Step Run: Status --></label>
+                <name>Orchestration Step Run: Status</name>
+            </columns>
+            <label><!-- Orchestration Step Runs --></label>
+            <name>Orchestration Step Runs</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Assigned Group or Queue --></label>
+                <name>Assigned Group or Queue</name>
+            </columns>
+            <columns>
+                <label><!-- Assigned User --></label>
+                <name>Assigned User</name>
+            </columns>
+            <label><!-- Orchestration Work Items --></label>
+            <name>Orchestration Work Items</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Screen Flows --></description>
+        <label><!-- Screen Flows --></label>
+        <name>screen_flows_prebuilt_crt</name>
+        <sections>
+            <label><!-- Flow Interview Log Entries --></label>
+            <name>Flow Interview Log Entries</name>
+        </sections>
+        <sections>
+            <label><!-- Flow Interview Logs --></label>
+            <name>Flow Interview Logs</name>
+        </sections>
+    </reportTypes>
+</Translations>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingFilterCondition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <colName>OPPORTUNITY.AMOUNT</colName>
+    <fieldName>Amount</fieldName>
+    <forecastingFilter>FF_Revenue0hl4p0000008OJIAA2776677287674496</forecastingFilter>
+    <forecastingSourceDefinition>7sy4p0000008OIo</forecastingSourceDefinition>
+    <isProtected>false</isProtected>
+    <masterLabel>FFC_Revenue0r04p000000KyjfAAC229154912593483</masterLabel>
+    <operation>equals</operation>
+    <sortOrder>1</sortOrder>
+    <value>1000</value>
+</ForecastingFilterCondition>

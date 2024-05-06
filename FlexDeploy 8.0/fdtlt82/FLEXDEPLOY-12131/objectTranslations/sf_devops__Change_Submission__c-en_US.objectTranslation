@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Comment --></label>
+        <name>sf_devops__Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Creation Result --></label>
+        <name>sf_devops__Creation_Result__c</name>
+        <relationshipLabel><!-- Change Submissions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inspection Result --></label>
+        <name>sf_devops__Inspection_Result__c</name>
+        <relationshipLabel><!-- Inspected Change Submissions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Modified Remote Changes --></label>
+        <name>sf_devops__Modified_Remote_Changes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Open Beta Migrated --></label>
+        <name>sf_devops__Open_Beta_Migrated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prior Remote Reference --></label>
+        <name>sf_devops__Prior_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remote Reference --></label>
+        <name>sf_devops__Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Removed Remote Changes --></label>
+        <name>sf_devops__Removed_Remote_Changes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repository --></label>
+        <name>sf_devops__Repository__c</name>
+        <relationshipLabel><!-- Change Submissions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Submitted By Name --></label>
+        <name>sf_devops__Submitted_By_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitted By --></label>
+        <name>sf_devops__Submitted_By__c</name>
+        <relationshipLabel><!-- Change Submissions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Submitted On --></label>
+        <name>sf_devops__Submitted_On__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Item --></label>
+        <name>sf_devops__Work_Item__c</name>
+        <relationshipLabel><!-- Change Submissions --></relationshipLabel>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Deprecated --></errorMessage>
+        <name>sf_devops__Prior_Remote_Reference_External_Only</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot be associated with a Work Item from a different project. --></errorMessage>
+        <name>sf_devops__Work_Item_and_Repository_Same_Project</name>
+    </validationRules>
+</CustomObjectTranslation>

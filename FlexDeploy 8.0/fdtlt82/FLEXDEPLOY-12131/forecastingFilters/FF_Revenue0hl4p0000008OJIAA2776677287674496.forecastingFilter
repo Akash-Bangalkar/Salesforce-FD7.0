@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingFilter xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filterLogic>1</filterLogic>
+    <forecastingType>Revenue</forecastingType>
+    <forecastingTypeSource>FTS_Revenue7sy4p0000008OIoAAM004129272429938</forecastingTypeSource>
+    <isProtected>false</isProtected>
+    <masterLabel>FF_Revenue0hl4p0000008OJIAA2776677287674496</masterLabel>
+</ForecastingFilter>

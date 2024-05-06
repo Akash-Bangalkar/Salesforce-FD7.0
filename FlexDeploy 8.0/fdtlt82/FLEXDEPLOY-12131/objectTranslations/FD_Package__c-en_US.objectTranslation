@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Package</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Packages</value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>FD_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Status --></label>
+        <name>FD_Package_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Package Type --></label>
+        <name>FD_Package_Type__c</name>
+        <picklistValues>
+            <masterLabel>Dynamic</masterLabel>
+            <translation><!-- Dynamic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Manager</masterLabel>
+            <translation><!-- User Manager --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Project --></label>
+        <name>FD_Project__c</name>
+        <relationshipLabel><!-- Packages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Test Level --></label>
+        <name>FD_Test_Level__c</name>
+        <picklistValues>
+            <masterLabel>All Tests in Org</masterLabel>
+            <translation><!-- All Tests in Org --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local Tests</masterLabel>
+            <translation><!-- Local Tests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Tests</masterLabel>
+            <translation><!-- No Tests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specified  and Package Tests</masterLabel>
+            <translation><!-- Specified  and Package Tests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specified Tests</masterLabel>
+            <translation><!-- Specified Tests --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Package Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

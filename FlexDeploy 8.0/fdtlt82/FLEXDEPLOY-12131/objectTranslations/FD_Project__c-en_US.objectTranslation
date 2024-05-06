@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Project</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Projects</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>FD_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Build Workflow --></label>
+        <lookupFilter>
+            <errorMessage><!-- Workflow does not exist --></errorMessage>
+        </lookupFilter>
+        <name>FD_Build_Workflow__c</name>
+        <relationshipLabel><!-- Projects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Deploy Workflow --></label>
+        <lookupFilter>
+            <errorMessage><!-- Workflow does not exist --></errorMessage>
+        </lookupFilter>
+        <name>FD_Deploy_Workflow__c</name>
+        <relationshipLabel><!-- Projects (Deploy Workflow) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>FD_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Blueprint --></label>
+        <name>FD_Project_Blueprint__c</name>
+        <picklistValues>
+            <masterLabel>ADF Application</masterLabel>
+            <translation><!-- ADF Application --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Container</masterLabel>
+            <translation><!-- Container --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dell Boomi</masterLabel>
+            <translation><!-- Dell Boomi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>File Deployments</masterLabel>
+            <translation><!-- File Deployments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Google Apigee</masterLabel>
+            <translation><!-- Google Apigee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MuleSoft</masterLabel>
+            <translation><!-- MuleSoft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle API</masterLabel>
+            <translation><!-- Oracle API --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle JET Application</masterLabel>
+            <translation><!-- Oracle JET Application --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PeopleSoft</masterLabel>
+            <translation><!-- PeopleSoft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP Change Requests</masterLabel>
+            <translation><!-- SAP Change Requests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SQL Scripts</masterLabel>
+            <translation><!-- SQL Scripts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce</masterLabel>
+            <translation><!-- Salesforce --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Project Path --></label>
+        <name>FD_Project_Path__c</name>
+    </fields>
+    <layouts>
+        <layout>Project Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

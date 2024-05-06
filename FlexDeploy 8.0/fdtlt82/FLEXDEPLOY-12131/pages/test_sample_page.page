@@ -1,0 +1,5 @@
+<apex:page >
+    <h1>
+        Hello Welcome to sample page
+    </h1>
+</apex:page>

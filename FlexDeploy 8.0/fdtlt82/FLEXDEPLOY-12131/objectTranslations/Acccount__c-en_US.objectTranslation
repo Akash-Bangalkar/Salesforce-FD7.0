@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Acccount</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Accounts</value>
+    </caseValues>
+    <fields>
+        <help><!-- Test Help Text --></help>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- ExternalID_Acc --></label>
+        <name>ExternalID_Acc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test --></label>
+        <name>Test__c</name>
+        <picklistValues>
+            <masterLabel>1111</masterLabel>
+            <translation><!-- 1111 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAAA</masterLabel>
+            <translation><!-- AAAA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BBBB</masterLabel>
+            <translation><!-- BBBB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CCCC</masterLabel>
+            <translation><!-- CCCC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- test change --></help>
+        <label><!-- sample date --></label>
+        <name>sample_date__c</name>
+    </fields>
+    <layouts>
+        <layout>Acc Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- FD Test --></label>
+            <section>FD Test</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Record type 1 --></label>
+        <name>Record_type_1</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- this sample date field cant be cannot be blank --></errorMessage>
+        <name>test_validation_v1</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- sample_fg --></label>
+        <name>sample_fg</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- sample_fg_button --></label>
+        <name>sample_fg_button</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- sample_fg_button_2 --></label>
+        <name>sample_fg_button_2</name>
+    </webLinks>
+</CustomObjectTranslation>

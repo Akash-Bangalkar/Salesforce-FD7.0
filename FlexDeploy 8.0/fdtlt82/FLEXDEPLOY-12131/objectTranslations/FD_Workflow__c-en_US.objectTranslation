@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Workflow</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Workflows</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active Version --></label>
+        <name>FD_Active_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>FD_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>FD_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Path --></label>
+        <name>FD_Path__c</name>
+    </fields>
+    <fields>
+        <label><!-- Workflow Group --></label>
+        <name>FD_Workflow_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Workflow Subgroup --></label>
+        <name>FD_Workflow_Subgroup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Workflow Type --></label>
+        <name>FD_Workflow_Type__c</name>
+        <picklistValues>
+            <masterLabel>Build</masterLabel>
+            <translation><!-- Build --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy</masterLabel>
+            <translation><!-- Deploy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Definition</masterLabel>
+            <translation><!-- Test Definition --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

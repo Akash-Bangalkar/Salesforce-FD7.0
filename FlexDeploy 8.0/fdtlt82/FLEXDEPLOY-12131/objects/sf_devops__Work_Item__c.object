@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>A work item keeps track of things that a builder will work on.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>sf_devops__Assigned_To__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The user working on this work item.</description>
+        <externalId>false</externalId>
+        <label>Assigned To</label>
+        <referenceTo>User</referenceTo>
+        <relationshipLabel>WorkItems</relationshipLabel>
+        <relationshipName>WorkItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Branch_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is deprecated and should not be referenced</description>
+        <externalId>false</externalId>
+        <label>Branch Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Branch_Parent_Remote_Reference__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is deprecated and should not be referenced</description>
+        <externalId>false</externalId>
+        <label>Branch Parent Remote Reference</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Branch_Remote_Reference__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is deprecated and should not be referenced</description>
+        <externalId>false</externalId>
+        <label>Branch Remote Reference</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Branch__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The branch that this work item is using.</description>
+        <externalId>false</externalId>
+        <label>Branch</label>
+        <referenceTo>sf_devops__Branch__c</referenceTo>
+        <relationshipLabel>Work Items</relationshipLabel>
+        <relationshipName>Work_Items</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Change_Bundle__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The bundle this work item has been associated with</description>
+        <externalId>false</externalId>
+        <label>Change Bundle</label>
+        <referenceTo>sf_devops__Change_Bundle__c</referenceTo>
+        <relationshipLabel>Work Items</relationshipLabel>
+        <relationshipName>Work_Items</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Combine_Status__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The AOR referencing the most recent attempt to combine other work items with this work item.</description>
+        <externalId>false</externalId>
+        <label>Combine Status</label>
+        <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
+        <relationshipLabel>Combine Work Items</relationshipLabel>
+        <relationshipName>Combine_Work_Items</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Combined_With__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The work item that this work item has been combined into.</description>
+        <externalId>false</externalId>
+        <label>Combined With</label>
+        <referenceTo>sf_devops__Work_Item__c</referenceTo>
+        <relationshipLabel>Combined Work Items</relationshipLabel>
+        <relationshipName>Combined_Work_Items</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Concluded__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Has this Work Item transitioned to a conclusive state?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Managed by the DevOps Center, this field indicates that a Work Item has finished being used for active development or promotion.</inlineHelpText>
+        <label>Concluded</label>
+        <length>8</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Cross_Environment_Combination__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If true, this work item is the survivor of a combination operation where metadata came from multiple development environments.  This needs to be treated differently during a back sync.</description>
+        <externalId>false</externalId>
+        <label>Cross Environment Combination</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A description provides more details about the work item.</description>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>30</visibleLines>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Development_Approved_By__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>A reference to the user that approved this work item.</description>
+        <externalId>false</externalId>
+        <label>Development Approved By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Approved_Work_Items</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Development_Approved__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag indicating that this work item has been reviewed and approved in the Dev Ops Center.</description>
+        <externalId>false</externalId>
+        <label>Development Approved</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Development_Environment__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The environment in which this Work Item record was developed.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(sf_devops__Promoted_From_Environment__r.Name),  sf_devops__Environment__r.Name, sf_devops__Promoted_From_Environment__r.Name)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>The environment in which this Work Item record was developed.</inlineHelpText>
+        <label>Development Environment</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Environment__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The environment that this work item is running in.</description>
+        <externalId>false</externalId>
+        <label>Environment</label>
+        <referenceTo>sf_devops__Environment__c</referenceTo>
+        <relationshipLabel>Work Items</relationshipLabel>
+        <relationshipName>Work_Items</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Operation_Status__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The AOR referencing the current ongoing operation of this work item.</description>
+        <externalId>false</externalId>
+        <label>Operation Status</label>
+        <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
+        <relationshipLabel>Work Items</relationshipLabel>
+        <relationshipName>Work_Items</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Project__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Project that this Work Item belongs to</description>
+        <externalId>false</externalId>
+        <label>Project</label>
+        <referenceTo>sf_devops__Project__c</referenceTo>
+        <relationshipLabel>Work Items</relationshipLabel>
+        <relationshipName>Work_Items</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Promoted_From_Environment__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The environment that this work item was promoted.</description>
+        <externalId>false</externalId>
+        <label>Promoted From Environment</label>
+        <referenceTo>sf_devops__Environment__c</referenceTo>
+        <relationshipLabel>Work Items</relationshipLabel>
+        <relationshipName>Work_Items_Environments</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Promoted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Has this Work Item been promoted into a Pipeline Stage?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Managed by the DevOps Center, when this Work Item record moves into a promoted state, this value will be updated to true automatically.</inlineHelpText>
+        <label>Promoted</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Rebase_Branch__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The rebase branch that this work item is using.</description>
+        <externalId>false</externalId>
+        <label>Rebase Branch</label>
+        <referenceTo>sf_devops__Branch__c</referenceTo>
+        <relationshipLabel>Rebased Work Items</relationshipLabel>
+        <relationshipName>Rebased_Work_Items</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Rebase_Remote_Reference__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is deprecated and should not be referenced</description>
+        <externalId>false</externalId>
+        <label>Rebase Remote Reference</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Review_Remote_Reference__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Review Remote Reference</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__State__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The current state of this Work Item record.</description>
+        <externalId>false</externalId>
+        <formula>IF(
+  sf_devops__Concluded__c = &quot;CLOSED&quot;, &quot;CLOSED&quot;,
+IF(
+  sf_devops__Concluded__c = &quot;NEVERED&quot;, &quot;NEVERED&quot;,
+  IF(
+    sf_devops__Concluded__c = &quot;COMBINED&quot;, &quot;COMBINED&quot;,
+  IF(
+    sf_devops__Promoted__c, &quot;PROMOTED&quot;,
+    IF(
+      sf_devops__Development_Approved__c, &quot;APPROVED&quot;,
+      IF(
+        NOT(ISBLANK(sf_devops__Review_Remote_Reference__c)), &quot;IN_REVIEW&quot;,
+        IF(
+          NOT(ISBLANK(sf_devops__Branch__r.sf_devops__Name__c)), &quot;IN_PROGRESS&quot;, &quot;NEW&quot;
+          )
+        )
+      )
+    )
+  )
+)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>The current state of this Work Item record.</inlineHelpText>
+        <label>State</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Subject__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The subject summarizes what this work item is trying to accomplish.</description>
+        <externalId>false</externalId>
+        <label>Subject</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Work Item</label>
+    <nameField>
+        <displayFormat>WI-{000000}</displayFormat>
+        <label>Work Item Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Work Items</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>sf_devops__Approved_By_Without_Approved</fullName>
+        <active>true</active>
+        <description>Enforce Approved is set if Approved_By is set.</description>
+        <errorConditionFormula>AND(
+OR(
+ISNEW(),
+ISCHANGED(sf_devops__Development_Approved__c),
+ISCHANGED(sf_devops__Development_Approved_By__c)
+),
+NOT(sf_devops__Development_Approved__c),
+NOT(ISBLANK( sf_devops__Development_Approved_By__c  ))
+
+)</errorConditionFormula>
+        <errorMessage>A Work_Item can not have Development_Approved_By set if it is not Development_Approved.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Approved_Without_Approved_By</fullName>
+        <active>true</active>
+        <description>Enforce ApprovedBy is set if this item is approved.</description>
+        <errorConditionFormula>AND(
+OR(
+ISNEW(),
+ISCHANGED(sf_devops__Development_Approved__c),
+ISCHANGED(sf_devops__Development_Approved_By__c)
+),
+sf_devops__Development_Approved__c,
+ISBLANK( sf_devops__Development_Approved_By__c  )
+
+)</errorConditionFormula>
+        <errorMessage>You must set Development_Approved_By when this Work Item is approved.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Approved_Without_Review</fullName>
+        <active>true</active>
+        <description>Enforce that if Approved is set then this item has a review.</description>
+        <errorConditionFormula>AND(
+OR(
+ISNEW(),
+ISCHANGED(sf_devops__Development_Approved__c),
+ISCHANGED(sf_devops__Review_Remote_Reference__c),
+ISCHANGED(sf_devops__Promoted__c)
+),
+sf_devops__Development_Approved__c,
+ISBLANK( sf_devops__Review_Remote_Reference__c  ),
+NOT( sf_devops__Promoted__c)
+
+)</errorConditionFormula>
+        <errorMessage>A Work Item cannot be approved without a review.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Branch_Without_Remote_Reference</fullName>
+        <active>false</active>
+        <description>This rule is no longer enforced</description>
+        <errorConditionFormula>FALSE</errorConditionFormula>
+        <errorMessage>Deprecated</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Change_Bundle_Project</fullName>
+        <active>true</active>
+        <description>Enforce we belong to the same project as our change bundle.</description>
+        <errorConditionFormula>AND(
+OR(
+ISNEW(),
+ISCHANGED(sf_devops__Change_Bundle__c)
+),
+NOT(ISBLANK(sf_devops__Change_Bundle__c)),
+sf_devops__Project__c &lt;&gt; sf_devops__Change_Bundle__r.sf_devops__Project__c
+
+)</errorConditionFormula>
+        <errorMessage>A Work Item must belong to the same project as its Change Bundle.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Combined_Bundled</fullName>
+        <active>true</active>
+        <description>Verifies that a Combined work item cannot be part of a bundle</description>
+        <errorConditionFormula>AND(
+    OR (ISCHANGED(sf_devops__Concluded__c), ISCHANGED(sf_devops__Change_Bundle__c) ),
+    sf_devops__Concluded__c = &quot;COMBINED&quot;,
+    NOT(ISBLANK(sf_devops__Change_Bundle__c))
+ )</errorConditionFormula>
+        <errorMessage>A Work Item cannot be Combined if it is in a bundle.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Combined_Not_Combined_With</fullName>
+        <active>true</active>
+        <description>Verifies that a Combined work item must have Combined_With also set</description>
+        <errorConditionFormula>AND(
+    OR (ISCHANGED(sf_devops__Concluded__c), ISCHANGED(sf_devops__Combined_With__c) ),
+    sf_devops__Concluded__c = &quot;COMBINED&quot;,
+    ISBLANK(sf_devops__Combined_With__c)
+ )</errorConditionFormula>
+        <errorMessage>A Work Item cannot be Combined if it does not reference the work item it is combined into.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Combined_Not_Promoted</fullName>
+        <active>true</active>
+        <description>Verifies that a Combined work item must have been promoted</description>
+        <errorConditionFormula>AND(
+    OR (ISCHANGED(sf_devops__Concluded__c), ISCHANGED(sf_devops__Promoted__c) ),
+    sf_devops__Concluded__c = &quot;COMBINED&quot;,
+    NOT(sf_devops__Promoted__c)
+ )</errorConditionFormula>
+        <errorMessage>A Work Item cannot be Combined if it has never been promoted.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Combined_With_Not_Combined</fullName>
+        <active>true</active>
+        <description>Verifies that if Combined_With is set, the work item must be in the combined state</description>
+        <errorConditionFormula>AND(
+    OR (ISCHANGED(sf_devops__Concluded__c), ISCHANGED(sf_devops__Combined_With__c) ),
+    OR(ISBLANK(sf_devops__Concluded__c), NOT(sf_devops__Concluded__c = &quot;COMBINED&quot;)),
+    NOT(ISBLANK(sf_devops__Combined_With__c))
+ )</errorConditionFormula>
+        <errorMessage>A Work Item cannot have Combined_With set if it is not in the Combined state.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Combined_With_Not_Survivor</fullName>
+        <active>true</active>
+        <description>Verifies that if Combined_With is set it references a work item that completed the Combine operation</description>
+        <errorConditionFormula>AND(
+    ISCHANGED(sf_devops__Combined_With__c),
+    OR(
+      ISBLANK(sf_devops__Combined_With__r.sf_devops__Combine_Status__c), 
+      NOT(ISPICKVAL(sf_devops__Combined_With__r.sf_devops__Combine_Status__r.sf_devops__Status__c, &quot;Completed&quot;))
+    )
+ )</errorConditionFormula>
+        <errorMessage>A Work Item cannot have Combined_With set to a work item that did not perform the Combine operation.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Concluded_values</fullName>
+        <active>true</active>
+        <description>Verifies that Concluded_c is assigned with a possible value.</description>
+        <errorConditionFormula>NOT(OR( sf_devops__Concluded__c = &quot;CLOSED&quot;, sf_devops__Concluded__c = &quot;NEVERED&quot;, sf_devops__Concluded__c = &quot;COMBINED&quot;, ISBLANK(sf_devops__Concluded__c)))</errorConditionFormula>
+        <errorMessage>Possible values for Concluded_c are : CLOSED, NEVERED, COMBINED, or empty.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Disable_Concluded</fullName>
+        <active>true</active>
+        <description>A Work Item cannot have its Concluded__c field changed after being set to NEVER, COMBINED or CLOSED.</description>
+        <errorConditionFormula>AND(ISCHANGED(sf_devops__Concluded__c),NOT(ISBLANK(PRIORVALUE(sf_devops__Concluded__c))))</errorConditionFormula>
+        <errorMessage>A Work Item cannot have its Concluded__c field changed once set.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Disable_Promoted</fullName>
+        <active>true</active>
+        <description>A Work Item cannot have its Promoted__c field disabled once set.</description>
+        <errorConditionFormula>AND(PRIORVALUE(sf_devops__Promoted__c), ISCHANGED(sf_devops__Promoted__c))</errorConditionFormula>
+        <errorMessage>A Work Item cannot have its Promoted__c field disabled once set.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Environment_Expired</fullName>
+        <active>true</active>
+        <description>Enforce we only reference environments that are not expired.</description>
+        <errorConditionFormula>AND(
+OR(
+ISNEW(),
+ISCHANGED(sf_devops__Environment__c)
+),
+NOT(ISBLANK( sf_devops__Environment__c  )),
+sf_devops__Environment__r.sf_devops__Expired__c
+
+)</errorConditionFormula>
+        <errorMessage>Work Items cannot be connected to expired environments.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Environment_Project</fullName>
+        <active>true</active>
+        <description>Enforce we belong to the same project as our environment.</description>
+        <errorConditionFormula>AND(
+OR(
+ISNEW(),
+ISCHANGED(sf_devops__Environment__c)
+),
+NOT(ISBLANK(sf_devops__Environment__c)),
+sf_devops__Project__c &lt;&gt; sf_devops__Environment__r.sf_devops__Project__c
+
+)</errorConditionFormula>
+        <errorMessage>A Work Item must belong to the same project as its Environment.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Environment_Requires_Tracking</fullName>
+        <active>true</active>
+        <description>Enforce we only reference environments with source tracking.</description>
+        <errorConditionFormula>AND(
+OR(
+ISNEW(),
+ISCHANGED(sf_devops__Environment__c)
+),
+NOT(ISBLANK( sf_devops__Environment__c  )),
+NOT(sf_devops__Environment__r.sf_devops__Can_Track_Changes__c)
+
+)</errorConditionFormula>
+        <errorMessage>Cannot reference environment that does not support change tracking.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__PromotedFromEnvironment_Changed</fullName>
+        <active>true</active>
+        <description>A Work Item cannot have its Promoted_From_Environment__c field changed once set.</description>
+        <errorConditionFormula>AND(NOT(ISBLANK(PRIORVALUE(sf_devops__Promoted_From_Environment__c))), ISCHANGED(sf_devops__Promoted_From_Environment__c))</errorConditionFormula>
+        <errorMessage>A Work Item cannot have its Promoted_From_Environment__c field changed once set.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__PromotedFromEnvironment_Set</fullName>
+        <active>true</active>
+        <description>A Work Item cannot have its Promoted_From_Environment__c field set with a value different to the value of Environment__c and it can only be set when Environment__c is getting set to null.</description>
+        <errorConditionFormula>AND(
+    ISCHANGED(sf_devops__Promoted_From_Environment__c),
+    OR(
+      NOT(ISCHANGED(sf_devops__Environment__c)),
+      NOT(ISBLANK(sf_devops__Environment__c)),
+      sf_devops__Promoted_From_Environment__c &lt;&gt; PRIORVALUE(sf_devops__Environment__c)
+    )
+)</errorConditionFormula>
+        <errorMessage>A Work Item cannot have its Promoted_From_Environment__c field set with a value different to the value of Environment__c and it can only be set when Environment__c is getting set to null.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Promoted_And_Installed</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(OR(
+    ISNEW(),
+    ISCHANGED( sf_devops__Promoted__c ),
+    ISCHANGED(  sf_devops__Change_Bundle__c  )
+ ),
+ NOT(sf_devops__Promoted__c), 
+ NOT (ISBLANK(sf_devops__Change_Bundle__c))
+)</errorConditionFormula>
+        <errorMessage>A Work_Item cannot be a member of a Change_Bundle if it has never been promoted.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Promoted_On_Create</fullName>
+        <active>true</active>
+        <description>Enforce we cannot create a work item with Promoted__c set.</description>
+        <errorConditionFormula>AND(
+ISNEW(),
+sf_devops__Promoted__c
+
+)</errorConditionFormula>
+        <errorMessage>You cannot create a Work_Item with the Promoted flag set.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Promoted_Without_Approval</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ OR(
+    ISNEW(),
+    ISCHANGED(sf_devops__Development_Approved__c),
+    ISCHANGED(sf_devops__Promoted__c)
+ ), 
+   NOT (sf_devops__Development_Approved__c) ,
+   sf_devops__Promoted__c 
+ 
+ )</errorConditionFormula>
+        <errorMessage>A WorkItem cannot be promoted if it is not Approved.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Rebase_Branch</fullName>
+        <active>true</active>
+        <description>Rebase_Branch__c can be set only on a promoted , unbundled, and not concluded Work_Item__c.</description>
+        <errorConditionFormula>AND( OR( ISNEW() , ISCHANGED( sf_devops__Rebase_Branch__c ) , ISCHANGED( sf_devops__Change_Bundle__c ) , ISCHANGED( sf_devops__Concluded__c ) , ISCHANGED( sf_devops__Promoted__c ) ) , NOT ( ISBLANK(  sf_devops__Rebase_Branch__c  ) ), 
+OR( NOT (  sf_devops__Promoted__c  ) , NOT ( ISBLANK (  sf_devops__Change_Bundle__c  ) ) , NOT ( ISBLANK( sf_devops__Concluded__c) ) ) )</errorConditionFormula>
+        <errorMessage>A Work Item cannot have its Rebase Branch field set if it is un-promoted, bundled or concluded.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Rebase_Remote_Reference</fullName>
+        <active>true</active>
+        <description>This rule is no longer enforced</description>
+        <errorConditionFormula>FALSE</errorConditionFormula>
+        <errorMessage>Deprecated</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Remote_Reference_Without_Review</fullName>
+        <active>false</active>
+        <description>This rule is no longer enforced</description>
+        <errorConditionFormula>FALSE</errorConditionFormula>
+        <errorMessage>Deprecated</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Review_Without_Remote_Reference</fullName>
+        <active>false</active>
+        <description>This rule is no longer enforced</description>
+        <errorConditionFormula>FALSE</errorConditionFormula>
+        <errorMessage>Deprecated</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

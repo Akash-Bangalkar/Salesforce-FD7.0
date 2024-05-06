@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Can Track Changes --></label>
+        <name>sf_devops__Can_Track_Changes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expired --></label>
+        <name>sf_devops__Expired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Revision Counter --></label>
+        <name>sf_devops__Last_Revision_Counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Named Credential --></label>
+        <name>sf_devops__Named_Credential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operation Result --></label>
+        <name>sf_devops__Operation_Result__c</name>
+        <relationshipLabel><!-- Environments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Organization Id --></label>
+        <name>sf_devops__Org_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project --></label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel><!-- Environments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Refresh Date --></label>
+        <name>sf_devops__Refresh_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Refresh Source --></label>
+        <name>sf_devops__Refresh_Source__c</name>
+        <relationshipLabel><!-- Environments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Replaces --></label>
+        <name>sf_devops__Replaces__c</name>
+        <relationshipLabel><!-- Replaces --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Test Environment --></label>
+        <name>sf_devops__Test_Environment__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- An Environment cannot have its Expired__c field set to false. --></errorMessage>
+        <name>sf_devops__Expired_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- An Environment cannot be inserted with Expired__c set to true. --></errorMessage>
+        <name>sf_devops__Expired_Insert</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A replacement Environment must be expired. --></errorMessage>
+        <name>sf_devops__Expired_Replaces</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Refresh_Source and Refresh_Date most both be set, or both be empty. --></errorMessage>
+        <name>sf_devops__Refresh_Source_And_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Deprecated --></errorMessage>
+        <name>sf_devops__Unique_Name</name>
+    </validationRules>
+</CustomObjectTranslation>

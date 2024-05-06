@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>A repository represents an external version control system.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>sf_devops__Default_Branch__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the default branch in this repository.</description>
+        <externalId>false</externalId>
+        <label>Default Branch</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__GitHub_Owner__c</fullName>
+        <deprecated>false</deprecated>
+        <description>If the provider is &apos;GitHub&apos;, this represents the owner of the repository.</description>
+        <externalId>false</externalId>
+        <label>GitHub Owner</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__GitHub_Repo__c</fullName>
+        <deprecated>false</deprecated>
+        <description>If the provider is &apos;GitHub&apos;, this represents the repository name.</description>
+        <externalId>false</externalId>
+        <label>GitHub Repo</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Last_Event__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This stores a unique identifier for the last event that we received from the external VCS for this Repository.</description>
+        <externalId>false</externalId>
+        <label>Last Event</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Named_Credential__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The DeveloperName value of the NamedCredential to use to connect to this environment.</description>
+        <externalId>false</externalId>
+        <label>Named Credential</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Polling_Interval__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This stores the suggested polling interval for asking the external VCS for this Repository&apos;s events, in seconds.</description>
+        <externalId>false</externalId>
+        <label>Polling Interval</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Provider__c</fullName>
+        <defaultValue>&apos;GitHub&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The version control system provider that hosts this project.</description>
+        <externalId>false</externalId>
+        <label>Provider</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bitbucket</fullName>
+                    <default>false</default>
+                    <label>Bitbucket</label>
+                </value>
+                <value>
+                    <fullName>GitHub</fullName>
+                    <default>false</default>
+                    <label>GitHub</label>
+                </value>
+                <value>
+                    <fullName>GitLab</fullName>
+                    <default>false</default>
+                    <label>GitLab</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Repository</label>
+    <nameField>
+        <label>Repository Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Repositories</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>sf_devops__GitHub_Properties</fullName>
+        <active>true</active>
+        <description>Enforces that Owner and Repo are only set for GitHub repositories.</description>
+        <errorConditionFormula>AND(
+  ISNEW(),
+   NOT(ISPICKVAL( sf_devops__Provider__c , &quot;GitHub&quot;)),
+  NOT(AND (
+    ISBLANK( sf_devops__GitHub_Owner__c),
+    ISBLANK( sf_devops__GitHub_Repo__c)
+  ))
+)</errorConditionFormula>
+        <errorMessage>GitHub_Repo and GitHub_Owner can only be set for GitHub repositories.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__No_Property_Changes</fullName>
+        <active>true</active>
+        <description>Enforces that certain fields cannot be changed.</description>
+        <errorConditionFormula>AND(
+  OR (
+    ISCHANGED( sf_devops__Provider__c ) ,
+    ISCHANGED(  sf_devops__GitHub_Owner__c  ) ,
+    ISCHANGED(  sf_devops__GitHub_Repo__c  ) 
+  )
+)</errorConditionFormula>
+        <errorMessage>This field cannot be modified.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Require_GitHub_Properties</fullName>
+        <active>true</active>
+        <description>Enforces that Owner and Repo are set for GitHub repositories.</description>
+        <errorConditionFormula>AND(
+  ISNEW(),
+   ISPICKVAL( sf_devops__Provider__c , &quot;GitHub&quot;),
+  OR (
+    ISBLANK( sf_devops__GitHub_Owner__c),
+    ISBLANK( sf_devops__GitHub_Repo__c)
+  )
+)</errorConditionFormula>
+        <errorMessage>Repo and Owner are required for GitHub repositories.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

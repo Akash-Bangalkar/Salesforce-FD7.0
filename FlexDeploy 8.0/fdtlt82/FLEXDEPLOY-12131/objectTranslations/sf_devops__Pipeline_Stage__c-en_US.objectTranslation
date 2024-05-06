@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Branch Name --></label>
+        <name>sf_devops__Branch_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Branch Remote Reference --></label>
+        <name>sf_devops__Branch_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <help><!-- The branch in the VCS that this stage is associated with. --></help>
+        <label><!-- Branch --></label>
+        <name>sf_devops__Branch__c</name>
+        <relationshipLabel><!-- Pipeline Stages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Environment --></label>
+        <name>sf_devops__Environment__c</name>
+        <relationshipLabel><!-- Pipeline Stages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Next Stage --></label>
+        <name>sf_devops__Next_Stage__c</name>
+        <relationshipLabel><!-- Pipeline Stages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Operation Status --></label>
+        <name>sf_devops__Operation_Status__c</name>
+        <relationshipLabel><!-- Pipeline Stages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pipeline --></label>
+        <name>sf_devops__Pipeline__c</name>
+        <relationshipLabel><!-- Pipeline Stages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Prerelease --></label>
+        <name>sf_devops__Prerelease__c</name>
+    </fields>
+    <fields>
+        <label><!-- Promote Review Remote Reference --></label>
+        <name>sf_devops__Promote_Review_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Swap Status --></label>
+        <name>sf_devops__Swap_Status__c</name>
+        <relationshipLabel><!-- Pipeline Stage Swaps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Versioned --></label>
+        <name>sf_devops__Versioned__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Deprecated --></errorMessage>
+        <name>sf_devops__Branch_Without_Remote_Reference</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot modify a Pipeline_Stage on an activated Pipeline. --></errorMessage>
+        <name>sf_devops__No_Changes_For_Active_Pipelines</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot add a Pipeline_Stage to an activated Pipeline. --></errorMessage>
+        <name>sf_devops__No_New_Stages_For_Active_Pipelines</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Deprecated --></errorMessage>
+        <name>sf_devops__Promote_Review_Remote_Ref_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Deprecated --></errorMessage>
+        <name>sf_devops__Promote_Review_Url_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Deprecated --></errorMessage>
+        <name>sf_devops__Promote_Review_Versioned</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Deprecated --></errorMessage>
+        <name>sf_devops__Promote_Url_Validation</name>
+    </validationRules>
+</CustomObjectTranslation>
