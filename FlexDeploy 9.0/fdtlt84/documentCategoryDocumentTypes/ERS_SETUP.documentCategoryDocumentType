@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocumentCategoryDocumentType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <documentCategory>DCF_Level</documentCategory>
+    <documentType>FlexDeployMain</documentType>
+    <masterLabel>ERS SETUP</masterLabel>
+</DocumentCategoryDocumentType>
