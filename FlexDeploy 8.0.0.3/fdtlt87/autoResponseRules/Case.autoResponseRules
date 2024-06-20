@@ -10,7 +10,7 @@
                 <value>Installation,Equipment Complexity,Breakdown</value>
             </criteriaItems>
             <senderEmail>akash.bangalkar@flexagon.com</senderEmail>
-            <senderName>Akash Bangalkar</senderName>
+            <senderName>Prod User</senderName>
             <template>unfiled$public/SchedulerUnauthenticatedUserAppointmentTypeEmailTemplateForAmazonChime</template>
         </ruleEntry>
     </autoResponseRule>
