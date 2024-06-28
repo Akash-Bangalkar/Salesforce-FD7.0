@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppGlobalOauthSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <callbackUrl>https://www.example.com</callbackUrl>
+    <externalClientApplication>myeca</externalClientApplication>
+    <idTokenConfig>
+        <idTokenAudience>SalesforceAudience</idTokenAudience>
+        <idTokenIncludeStandardClaims>true</idTokenIncludeStandardClaims>
+        <idTokenValidityInMinutes>0</idTokenValidityInMinutes>
+    </idTokenConfig>
+    <isConsumerSecretOptional>false</isConsumerSecretOptional>
+    <isIntrospectAllTokens>false</isIntrospectAllTokens>
+    <isPkceRequired>true</isPkceRequired>
+    <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+    <label>myecaglobalset</label>
+    <shouldRotateConsumerKey>false</shouldRotateConsumerKey>
+    <shouldRotateConsumerSecret>false</shouldRotateConsumerSecret>
+</ExtlClntAppGlobalOauthSettings>

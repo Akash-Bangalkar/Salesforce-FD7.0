@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniTrackingGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <developerName>Purchase_Tracking</developerName>
+    <groupType>Internal</groupType>
+    <isActive>true</isActive>
+    <masterLabel>Purchase_Tracking</masterLabel>
+    <omniTrackingComponentDefs>
+        <componentType>Omniscript</componentType>
+        <componentVersion>2</componentVersion>
+        <developerName>Purchase_Funnel</developerName>
+        <masterLabel>Purchase_Funnel</masterLabel>
+    </omniTrackingComponentDefs>
+</OmniTrackingGroup>

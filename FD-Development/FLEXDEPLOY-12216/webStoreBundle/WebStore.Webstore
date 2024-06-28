@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebStoreBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoFacetingEnabled>false</autoFacetingEnabled>
+    <commerceEinsteinActivitiesTracked>false</commerceEinsteinActivitiesTracked>
+    <commerceEinsteinDeployed>false</commerceEinsteinDeployed>
+    <defaultTaxLocaleType>Net</defaultTaxLocaleType>
+    <guestBrowsingEnabled>true</guestBrowsingEnabled>
+    <pricingStrategy>Priority</pricingStrategy>
+    <skipAdditionalEntitlementCheckForSearch>true</skipAdditionalEntitlementCheckForSearch>
+    <skuDetectionEnabled>false</skuDetectionEnabled>
+    <type>B2B</type>
+    <cartToOrderAutoCustomFieldMapping>true</cartToOrderAutoCustomFieldMapping>
+    <country>US</country>
+    <description>WebStore description</description>
+    <guestCartTimeToLive>10</guestCartTimeToLive>
+    <orderLifeCycleType>MANAGED</orderLifeCycleType>
+    <productGrouping>VariationParent</productGrouping>
+    <supportedCurrencies>USD</supportedCurrencies>
+    <supportedShipToCountries>CA;US</supportedShipToCountries>
+    <label>WebStore</label>
+    <supportedLanguages>en_US</supportedLanguages>
+    <defaultLanguage>en_US</defaultLanguage>
+    <defaultCurrency>000</defaultCurrency>
+    <storeName>WebStore</storeName>
+</WebStoreBundle>

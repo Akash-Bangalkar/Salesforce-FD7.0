@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordAggregationDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregateToObject>PartyRelationshipGroup</aggregateToObject>
+    <aggregateFromObject>PartyIncome</aggregateFromObject>
+    <status>Active</status>
+    <aggregationType>Record</aggregationType>
+    <description>Aggregate head of household's income to household</description>
+    <displayName>Party Income to Party Relationship Group</displayName>
+    <recordAggregationObject>
+        <associatedObject>PartyRelationshipGroup</associatedObject>
+        <masterLabel>Party Relationship Group Object</masterLabel>
+        <developerName>PartyRelationshipGroupObject</developerName>
+        <recordAggregationJoinCondition>
+            <joinField>Account</joinField>
+            <navigationSequenceNumber>1</navigationSequenceNumber>
+            <relatedJoinField>Account</relatedJoinField>
+            <relatedRecordAggregationObject>AccountContactrelationObject</relatedRecordAggregationObject>
+            <type>Intermediate</type>
+        </recordAggregationJoinCondition>
+        <recordAggregationObjectFilter>
+          <associatedObjectField>Type</associatedObjectField>
+          <operator>Equals</operator>
+          <value>Household</value>
+          <sequenceNumber>1</sequenceNumber>
+        </recordAggregationObjectFilter>
+    </recordAggregationObject>
+    <recordAggregationObject>
+        <associatedObject>AccountContactRelation</associatedObject>
+        <masterLabel>Account Contact Relation Object</masterLabel>
+        <developerName>AccountContactRelationObject</developerName>
+        <recordAggregationJoinCondition>
+            <joinField>Contact</joinField>
+            <navigationSequenceNumber>2</navigationSequenceNumber>
+            <relatedJoinField>Party</relatedJoinField>
+            <relatedRecordAggregationObject>PartyIncomeObject</relatedRecordAggregationObject>
+            <type>Intermediate</type>
+        </recordAggregationJoinCondition>
+        <recordAggregationObjectFilter>
+          <associatedObjectField>IsPrimaryMember</associatedObjectField>
+          <operator>Equals</operator>
+          <value>true</value>
+          <sequenceNumber>1</sequenceNumber>
+        </recordAggregationObjectFilter>
+    </recordAggregationObject>
+    <recordAggregationObject>
+        <associatedObject>PartyIncome</associatedObject>
+        <masterLabel>Party Income Object</masterLabel>
+        <developerName>PartyIncomeObject</developerName>
+        <filterLogic>1 AND 2</filterLogic>
+        <recordAggregationObjectFilter>
+          <associatedObjectField>IncomeFrequency</associatedObjectField>
+          <operator>Equals</operator>
+          <value>Monthly</value>
+          <sequenceNumber>1</sequenceNumber>
+        </recordAggregationObjectFilter>
+        <recordAggregationObjectFilter>
+          <associatedObjectField>IncomeStatus</associatedObjectField>
+          <operator>Equals</operator>
+          <value>Active</value>
+          <sequenceNumber>2</sequenceNumber>
+        </recordAggregationObjectFilter>
+    </recordAggregationObject>
+</RecordAggregationDefinition>

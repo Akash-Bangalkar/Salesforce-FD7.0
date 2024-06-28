@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelatedRecordAssocCriteria xmlns="http://soap.sforce.com/2006/04/metadata">
+   <associationType>BranchManagement</associationType>
+   <eventType>Create</eventType>
+   <masterLabel>RevenueThreeMillion</masterLabel>
+   <preCondition>[Account].AnnualRevenue > 3000000</preCondition>
+   <referenceObject>Account</referenceObject>
+   <status>Active</status>
+</RelatedRecordAssocCriteria>

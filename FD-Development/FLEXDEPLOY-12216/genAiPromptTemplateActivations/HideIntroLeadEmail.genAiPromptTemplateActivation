@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplateActv xmlns="http://soap.sforce.com/2006/04/metadata">
+    <MasterLabel> Activation Record for Prompt Template </MasterLabel>
+    <PromptTemplateDeveloperName>einstein_gpt__introductionLeadEmail
+    </PromptTemplateDeveloperName>
+    <DeveloperName>HideIntroductionLeadEmail</DeveloperName>
+    <Description>Status of template </Description>
+    <AccessLevel>BLOCKED</AccessLevel>
+</GenAiPromptTemplateActv>

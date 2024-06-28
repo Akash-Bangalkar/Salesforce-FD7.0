@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniExtTrackingDef xmlns="http://soap.sforce.com/2006/04/metadata">
+    <developerName>Purchase_Tracking_Google</developerName>
+    <isActive>true</isActive>
+    <masterLabel>Purchase_Tracking_Google</masterLabel>
+    <trackingFrameworkInformation>{ "id": "GTM-XXXXXXX" }</trackingFrameworkInformation>
+    <trackingServiceProvider>Google</trackingServiceProvider>
+    <omniExtTrackingEventDefs>
+        <componentType>Omniscript</componentType>
+        <developerName>Purchase_Funnel_Google</developerName>
+        <inclusionRule></inclusionRule>
+        <masterLabel>Purchase_Funnel_Google</masterLabel>
+        <payloadTemplate>
+{
+  "event": "promotionClick",
+  "ecommerce": {
+    "promoClick": {
+      "promotions": [
+        {
+          "name": "%BusinessEvent%"
+        }
+      ]
+    }
+  }
+}
+        </payloadTemplate>
+    </omniExtTrackingEventDefs>
+</OmniExtTrackingDef>
