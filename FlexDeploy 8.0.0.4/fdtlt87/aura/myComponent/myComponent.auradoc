@@ -1,0 +1,6 @@
+<aura:documentation>
+	<aura:description>Documentation</aura:description>
+	<aura:example name="FlexDeploy" ref="NewAC-Meta" label="Label">
+		THIS IS TESTING FD META
+	</aura:example>
+</aura:documentation>
