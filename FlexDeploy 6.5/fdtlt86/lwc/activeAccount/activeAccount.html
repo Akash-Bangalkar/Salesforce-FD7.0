@@ -1,0 +1,39 @@
+<template>
+    <lightning-card title="Active Accounts List">
+        <template if:true={accounts.data}>
+            <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+                <thead>
+                    <tr class="slds-text-title_caps">
+                        <th scope="col">
+                            <div class="slds-truncate" title="Account Name">Account Name</div>
+                        </th>
+                        <th scope="col">
+                            <div class="slds-truncate" title="Industry">Industry</div>
+                        </th>
+                        <th scope="col">
+                            <div class="slds-truncate" title="Annual Revenue">Annual Revenue</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template for:each={accounts.data} for:item="account">
+                        <tr key={account.Id}>
+                            <td>
+                                <div class="slds-truncate" title={account.Name}>{account.Name}</div>
+                            </td>
+                            <td>
+                                <div class="slds-truncate" title={account.Industry}>{account.Industry}</div>
+                            </td>
+                            <td>
+                                <div class="slds-truncate" title={account.AnnualRevenue}>{account.AnnualRevenue}</div>
+                            </td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </template>
+        <template if:true={accounts.error}>
+            <p>{accounts.error}</p>
+        </template>
+    </lightning-card>
+</template>
