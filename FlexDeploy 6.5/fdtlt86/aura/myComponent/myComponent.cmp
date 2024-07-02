@@ -3,6 +3,6 @@
     
     <div class="myComponent">
         <p>{!v.greeting}</p>
-        <lightning:button label="Hit Me" onclick="{!c.handleClick}"/>
+        <lightning:button label="Click Me" onclick="{!c.handleClick}"/>
     </div>
 </aura:component>
