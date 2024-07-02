@@ -5557,6 +5557,10 @@
         <name>CreateTopics</name>
     </userPermissions>
     <userPermissions>
+        <name>customizeSetup</name>
+        <enabled>true</enabled>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>DistributeFromPersWksp</name>
     </userPermissions>
